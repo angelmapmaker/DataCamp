@@ -137,3 +137,54 @@ plt.plot(random_walk)
 plt.show()
 
 # Show the plot
+
+#All these fancy visualizations have put us on a sidetrack. We still have to solve the million-dollar problem: What are the odds that you'll reach 60 steps high on the Empire State Building?
+#Basically, you want to know about the end points of all the random walks you've simulated. These end points have a certain distribution that you can visualize with a histogram.
+#Note that if your code is taking too long to run, you might be plotting a histogram of the wrong data!
+
+#To make sure we've got enough simulations, go crazy. Simulate the random walk 500 times.
+#From np_aw_t, select the last row. This contains the endpoint of all 500 random walks you've simulated. Store this Numpy array as ends.
+#Use plt.hist() to build a histogram of ends. Don't forget plt.show() to display the plot.
+
+
+
+#Take Hint (-30 XP)
+#Incorrect submission
+#Have you correctly defined ends? Use np_aw_t[-1,:] for this.
+
+# numpy and matplotlib imported, seed set
+import numpy as np
+
+# Simulate random walk 500 times
+all_walks = []
+for i in range(500) :
+    random_walk = [0]
+    for x in range(100) :
+        step = random_walk[-1]
+        dice = np.random.randint(1,7)
+        if dice <= 2:
+            step = max(0, step - 1)
+        elif dice <= 5:
+            step = step + 1
+        else:
+            step = step + np.random.randint(1,7)
+        if np.random.rand() <= 0.001 :
+            step = 0
+        random_walk.append(step)
+    all_walks.append(random_walk)
+
+# Create and plot np_aw_t
+np_aw_t = np.transpose(np.array(all_walks))
+#print(np_aw_t,end=',')
+# Select last row from np_aw_t: ends
+ends  = np_aw_t[-1,:]
+
+# Plot histogram of ends, display plot
+plt.hist(ends)
+plt.show()
+
+#El histograma del ejercicio anterior se creó a partir de una matriz de Numpy termina, que contiene 500 enteros. Cada número entero representa el punto final de una caminata aleatoria. Para calcular la probabilidad de que este punto final sea mayor o igual a 60, puede contar el número de enteros en los extremos que son mayores o iguales a 60 y dividir ese número por 500, el número total de simulaciones.
+#Bueno, entonces, ¿cuál es la probabilidad estimada de alcanzar los 60 escalones si juegas este juego del Empire State Building? La matriz de extremos es todo lo que necesitas; está disponible en su sesión de Python para que pueda hacer cálculos en el Shell de IPython.
+
+np.mean(ends>=60)
+
