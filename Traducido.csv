@@ -1,0 +1,1778 @@
+,Unnamed: 0,Table,Field,English,Spanish,English Tooltips,Spanish Tooltips,English Placeholders,Spanish Placeholders,traduccion
+0,0,pedido,,Pedido,Pedido,,,,,Order
+1,1,pedido,Id_pedido,Id Pedido,Id Pedido,,,,,Order Id
+2,2,pedido,Empresa,Empresa,Empresa,,,,,Business
+3,3,pedido,UN,UN,UN,,,,,A
+4,4,pedido,Fecha_de_Solicitud,Fecha De Solicitud,Fecha De Solicitud,,,,,Application date
+5,5,pedido,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Type Prod
+6,6,pedido,No_orden_compra_cliente,No Orden Compra Cliente,No Orden Compra Cliente,,,,,No Order Purchase Customer
+7,7,pedido,No_oc_cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Client
+8,8,pedido,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,OC Issue Date
+9,9,pedido,Responsable,Responsable,Responsable,,,,,Responsable
+10,10,pedido,Estado_general_OC,Estado General OC,Estado General OC,,,,,OC General Status
+11,11,pedido,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Quotation
+12,12,pedido,cliente_final,Cliente Final,Cliente Final,,,,,Final client
+13,13,control_pedido,,Control Pedido,Control Pedido,,,,,Order Control
+14,14,control_pedido,PEDIDO,PEDIDO,PEDIDO,,,,,ORDER
+15,15,control_pedido,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Order Detail
+16,16,control_pedido,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Type Prod
+17,17,control_pedido,Correlativo_lote,Correlativo Lote,Correlativo Lote,,,,,Correlative Lot
+18,18,control_pedido,Fecha_inicio_descarga,Fecha Inicio Descarga,Fecha Inicio Descarga,,,,,Start Date Download
+19,19,control_pedido,Fecha_fin_descarga,Fecha Fin Descarga,Fecha Fin Descarga,,,,,End Date Download
+20,20,control_pedido,Recibido,Recibido,Recibido,,,,,Received
+21,21,control_pedido,Faltante,Faltante,Faltante,,,,,Missing
+22,22,control_pedido,Sobrante,Sobrante,Sobrante,,,,,Surplus
+23,23,control_pedido,Precio_compra,Precio Compra,Precio Compra,,,,,Purchase Price
+24,24,control_pedido,Plazo,Plazo,Plazo,,,,,Term
+25,25,control_pedido,Broker,Broker,Broker,,,,,Broker
+26,26,control_pedido,Region,Region,Region,,,,,Region
+27,27,control_pedido,Vende,Vende,Vende,,,,,Sell
+28,28,control_pedido,Volumen_compra,Volumen Compra,Volumen Compra,,,,,Purchase Volume
+29,29,control_pedido,Id_precio,Id Precio,Id Precio,,,,,Id Price
+30,30,control_pedido,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,OC Issue Date
+31,31,control_pedido,OC_firma,OC Firma,OC Firma,,,,,OC Signature
+32,32,control_pedido,OC_enviada,OC Enviada,OC Enviada,,,,,OC Sent
+33,33,control_pedido,OC_recibida,OC Recibida,OC Recibida,,,,,OC Received
+34,34,control_pedido,Dias_OC,Dias OC,Dias OC,,,,,OC days
+35,35,control_pedido,Empresa_logistica,Empresa Logistica,Empresa Logistica,,,,,Logistics Company
+36,36,control_pedido,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Brand Commercial Name
+37,37,control_pedido,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Delivery time
+38,38,control_pedido,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Transit Time
+39,39,control_pedido,Termino_compra,Termino Compra,Termino Compra,,,,,Purchase Term
+40,40,control_pedido,Precio_referencia,Precio Referencia,Precio Referencia,,,,,Reference Price
+41,41,control_pedido,Valor_total_referencia,Valor Total Referencia,Valor Total Referencia,,,,,Total Value Reference
+42,42,control_pedido,Facturado,Facturado,Facturado,,,,,Invoiced
+43,43,control_pedido,Observaciones,Observaciones,Observaciones,,,,,Observations
+44,44,control_pedido,Dias_disponibilidad_planta,Dias Disponibilidad Planta,Dias Disponibilidad Planta,,,,,Days Availability Plant
+45,45,control_pedido,Dias_despacho_planta,Dias Despacho Planta,Dias Despacho Planta,,,,,Days Plant Dispatch
+46,46,control_pedido,Facturador_final,Facturador Final,Facturador Final,,,,,Final Billing
+47,47,control_pedido,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Pay day
+48,48,control_pedido,Categoria,Categoria,Categoria,,,,,Category
+49,49,control_pedido,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No invoice Sourcing
+50,50,control_pedido,Docto_digital_recibido,Docto Digital Recibido,Docto Digital Recibido,,,,,Digital Docto Received
+51,51,control_pedido,Docto_original_recibido,Docto Original Recibido,Docto Original Recibido,,,,,Original Docto Received
+52,52,control_pedido,Cantidad_facturada,Cantidad Facturada,Cantidad Facturada,,,,,Invoiced amount
+53,53,control_pedido,Proveedor,Proveedor,Proveedor,,,,,Provider
+54,54,control_pedido,No_factura,No Factura,No Factura,,,,,No invoice
+55,55,control_pedido,Incoterm,Incoterm,Incoterm,,,,,Incoterm
+56,56,control_pedido,Fecha_recepcion_lista_empaque,Fecha Recepcion Lista Empaque,Fecha Recepcion Lista Empaque,,,,,Date Receipt Packing List
+57,57,control_pedido,Fecha_respuesta_planificacion,Fecha Respuesta Planificacion,Fecha Respuesta Planificacion,,,,,Date Response Planning
+58,58,control_pedido,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Buy
+59,59,control_pedido,Gestores,Gestores,Gestores,,,,,Managers
+60,60,control_pedido,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notify Boarding
+61,61,control_pedido,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirm Purchase
+62,62,control_pedido,Id_estado,Id Estado,Id Estado,,,,,Id Status
+63,63,control_pedido,id_presentacion_final,Id Presentacion Final,Id Presentacion Final,,,,,Final Presentation Id
+64,64,control_pedido,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,FO Billing Request
+65,65,control_pedido,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,FO billing
+66,66,control_pedido,Proforma_proveedor,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Supplier
+67,67,control_pedido,flete_compra,Flete Compra,Flete Compra,,,,,Freight Purchase
+68,68,control_pedido,Porcentaje_Termino_Compra,Porcentaje Termino Compra,Porcentaje Termino Compra,,,,,Purchase Term Percentage
+69,69,control_pedido,Id_Estado_Pago,Id Estado Pago,Id Estado Pago,,,,,Id Status Payment
+70,70,control_pedido,Id_Estado_Pago_Anticipo,Id Estado Pago Anticipo,Id Estado Pago Anticipo,,,,,Id Status Payment Advance
+71,71,seguimiento_pedido,,Seguimiento Pedido,Seguimiento Pedido,,,,,Order Tracking
+72,72,seguimiento_pedido,PEDIDO,PEDIDO,PEDIDO,,,,,ORDER
+73,73,seguimiento_pedido,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Order Detail
+74,74,seguimiento_pedido,No_camion,No Camion,No Camion,,,,,No truck
+75,75,seguimiento_pedido,Fecha_estimada_disponibilidad_pedido,Fecha Estimada Disponibilidad Pedido,Fecha Estimada Disponibilidad Pedido,,,,,Estimated Date Availability Order
+76,76,seguimiento_pedido,Fecha_envio_documento_tramite_permiso,Fecha Envio Documento Tramite Permiso,Fecha Envio Documento Tramite Permiso,,,,,Date Shipment Document Process Permission
+77,77,seguimiento_pedido,Fecha_envio_documento_definitivo,Fecha Envio Documento Definitivo,Fecha Envio Documento Definitivo,,,,,Date Delivery Final Document
+78,78,seguimiento_pedido,Fecha_real_disponibilidad_pedido,Fecha Real Disponibilidad Pedido,Fecha Real Disponibilidad Pedido,,,,,Actual Date Availability Order
+79,79,seguimiento_pedido,Fecha_arribo_camion_frontera,Fecha Arribo Camion Frontera,Fecha Arribo Camion Frontera,,,,,Arrival Date Truck Border
+80,80,seguimiento_pedido,Fecha_arribo_camion_destino,Fecha Arribo Camion Destino,Fecha Arribo Camion Destino,,,,,Date Arrival Destination Truck
+81,81,seguimiento_pedido,Fecha_bl,Fecha Bl,Fecha Bl,,,,,Bl date
+82,82,seguimiento_pedido,Flete,Flete,Flete,,,,,Freight
+83,83,seguimiento_pedido,Precio_TM,Precio TM,Precio TM,,,,,TM price
+84,84,seguimiento_pedido,Valor_total,Valor Total,Valor Total,,,,,Total Value
+85,85,seguimiento_pedido,No_factura,No Factura,No Factura,,,,,No invoice
+86,86,seguimiento_pedido,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Cargo Port
+87,87,seguimiento_pedido,Pais_carga,Pais Carga,Pais Carga,,,,,Country Load
+88,88,seguimiento_pedido,No_embarque,No Embarque,No Embarque,,,,,No boarding
+89,89,seguimiento_pedido,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Digital Docto Sent
+90,90,seguimiento_pedido,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Original Docto Sent
+91,91,seguimiento_pedido,Pais_origen,Pais Origen,Pais Origen,,,,,Country of origin
+92,92,seguimiento_pedido,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Date Offered Dispatch
+93,93,seguimiento_pedido,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Date Offered Dispatch A
+94,94,seguimiento_pedido,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Sailing State
+95,95,seguimiento_pedido,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Arrival Date
+96,96,seguimiento_pedido,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Arrival Status
+97,97,seguimiento_pedido,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Type Prod
+98,98,seguimiento_pedido,Fecha_confirmacion_cliente_despacho_camion,Fecha Confirmacion Cliente Despacho Camion,Fecha Confirmacion Cliente Despacho Camion,,,,,Date Confirmation Customer Dispatch Truck
+99,99,seguimiento_pedido,Observaciones,Observaciones,Observaciones,,,,,Observations
+100,100,seguimiento_pedido,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Quantity Containers
+101,101,seguimiento_pedido,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Sale
+102,102,seguimiento_pedido,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Unit Value Sale
+103,103,seguimiento_pedido,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+104,104,seguimiento_pedido,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Trading Invoice
+105,105,seguimiento_pedido,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Sailing Date
+106,106,seguimiento_pedido,Termino_venta,Termino Venta,Termino Venta,,,,,Sale term
+107,107,seguimiento_pedido,Fecha_cargo_mercaderia_camion,Fecha Cargo Mercaderia Camion,Fecha Cargo Mercaderia Camion,,,,,Date Cargo Merchandise Truck
+108,108,seguimiento_pedido,Id_estado,Id Estado,Id Estado,,,,,Id Status
+109,109,seguimiento_pedido,No_lotes,No Lotes,No Lotes,,,,,No lots
+110,110,seguimiento_pedido,Fecha_real_despacho_camion,Fecha Real Despacho Camion,Fecha Real Despacho Camion,,,,,Actual Date Dispatch Truck
+111,111,seguimiento_pedido,Responsable,Responsable,Responsable,,,,,Responsable
+112,112,seguimiento_pedido,No_lista_empaque,No Lista Empaque,No Lista Empaque,,,,,No Ready Packing
+113,113,seguimiento_pedido,Eta_puerto_carga,Eta Puerto Carga,Eta Puerto Carga,,,,,Eta Port Cargo
+114,114,seguimiento_pedido,Fecha_zarpe_estimada,Fecha Zarpe Estimada,Fecha Zarpe Estimada,,,,,Estimated Sailing Date
+115,115,seguimiento_pedido,Plazo_venta,Plazo Venta,Plazo Venta,,,,,Term Sale
+116,116,seguimiento_pedido,Eta_puerto_descarga,Eta Puerto Descarga,Eta Puerto Descarga,,,,,Eta Port Download
+117,117,seguimiento_pedido,Etb_puerto_descarga,Etb Puerto Descarga,Etb Puerto Descarga,,,,,Etb Port Download
+118,118,seguimiento_pedido,Fecha_factura,Fecha Factura,Fecha Factura,,,,,Invoice date
+119,119,seguimiento_pedido,Ref_lista_precio,Ref Lista Precio,Ref Lista Precio,,,,,Ref List Price
+120,120,PNC Graneles,,PNC Graneles,PNC Graneles,,,,,PNC Bulks
+121,121,PNC Graneles,Id_pedido,Order Id,Pedido,,,,,Order Id
+122,122,PNC Graneles,Empresa,Consignee,Consignatario,,,,,Consign
+123,123,PNC Graneles,UN,BU,UN,,,,,BU
+124,124,PNC Graneles,Fecha_de_Solicitud,Request Date,Fecha de solicitud,,,,,Request Date
+125,125,PNC Graneles,Id_tipo_prod,Product Type,Tipo de producto,,,,,Product Type
+126,126,PNC Graneles,No_orden_compra_cliente,Vessel,Buque,,,,,Vessel
+127,127,PNC Graneles,Responsable,Responsible,Responsable,,,,,Responsible
+128,128,PNC Graneles,cliente_final,Final Client,Cliente Final,,,,,Final Client
+129,129,PNC Specialties,,PNC Specialties,PNC Specialties,,,,,PNC Specialties
+130,130,PNC Specialties,Id_pedido,Order Id,Id Pedido,,,,,Order Id
+131,131,PNC Specialties,Empresa,Consignee,Consignatario,,,,,Consign
+132,132,PNC Specialties,UN,NU,UN,,,,,WILDEBEEST
+133,133,PNC Specialties,Fecha_de_Solicitud,Request Date,Fecha de solicitud,,,,,Request Date
+134,134,PNC Specialties,Id_tipo_prod,Product Type,Tipo de producto,,,,,Product Type
+135,135,PNC Specialties,No_orden_compra_cliente,,No OC Cliente,,,,,
+136,136,PNC Specialties,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,OC Issue Date
+137,137,PNC Specialties,Responsable,Responsible,Responsable,,,,,Responsible
+138,138,PNC Specialties,No_oc_cliente,Sourcing PO,No OC Sourcing,,,,,PO Sourcing
+139,139,PNC Specialties,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Quotation
+140,140,PNC Specialties,cliente_final,Final Client,Cliente Final,,,,,Final Client
+141,141,Seguimiento PNC Graneles,,Order Tracking,Seguimiento Pedido,,,,,Order Tracking
+142,142,Seguimiento PNC Graneles,PEDIDO,Order,PEDIDO,,,,,Order
+143,143,Seguimiento PNC Graneles,Id_detalle_pedido,Order Detail ID,Id Detalle Pedido,,,,,Order Detail ID
+144,144,Seguimiento PNC Graneles,No_camion,No Camion,No Camion,,,,,No truck
+145,145,Seguimiento PNC Graneles,Fecha_estimada_disponibilidad_pedido,Fecha Estimada Disponibilidad Pedido,Fecha Estimada Disponibilidad Pedido,,,,,Estimated Date Availability Order
+146,146,Seguimiento PNC Graneles,Fecha_envio_documento_tramite_permiso,Fecha Envio Documento Tramite Permiso,Fecha Envio Documento Tramite Permiso,,,,,Date Shipment Document Process Permission
+147,147,Seguimiento PNC Graneles,Fecha_envio_documento_definitivo,Fecha Envio Documento Definitivo,Fecha Envio Documento Definitivo,,,,,Date Delivery Final Document
+148,148,Seguimiento PNC Graneles,Fecha_real_disponibilidad_pedido,Fecha Real Disponibilidad Pedido,Fecha Real Disponibilidad Pedido,,,,,Actual Date Availability Order
+149,149,Seguimiento PNC Graneles,Fecha_arribo_camion_frontera,Fecha Arribo Camion Frontera,Fecha Arribo Camion Frontera,,,,,Arrival Date Truck Border
+150,150,Seguimiento PNC Graneles,Fecha_arribo_camion_destino,Fecha Arribo Camion Destino,Fecha Arribo Camion Destino,,,,,Date Arrival Destination Truck
+151,151,Seguimiento PNC Graneles,Fecha_bl,BL Date,Fecha Bl,,,,,BL Date
+152,152,Seguimiento PNC Graneles,Flete,Freight,Flete,,,,,Freight
+153,153,Seguimiento PNC Graneles,Precio_TM,Sales Price /MT,Precio Venta TM,,,,,Sales Price / MT
+154,154,Seguimiento PNC Graneles,Valor_total,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+155,155,Seguimiento PNC Graneles,No_factura,No Factura,No Factura,,,,,No invoice
+156,156,Seguimiento PNC Graneles,PCarga,Loading Port,Puerto de Carga,,,,,Loading Port
+157,157,Seguimiento PNC Graneles,Pais_carga,Loading Country,Pais Carga,,,,,Loading Country
+158,158,Seguimiento PNC Graneles,No_embarque,No Embarque,No Embarque,,,,,No boarding
+159,159,Seguimiento PNC Graneles,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Digital Docto Sent
+160,160,Seguimiento PNC Graneles,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Original Docto Sent
+161,161,Seguimiento PNC Graneles,Pais_origen,Origin Country,Pais Origen,,,,,Origin Country
+162,162,Seguimiento PNC Graneles,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Date Offered Dispatch
+163,163,Seguimiento PNC Graneles,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Date Offered Dispatch A
+164,164,Seguimiento PNC Graneles,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Sailing State
+165,165,Seguimiento PNC Graneles,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Arrival Date
+166,166,Seguimiento PNC Graneles,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Arrival Status
+167,167,Seguimiento PNC Graneles,Id_tipo_prod,Product Type,Tipo Producto,,,,,Product Type
+168,168,Seguimiento PNC Graneles,Fecha_confirmacion_cliente_despacho_camion,Fecha Confirmacion Cliente Despacho Camion,Fecha Confirmacion Cliente Despacho Camion,,,,,Date Confirmation Customer Dispatch Truck
+169,169,Seguimiento PNC Graneles,Observaciones,Observations,Observaciones,,,,,Observations
+170,170,Seguimiento PNC Graneles,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Quantity Containers
+171,171,Seguimiento PNC Graneles,Incoterm_venta,Sales Incoterm,Incoterm Venta,,,,,Sales Incoterm
+172,172,Seguimiento PNC Graneles,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Unit Value Sale
+173,173,Seguimiento PNC Graneles,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+174,174,Seguimiento PNC Graneles,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Trading Invoice
+175,175,Seguimiento PNC Graneles,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Sailing Date
+176,176,Seguimiento PNC Graneles,termino_venta,Termino Venta,Termino Venta,,,,,Sale term
+177,177,Seguimiento PNC Graneles,Fecha_cargo_mercaderia_camion,Fecha Cargo Mercaderia Camion,Fecha Cargo Mercaderia Camion,,,,,Date Cargo Merchandise Truck
+178,178,Seguimiento PNC Graneles,Id_estado,Status,Estado,,,,,Status
+179,179,Seguimiento PNC Graneles,No_lotes,No Lotes,No Lotes,,,,,No lots
+180,180,Seguimiento PNC Graneles,Fecha_real_despacho_camion,Fecha Real Despacho Camion,Fecha Real Despacho Camion,,,,,Actual Date Dispatch Truck
+181,181,Seguimiento PNC Graneles,Responsable,Responsable,Responsable,,,,,Responsable
+182,182,Seguimiento PNC Graneles,No_lista_empaque,No Lista Empaque,No Lista Empaque,,,,,No Ready Packing
+183,183,Seguimiento PNC Graneles,Eta_puerto_carga,ETA Loading Port,Fecha Estimada Arribo a Puerto de Carga,,,,,ETA Loading Port
+184,184,Seguimiento PNC Graneles,Fecha_zarpe_estimada,ETD,Fecha Zarpe Estimada,,,,,ETD
+185,185,Seguimiento PNC Graneles,Plazo_venta,Term of Sale,Plazo Venta,,,,,Term of Sale
+186,186,Seguimiento PNC Graneles,Eta_puerto_descarga,ETA Discharge Port,Fecha Estimada Arribo a Puerto de Descarga,,,,,ETA Discharge Port
+187,187,Seguimiento PNC Graneles,Etb_puerto_descarga,ETB Discharge Port,Fecha Estimada Atraque a Puerto de Descarga,,,,,ETB Discharge Port
+188,188,Seguimiento PNC Graneles,Fecha_factura,Fecha Factura,Fecha Factura,,,,,Invoice date
+189,189,Seguimiento PNC Graneles,ref_lista_precio,Ref Lista Precio,Ref Lista Precio,,,,,Ref List Price
+190,190,Seguimiento PNC Graneles,termino_venta1,Termino Venta1,Termino Venta1,,,,,Term Sale1
+191,191,Seguimiento PNC Graneles,Proforma_enviada,Proforma Sent,Proforma Enviada,,,,,Proforma Sent
+192,192,Seguimiento PNC Graneles,Docto_digital_fecha,Digital Docs Sent,Docto. Digital Enviado,,,,,Digital Docs Sent
+193,193,Seguimiento PNC Graneles,Docto_original_fecha,Reception Original Documents,RecepciÃ³n originales UO,,,,,Reception Original Documents
+194,194,Seguimiento PNC Graneles,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Delivery time
+195,195,Seguimiento PNC Graneles,Tiempo_transito,Transit Time,Tiempo Transito,,,,,Transit time
+196,196,Seguimiento PNC Graneles,Tipo_Transito,Transit Type,Tipo de Transito,,,,,Transit Type
+197,197,Seguimiento PNC Graneles,Empresa_Logistica,Empresa Logistica,Empresa Logistica,,,,,Logistics Company
+198,198,Seguimiento PNC Graneles,necesita_proforma,Need Proform,Necesita Proforma,,,,,Need proform
+199,199,Seguimiento PNC Graneles,cumple_digitales,Digital Docs Check,Cumple Digitales,,,,,Digital Docs Check
+200,200,Seguimiento PNC Graneles,cumple_fisico,Phisical Docs Check,Cumple Fisico,,,,,Phisical Docs Check
+201,201,Seguimiento PNC Specialties,,Order Tracking,Seguimiento Pedido,,,,,Order Tracking
+202,202,Seguimiento PNC Specialties,PEDIDO,Order,PEDIDO,,,,,Order
+203,203,Seguimiento PNC Specialties,Id_detalle_pedido,Order Detail ID,Id Detalle Pedido,,,,,Order Detail ID
+204,204,Seguimiento PNC Specialties,No_camion,No Camion,No Camion,,,,,No truck
+205,205,Seguimiento PNC Specialties,Fecha_estimada_disponibilidad_pedido,Fecha Estimada Disponibilidad Pedido,Fecha Estimada Disponibilidad Pedido,,,,,Estimated Date Availability Order
+206,206,Seguimiento PNC Specialties,Fecha_envio_documento_tramite_permiso,Fecha Envio Documento Tramite Permiso,Fecha Envio Documento Tramite Permiso,,,,,Date Shipment Document Process Permission
+207,207,Seguimiento PNC Specialties,Fecha_envio_documento_definitivo,Fecha Envio Documento Definitivo,Fecha Envio Documento Definitivo,,,,,Date Delivery Final Document
+208,208,Seguimiento PNC Specialties,Fecha_real_disponibilidad_pedido,Fecha Real Disponibilidad Pedido,Fecha Real Disponibilidad Pedido,,,,,Actual Date Availability Order
+209,209,Seguimiento PNC Specialties,Fecha_arribo_camion_frontera,Fecha Arribo Camion Frontera,Fecha Arribo Camion Frontera,,,,,Arrival Date Truck Border
+210,210,Seguimiento PNC Specialties,Fecha_arribo_camion_destino,Fecha Arribo Camion Destino,Fecha Arribo Camion Destino,,,,,Date Arrival Destination Truck
+211,211,Seguimiento PNC Specialties,Fecha_bl,Fecha Bl,Fecha Bl,,,,,Bl date
+212,212,Seguimiento PNC Specialties,Flete,Flete de Compra,Flete de Compra,,,,,Purchase Freight
+213,213,Seguimiento PNC Specialties,Precio_TM,Precio Venta TM,Precio Venta TM,,,,,Sale Price TM
+214,214,Seguimiento PNC Specialties,Valor_total,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+215,215,Seguimiento PNC Specialties,No_factura,No Factura,No Factura,,,,,No invoice
+216,216,Seguimiento PNC Specialties,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Cargo Port
+217,217,Seguimiento PNC Specialties,Pais_carga,Pais Carga,Pais Carga,,,,,Country Load
+218,218,Seguimiento PNC Specialties,No_embarque,No Embarque,No Embarque,,,,,No boarding
+219,219,Seguimiento PNC Specialties,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Digital Docto Sent
+220,220,Seguimiento PNC Specialties,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Original Docto Sent
+221,221,Seguimiento PNC Specialties,Pais_origen,Pais Origen,Pais Origen,,,,,Country of origin
+222,222,Seguimiento PNC Specialties,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Date Offered Dispatch
+223,223,Seguimiento PNC Specialties,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Date Offered Dispatch A
+224,224,Seguimiento PNC Specialties,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Sailing State
+225,225,Seguimiento PNC Specialties,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Arrival Date
+226,226,Seguimiento PNC Specialties,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Arrival Status
+227,227,Seguimiento PNC Specialties,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+228,228,Seguimiento PNC Specialties,Fecha_confirmacion_cliente_despacho_camion,Fecha Confirmacion Cliente Despacho Camion,Fecha Confirmacion Cliente Despacho Camion,,,,,Date Confirmation Customer Dispatch Truck
+229,229,Seguimiento PNC Specialties,Observaciones,Observaciones,Observaciones,,,,,Observations
+230,230,Seguimiento PNC Specialties,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Quantity Containers
+231,231,Seguimiento PNC Specialties,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Sale
+232,232,Seguimiento PNC Specialties,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Unit Value Sale
+233,233,Seguimiento PNC Specialties,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+234,234,Seguimiento PNC Specialties,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Trading Invoice
+235,235,Seguimiento PNC Specialties,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Sailing Date
+236,236,Seguimiento PNC Specialties,Fecha_cargo_mercaderia_camion,Fecha Cargo Mercaderia Camion,Fecha Cargo Mercaderia Camion,,,,,Date Cargo Merchandise Truck
+237,237,Seguimiento PNC Specialties,Id_estado,Estado,Estado,,,,,State
+238,238,Seguimiento PNC Specialties,No_lotes,No Lotes,No Lotes,,,,,No lots
+239,239,Seguimiento PNC Specialties,Fecha_real_despacho_camion,Fecha Real Despacho Camion,Fecha Real Despacho Camion,,,,,Actual Date Dispatch Truck
+240,240,Seguimiento PNC Specialties,Responsable,Responsable,Responsable,,,,,Responsable
+241,241,Seguimiento PNC Specialties,No_lista_empaque,No Lista Empaque,No Lista Empaque,,,,,No Ready Packing
+242,242,Seguimiento PNC Specialties,Eta_puerto_carga,Eta Puerto Carga,Eta Puerto Carga,,,,,Eta Port Cargo
+243,243,Seguimiento PNC Specialties,Fecha_zarpe_estimada,Fecha Zarpe Estimada,Fecha Zarpe Estimada,,,,,Estimated Sailing Date
+244,244,Seguimiento PNC Specialties,Plazo_venta,Plazo Venta,Plazo Venta,,,,,Term Sale
+245,245,Seguimiento PNC Specialties,Eta_puerto_descarga,Eta Puerto Descarga,Eta Puerto Descarga,,,,,Eta Port Download
+246,246,Seguimiento PNC Specialties,Etb_puerto_descarga,Etb Puerto Descarga,Etb Puerto Descarga,,,,,Etb Port Download
+247,247,Seguimiento PNC Specialties,Fecha_factura,Fecha Factura,Fecha Factura,,,,,Invoice date
+248,248,Seguimiento PNC Specialties,ref_lista_precio,Ref Lista Precio,Ref Lista Precio,,,,,Ref List Price
+249,249,Seguimiento PNC Specialties,Proforma_enviada,Proforma Enviada,Proforma Enviada,,,,,Proforma Sent
+250,250,Seguimiento PNC Specialties,Docto_digital_fecha,Docto. Digital enviado,Docto. Digital enviado,,,,,Learned. Digital sent
+251,251,Seguimiento PNC Specialties,Docto_original_fecha,RecepciÃ³n originales UO,RecepciÃ³n originales UO,,,,,UO original reception
+252,252,Seguimiento PNC Specialties,Tiempo_entrega,Tiempo de entrega,Tiempo de entrega,,,,,Delivery time
+253,253,Seguimiento PNC Specialties,Tiempo_transito,Tiempo de transito,Tiempo de transito,,,,,Transit time
+254,254,Seguimiento PNC Specialties,Tipo_Transito,Tipo de Transito,Tipo de Transito,,,,,Type of Transit
+255,255,Seguimiento PNC Specialties,EmpresaL,Empresa Logistica,Empresa Logistica,,,,,Logistics Company
+256,256,Seguimiento PNC Specialties,termino_venta,Termino Venta,Termino Venta,,,,,Sale term
+257,257,Seguimiento PNC Specialties,necesita_proforma,Necesita Proforma,Necesita Proforma,,,,,You need Proforma
+258,258,Seguimiento PNC Specialties,cumple_digitales,Cumple Digitales,Cumple Digitales,,,,,Meets Digital
+259,259,Seguimiento PNC Specialties,cumple_fisico,Cumple Fisico,Cumple Fisico,,,,,Meets Physical
+260,260,Control PNC Graneles,,Order control,Control Pedido,,,,,Order control
+261,261,Control PNC Graneles,PEDIDO,Order,PEDIDO,,,,,Order
+262,262,Control PNC Graneles,Id_detalle_pedido,Order Detail ID,Id Detalle Pedido,,,,,Order Detail ID
+263,263,Control PNC Graneles,Id_tipo_prod,Product Type,Tipo Producto,,,,,Product Type
+264,264,Control PNC Graneles,Correlativo_lote,Batch,Correlativo Lote,,,,,Batch
+265,265,Control PNC Graneles,Fecha_inicio_descarga,Initial Discharge Date,Fecha Inicio Descarga,,,,,Initial Discharge Date
+266,266,Control PNC Graneles,Fecha_fin_descarga,Final Discharge Date,Fecha Fin Descarga,,,,,Final Discharge Date
+267,267,Control PNC Graneles,Recibido,Received,Recibido,,,,,Received
+268,268,Control PNC Graneles,Faltante,Shortage,Faltante,,,,,Shortage
+269,269,Control PNC Graneles,Sobrante,Surplus,Sobrante,,,,,Surplus
+270,270,Control PNC Graneles,Precio_compra,Purchase Price,Precio Compra,,,,,Purchase Price
+271,271,Control PNC Graneles,Plazo,Term of Purchase,Plazo,,,,,Term of Purchase
+272,272,Control PNC Graneles,Broker,Broker,Broker,,,,,Broker
+273,273,Control PNC Graneles,Region,Region,Region,,,,,Region
+274,274,Control PNC Graneles,Vende,Trading,Trading,,,,,Trading
+275,275,Control PNC Graneles,Volumen_compra,Valor Total de Compra,Valor Total de Compra,,,,,Total Purchase Value
+276,276,Control PNC Graneles,Id_precio,Id Precio,Id Precio,,,,,Id Price
+277,277,Control PNC Graneles,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,OC Issue Date
+278,278,Control PNC Graneles,OC_firma,OC Firma,OC Firma,,,,,OC Signature
+279,279,Control PNC Graneles,OC_enviada,OC Enviada,OC Enviada,,,,,OC Sent
+280,280,Control PNC Graneles,OC_recibida,OC Recibida,OC Recibida,,,,,OC Received
+281,281,Control PNC Graneles,Dias_OC,Dias OC,Dias OC,,,,,OC days
+282,282,Control PNC Graneles,Empresa_logistica,Empresa Logistica,Empresa Logistica,,,,,Logistics Company
+283,283,Control PNC Graneles,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Brand Commercial Name
+284,284,Control PNC Graneles,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Delivery time
+285,285,Control PNC Graneles,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Transit Time
+286,286,Control PNC Graneles,Termino_compra,Termino Compra,Termino Compra,,,,,Purchase Term
+287,287,Control PNC Graneles,Precio_referencia,Precio Referencia,Precio Referencia,,,,,Reference Price
+288,288,Control PNC Graneles,Valor_total_referencia,Valor Total Referencia,Valor Total Referencia,,,,,Total Value Reference
+289,289,Control PNC Graneles,Facturado,Facturado,Facturado,,,,,Invoiced
+290,290,Control PNC Graneles,Observaciones,Observaciones,Observaciones,,,,,Observations
+291,291,Control PNC Graneles,Dias_disponibilidad_planta,Dias Disponibilidad Planta,Dias Disponibilidad Planta,,,,,Days Availability Plant
+292,292,Control PNC Graneles,Dias_despacho_planta,Dias Despacho Planta,Dias Despacho Planta,,,,,Days Plant Dispatch
+293,293,Control PNC Graneles,Facturador_final,Facturador Final,Facturador Final,,,,,Final Billing
+294,294,Control PNC Graneles,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Pay day
+295,295,Control PNC Graneles,Categoria,Categoria,Categoria,,,,,Category
+296,296,Control PNC Graneles,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No invoice Sourcing
+297,297,Control PNC Graneles,Docto_digital_recibido,Docto Digital Recibido,Docto Digital Recibido,,,,,Digital Docto Received
+298,298,Control PNC Graneles,Docto_original_recibido,Docto Original Recibido,Docto Original Recibido,,,,,Original Docto Received
+299,299,Control PNC Graneles,Cantidad_facturada,Invoice Amount,Cantidad Facturada,,,,,Invoice Amount
+300,300,Control PNC Graneles,Proveedor,Supplier,Proveedor,,,,,Supplier
+301,301,Control PNC Graneles,No_factura,Invoice No.,No Factura,,,,,Invoice No.
+302,302,Control PNC Graneles,Incoterm,Purchase Incoterm,Incoterm Compra,,,,,Purchase Incoterm
+303,303,Control PNC Graneles,Fecha_recepcion_lista_empaque,Fecha Recepcion Lista Empaque,Fecha Recepcion Lista Empaque,,,,,Date Receipt Packing List
+304,304,Control PNC Graneles,Fecha_respuesta_planificacion,Fecha Respuesta Planificacion,Fecha Respuesta Planificacion,,,,,Date Response Planning
+305,305,Control PNC Graneles,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Buy
+306,306,Control PNC Graneles,Gestores,Gestores,Gestores,,,,,Managers
+307,307,Control PNC Graneles,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notify Boarding
+308,308,Control PNC Graneles,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirm Purchase
+309,309,Control PNC Graneles,Id_estado,Status,Id Estado,,,,,Status
+310,310,Control PNC Graneles,id_presentacion_final,Id Presentacion Final,Id Presentacion Final,,,,,Final Presentation Id
+311,311,Control PNC Graneles,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,FO Billing Request
+312,312,Control PNC Graneles,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,FO billing
+313,313,Control PNC Specialties,,Control Pedido,Control Pedido,,,,,Order Control
+314,314,Control PNC Specialties,PEDIDO,PEDIDO,PEDIDO,,,,,ORDER
+315,315,Control PNC Specialties,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Order Detail
+316,316,Control PNC Specialties,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+317,317,Control PNC Specialties,Correlativo_lote,Correlativo Lote,Correlativo Lote,,,,,Correlative Lot
+318,318,Control PNC Specialties,Fecha_inicio_descarga,Fecha Inicio Descarga,Fecha Inicio Descarga,,,,,Start Date Download
+319,319,Control PNC Specialties,Fecha_fin_descarga,Fecha Fin Descarga,Fecha Fin Descarga,,,,,End Date Download
+320,320,Control PNC Specialties,Recibido,Recibido,Recibido,,,,,Received
+321,321,Control PNC Specialties,Faltante,Faltante,Faltante,,,,,Missing
+322,322,Control PNC Specialties,Sobrante,Sobrante,Sobrante,,,,,Surplus
+323,323,Control PNC Specialties,Precio_compra,Precio Compra,Precio Compra,,,,,Purchase Price
+324,324,Control PNC Specialties,Plazo,Plazo,Plazo,,,,,Term
+325,325,Control PNC Specialties,Broker,Broker,Broker,,,,,Broker
+326,326,Control PNC Specialties,Region,Region,Region,,,,,Region
+327,327,Control PNC Specialties,Vende,Vende,Vende,,,,,Sell
+328,328,Control PNC Specialties,Volumen_compra,Volumen Compra,Volumen Compra,,,,,Purchase Volume
+329,329,Control PNC Specialties,Id_precio,Id Precio,Id Precio,,,,,Id Price
+330,330,Control PNC Specialties,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,OC Issue Date
+331,331,Control PNC Specialties,OC_firma,OC recepción FO,OC recepciÃ³n FO,,,,,OC reception FO
+332,332,Control PNC Specialties,OC_enviada,OC envi­o FO,OC envÃ­o FO,,,,,OC Shipping FO
+333,333,Control PNC Specialties,OC_recibida,OC firma Proveedor,OC firma Proveedor,,,,,OC signature Supplier
+334,334,Control PNC Specialties,Dias_OC,Dias OC,Dias OC,,,,,OC days
+335,335,Control PNC Specialties,Empresa_logistica,Empresa Logistica,Empresa Logistica,,,,,Logistics Company
+336,336,Control PNC Specialties,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Brand Commercial Name
+337,337,Control PNC Specialties,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Delivery time
+338,338,Control PNC Specialties,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Transit Time
+339,339,Control PNC Specialties,Termino_compra,Termino Compra,Termino Compra,,,,,Purchase Term
+340,340,Control PNC Specialties,Precio_referencia,Precio Compra,Precio Compra,,,,,Purchase Price
+341,341,Control PNC Specialties,Valor_total_referencia,Valor Total Compra,Valor Total Compra,,,,,Total Purchase Value
+342,342,Control PNC Specialties,Facturado,Facturado,Facturado,,,,,Invoiced
+343,343,Control PNC Specialties,Observaciones,Observaciones,Observaciones,,,,,Observations
+344,344,Control PNC Specialties,Dias_disponibilidad_planta,Dias Disponibilidad Planta,Dias Disponibilidad Planta,,,,,Days Availability Plant
+345,345,Control PNC Specialties,Dias_despacho_planta,Dias Despacho Planta,Dias Despacho Planta,,,,,Days Plant Dispatch
+346,346,Control PNC Specialties,Facturador_final,Facturador Final,Facturador Final,,,,,Final Billing
+347,347,Control PNC Specialties,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Pay day
+348,348,Control PNC Specialties,Categoria,Categoria,Categoria,,,,,Category
+349,349,Control PNC Specialties,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No invoice Sourcing
+350,350,Control PNC Specialties,Docto_digital_recibido,Docto Digital Recibido,Docto Digital Recibido,,,,,Digital Docto Received
+351,351,Control PNC Specialties,Docto_original_recibido,Docto Original Recibido,Docto Original Recibido,,,,,Original Docto Received
+352,352,Control PNC Specialties,Cantidad_facturada,Cantidad Facturada,Cantidad Facturada,,,,,Invoiced amount
+353,353,Control PNC Specialties,Proveedor,Proveedor,Proveedor,,,,,Provider
+354,354,Control PNC Specialties,No_factura,No Factura,No Factura,,,,,No invoice
+355,355,Control PNC Specialties,Incoterm,Incoterm,Incoterm,,,,,Incoterm
+356,356,Control PNC Specialties,Fecha_recepcion_lista_empaque,Fecha Recepcion Lista Empaque,Fecha Recepcion Lista Empaque,,,,,Date Receipt Packing List
+357,357,Control PNC Specialties,Fecha_respuesta_planificacion,Fecha Respuesta Planificacion,Fecha Respuesta Planificacion,,,,,Date Response Planning
+358,358,Control PNC Specialties,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Buy
+359,359,Control PNC Specialties,Gestores,Gestores,Gestores,,,,,Managers
+360,360,Control PNC Specialties,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notify Boarding
+361,361,Control PNC Specialties,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirm Purchase
+362,362,Control PNC Specialties,Id_estado,Estado,Estado,,,,,State
+363,363,Control PNC Specialties,id_presentacion_final,Presentacion Final,Presentacion Final,,,,,Final presentation
+364,364,Control PNC Specialties,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,FO Billing Request
+365,365,Control PNC Specialties,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,FO billing
+366,366,Control PNC Specialties,Proforma_proveedor,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Supplier
+367,367,Control PNC Specialties,flete_compra,Flete Compra,Flete Compra,,,,,Freight Purchase
+368,368,Toma pedido PNC Graneles,,Take Order,Toma Pedido,,,,,Take order
+369,369,Toma pedido PNC Graneles,Id_detalle_pedido,Order Detail ID,Id Detalle Pedido,,,,,Order Detail ID
+370,370,Toma pedido PNC Graneles,PEDIDO,Order,PEDIDO,,,,,Order
+371,371,Toma pedido PNC Graneles,Producto,Product,Producto,,,,,Product
+372,372,Toma pedido PNC Graneles,Cantidad,Volume,Tonelaje,,,,,Volume
+373,373,Toma pedido PNC Graneles,Presentacion,Presentation,Presentacion,,,,,Presentation
+374,374,Toma pedido PNC Graneles,Observaciones,Observations,Observaciones,,,,,Observations
+375,375,Toma pedido PNC Graneles,Registro,Registro,Registro,,,,,Registry
+376,376,Toma pedido PNC Graneles,Unidad,Unit of Measurement,Unidad,,,,,Unit of Measurement
+377,377,Toma pedido PNC Graneles,Puerto_descarga,Discharge Port,Puerto de descarga,,,,,Discharge Port
+378,378,Toma pedido PNC Graneles,Pais_descarga,Discharge Country,Pais de descarga,,,,,Discharge Country
+379,379,Toma pedido PNC Graneles,Producto_abreviado,Abbreviated product,Producto abreviado,,,,,Abbreviated product
+380,380,Toma pedido PNC Graneles,Material_SAP,Material SAP,Material SAP,,,,,SAP material
+381,381,Toma pedido PNC Graneles,No_oc_cliente,No. orden compra sourcing,No. orden compra sourcing,,,,,No. order purchase sourcing
+382,382,Toma pedido PNC Graneles,Id_tipo_prod,Product Type,Tipo Producto,,,,,Product Type
+383,383,Toma pedido PNC Graneles,Unidades,Unidades,Unidades,,,,,Units
+384,384,Toma pedido PNC Graneles,Categoria,Categoria,Categoria,,,,,Category
+385,385,Toma pedido PNC Graneles,Laycan,Laycan,Ventana de carga,,,,,Laycan
+386,386,Toma pedido PNC Graneles,Validacion_quilubrisa,Validacion Quilubrisa,Validacion Quilubrisa,,,,,Quilubrisa Validation
+387,387,Toma pedido PNC Graneles,id_presentacion_final,Packing Type,Presentacion Interna,,,,,Packing type
+388,388,Toma pedido PNC Graneles,No_embarque,No Embarque,No Embarque,,,,,No boarding
+389,389,Toma pedido PNC Graneles,validacion_compra,Validacion Compra,Validacion Compra,,,,,Purchase Validation
+390,390,Toma pedido PNC Specialties,,Toma Pedido,Toma Pedido,,,,,Take Order
+391,391,Toma pedido PNC Specialties,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Order Detail
+392,392,Toma pedido PNC Specialties,PEDIDO,PEDIDO,PEDIDO,,,,,ORDER
+393,393,Toma pedido PNC Specialties,Producto,Producto,Producto,,,,,Product
+394,394,Toma pedido PNC Specialties,Cantidad,Volumen,Volumen,,,,,Volume
+395,395,Toma pedido PNC Specialties,Presentacion,Presentacion,Presentacion,,,,,Presentation
+396,396,Toma pedido PNC Specialties,Observaciones,Observaciones,Observaciones,,,,,Observations
+397,397,Toma pedido PNC Specialties,Registro,Registro,Registro,,,,,Registry
+398,398,Toma pedido PNC Specialties,Unidad,Unidad,Unidad,,,,,Unit
+399,399,Toma pedido PNC Specialties,Puerto_descarga,Puerto de descarga,Puerto de descarga,,,,,discharge port
+400,400,Toma pedido PNC Specialties,Pais_descarga,Pais de descarga,Pais de descarga,,,,,Download Country
+401,401,Toma pedido PNC Specialties,Producto_abreviado,Producto Abreviado,Producto Abreviado,,,,,Abbreviated Product
+402,402,Toma pedido PNC Specialties,Material_SAP,Material SAP,Material SAP,,,,,SAP material
+403,403,Toma pedido PNC Specialties,No_oc_cliente,No. OC Sourcing,No. OC Sourcing,,,,,No. OC Sourcing
+404,404,Toma pedido PNC Specialties,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+405,405,Toma pedido PNC Specialties,Unidades,Unidades,Unidades,,,,,Units
+406,406,Toma pedido PNC Specialties,Categoria,Categoria,Categoria,,,,,Category
+407,407,Toma pedido PNC Specialties,Laycan,Laycan,Laycan,,,,,Laycan
+408,408,Toma pedido PNC Specialties,Validacion_quilubrisa,Validacion Quilubrisa,Validacion Quilubrisa,,,,,Quilubrisa Validation
+409,409,Toma pedido PNC Specialties,id_presentacion_final,Presentacion Final,Presentacion Final,,,,,Final presentation
+410,410,Toma pedido PNC Specialties,No_embarque,No. de Embarque,No. de Embarque,,,,,Shipping No.
+411,411,Toma pedido PNC Specialties,id_tipo_transporte,Tipo de Transporte,Tipo de Transporte,,,,,Type of Transportation
+412,412,tipo_prod,,Tipo Prod,Tipo Prod,,,,,Type Prod
+413,413,tipo_prod,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Type Prod
+414,414,tipo_prod,Descripcion,Descripcion,Descripcion,,,,,Description
+415,415,empresa,,Empresa,Empresa,,,,,Business
+416,416,empresa,Id_empresa,Id Empresa,Id Empresa,,,,,Company Id
+417,417,empresa,Nombre,Nombre,Nombre,,,,,Name
+418,418,empresa,UN,UN,UN,,,,,A
+419,419,empresa,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+420,420,empresa,Id_pais,Pais,Pais,,,,,Country
+421,421,lst_categoria,,Lst Categoria,Lst Categoria,,,,,Lst Category
+422,422,lst_categoria,Id_categoria,Id Categoria,Id Categoria,,,,,Id Category
+423,423,lst_categoria,Id_producto,Id Producto,Id Producto,,,,,Product Id
+424,424,lst_categoria,Descripcion,Descripcion,Descripcion,,,,,Description
+425,425,estado,,Estado,Estado,,,,,State
+426,426,estado,Id_estado,Id Estado,Id Estado,,,,,Id Status
+427,427,estado,Descripcion,Descripcion,Descripcion,,,,,Description
+428,428,estado,Id_nivel,Nivel,Nivel,,,,,level
+429,429,estado,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+430,430,lst_graneles_producto_abrevia,,Lst Abbreviated product,Lst Graneles Producto Abrevia,,,,,Lst Abbreviated product
+431,431,lst_graneles_producto_abrevia,Id_abreviatura,Id Abreviation,Id Abreviatura,,,,,Id Abbreviation
+432,432,lst_graneles_producto_abrevia,Descripcion,Description,Descripcion,,,,,Description
+433,433,lst_graneles_producto_abrevia,Id_producto,Product ID,Id Producto,,,,,Product ID
+434,434,lst_graneles_producto_abrevia,Id_tipo_prod,Product Type ID,Id Tipo Prod,,,,,Product Type ID
+435,435,unidad_prod,,Unidad Prod,Unidad Prod,,,,,Prod unit
+436,436,unidad_prod,Id_unidad,Id Unidad,Id Unidad,,,,,Unit Id
+437,437,unidad_prod,Descripcion,Descripcion,Descripcion,,,,,Description
+438,438,unidad_prod,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+439,439,pais,,Pais,Pais,,,,,Country
+440,440,pais,Id_pais,Id Pais,Id Pais,,,,,Id Country
+441,441,pais,Nombre,Nombre,Nombre,,,,,Name
+442,442,pais,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+443,443,pais,Id_tipo_pais,Tipo Pais,Tipo Pais,,,,,Country Type
+444,444,destino,,Destino,Destino,,,,,Destination
+445,445,destino,Id_destino,Id Destino,Id Destino,,,,,Destination Id
+446,446,destino,Descripcion,Descripcion,Descripcion,,,,,Description
+447,447,destino,Id_tipo_destino,Tipo Destino,Tipo Destino,,,,,Type Destination
+448,448,destino,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+449,449,destino,Id_pais,Pais,Pais,,,,,Country
+450,450,destino,id_region,Region,Region,,,,,Region
+451,451,destino,id_oceano,Oceano,Oceano,,,,,Ocean
+452,452,incoterm,,Incoterm,Incoterm,,,,,Incoterm
+453,453,incoterm,Id_incoterm,Id Incoterm,Id Incoterm,,,,,Id Incoterm
+454,454,incoterm,Descripcion,Descripcion,Descripcion,,,,,Description
+455,455,incoterm,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+456,456,responsable,,Responsable,Responsable,,,,,Responsable
+457,457,responsable,Id_responsable,Id Responsable,Id Responsable,,,,,Responsible Id
+458,458,responsable,Usuario,Usuario,Usuario,,,,,User
+459,459,responsable,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+460,460,plazo,,Plazo,Plazo,,,,,Term
+461,461,plazo,Id_plazo,Id Plazo,Id Plazo,,,,,Id Term
+462,462,plazo,Descripcion,Descripcion,Descripcion,,,,,Description
+463,463,plazo,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+464,464,business_partner,,Business Partner,Business Partner,,,,,Business Partner
+465,465,business_partner,Id_bussines_partner,Id Bussines Partner,Id Bussines Partner,,,,,Id Bussines Partner
+466,466,business_partner,Id_tipo_bp,Tipo Business Partner,Tipo Business Partner,,,,,Type Business Partner
+467,467,business_partner,Nombre,Nombre,Nombre,,,,,Name
+468,468,business_partner,Direccion,Direccion,Direccion,,,,,Direction
+469,469,business_partner,Contacto,Contacto,Contacto,,,,,Contact
+470,470,business_partner,Email,Email,Email,,,,,E-mail
+471,471,business_partner,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+472,472,region,,Region,Region,,,,,Region
+473,473,region,Id_region,Id Region,Id Region,,,,,Id Region
+474,474,region,Descripcion,Descripcion,Descripcion,,,,,Description
+475,475,region,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+476,476,categoria_prod,,Categoria Prod,Categoria Prod,,,,,Prod category
+477,477,categoria_prod,Id_categoria,Id Categoria,Id Categoria,,,,,Id Category
+478,478,categoria_prod,Descripcion,Descripcion,Descripcion,,,,,Description
+479,479,categoria_prod,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Product Type
+480,480,Busqueda Graneles,,Search Graneles,Busqueda Graneles,,,,,Search Bulks
+481,481,Busqueda Graneles,year(c.Fecha_BL),Year(c.BL Date),Year(c.Fecha BL),,,,,Year (c.BL Date)
+482,482,Busqueda Graneles,Fecha_BL,BL Date,Fecha BL,,,,,BL Date
+483,483,Busqueda Graneles,Mes_carga,Loading month,Mes Carga,,,,,Loading month
+484,484,Busqueda Graneles,Estado,Status,Estado,,,,,Status
+485,485,Busqueda Graneles,Buque,Vessel,Buque,,,,,Vessel
+486,486,Busqueda Graneles,Producto,Producto,Producto,,,,,Product
+487,487,Busqueda Graneles,Producto_abreviado,Abbreviated product,Producto Abreviado,,,,,Abbreviated product
+488,488,Busqueda Graneles,Tonelaje,Volume,Tonelaje,,,,,Volume
+489,489,Busqueda Graneles,Unidad,Unit of Measurement,Unidad,,,,,Unit of Measurement
+490,490,Busqueda Graneles,Flete,Freight,Flete,,,,,Freight
+491,491,Busqueda Graneles,Precio_Venta_TM,Sales Price /MT,Precio Venta TM,,,,,Sales Price / MT
+492,492,Busqueda Graneles,Valor_Total_Venta,Total Sales price,Valor Total Venta,,,,,Total Sales price
+493,493,Busqueda Graneles,Puerto_carga,Loading Port,Puerto Carga,,,,,Loading Port
+494,494,Busqueda Graneles,Pais_carga,Loading Country,Pais Carga,,,,,Loading Country
+495,495,Busqueda Graneles,Puerto_descarga,Puerto Descarga,Puerto Descarga,,,,,Port Download
+496,496,Busqueda Graneles,Pais_descarga,Loading Country,Pais Descarga,,,,,Loading Country
+497,497,Busqueda Graneles,Consignatario,Consignee,Consignatario,,,,,Consign
+498,498,Busqueda Graneles,Responsable,Responsible,Responsable,,,,,Responsible
+499,499,Busqueda Graneles,Laycan,Laycan,Laycan,,,,,Laycan
+500,500,Busqueda Graneles,Eta_puerto_carga,ETA Loading Port,Eta Puerto Carga,,,,,ETA Loading Port
+501,501,Busqueda Graneles,Fecha_zarpe_estimada,Fecha Zarpe Estimada,Fecha Zarpe Estimada,,,,,Estimated Sailing Date
+502,502,Busqueda Graneles,Plazo_venta,Plazo Venta,Plazo Venta,,,,,Term Sale
+503,503,Busqueda Graneles,Eta_puerto_descarga,ETA Discharge Port,Eta Puerto Descarga,,,,,ETA Discharge Port
+504,504,Busqueda Graneles,Etb_puerto_descarga,ETB Discharge Port,Etb Puerto Descarga,,,,,ETB Discharge Port
+505,505,Busqueda Graneles,Incoterm_venta,Sales Incoterm,Incoterm Venta,,,,,Sales Incoterm
+506,506,Busqueda Graneles,PEDIDO,Order,PEDIDO,,,,,Order
+507,507,Busqueda Graneles,Id_detalle_pedido,Order Detail ID,Id Detalle Pedido,,,,,Order Detail ID
+508,508,Busqueda Graneles,Id_tipo_prod,Product Type ID,Id Tipo Prod,,,,,Product Type ID
+509,509,Busqueda Specialties,,Busqueda Specialties,Busqueda Specialties,,,,,Search Specialties
+510,510,Busqueda Specialties,Responsable,Responsable,Responsable,,,,,Responsable
+511,511,Busqueda Specialties,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Client
+512,512,Busqueda Specialties,Material_SAP,Material SAP,Material SAP,,,,,SAP material
+513,513,Busqueda Specialties,No_embarque,No Embarque,No Embarque,,,,,No boarding
+514,514,Busqueda Specialties,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+515,515,Busqueda Specialties,Producto,Producto,Producto,,,,,Product
+516,516,Busqueda Specialties,Volumen,Volumen,Volumen,,,,,Volume
+517,517,Busqueda Specialties,Unidad,Unidad,Unidad,,,,,Unit
+518,518,Busqueda Specialties,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Quantity Containers
+519,519,Busqueda Specialties,Presentacion,Presentacion,Presentacion,,,,,Presentation
+520,520,Busqueda Specialties,Origen,Origen,Origen,,,,,Origin
+521,521,Busqueda Specialties,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Cargo Port
+522,522,Busqueda Specialties,Pais_carga,Pais Carga,Pais Carga,,,,,Country Load
+523,523,Busqueda Specialties,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Destination port
+524,524,Busqueda Specialties,Pais_destino,Pais Destino,Pais Destino,,,,,Destination country
+525,525,Busqueda Specialties,Consignatario,Consignatario,Consignatario,,,,,Consignee
+526,526,Busqueda Specialties,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Remarks Order
+527,527,Busqueda Specialties,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Digital Docto Sent
+528,528,Busqueda Specialties,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Original Docto Sent
+529,529,Busqueda Specialties,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Date Offered Dispatch
+530,530,Busqueda Specialties,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Date Offered Dispatch A
+531,531,Busqueda Specialties,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Sailing Date
+532,532,Busqueda Specialties,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Sailing State
+533,533,Busqueda Specialties,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Arrival Date
+534,534,Busqueda Specialties,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Arrival Status
+535,535,Busqueda Specialties,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observations Tracking
+536,536,Busqueda Specialties,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Trading Invoice
+537,537,Busqueda Specialties,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Sale
+538,538,Busqueda Specialties,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Unit Value Sale
+539,539,Busqueda Specialties,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Total Sale Value
+540,540,Busqueda Specialties,Termino_venta,Termino Venta,Termino Venta,,,,,Sale term
+541,541,Busqueda Specialties,PEDIDO,PEDIDO,PEDIDO,,,,,ORDER
+542,542,Busqueda Specialties,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Order Detail
+543,543,Busqueda Specialties,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Type Prod
+544,544,Operaciones PNC Graneles,,Operations PNC Graneles,Operaciones PNC Graneles,,,,,Operations PNC Bulks
+545,545,Operaciones PNC Graneles,Ano,Loading Year,AÃ±o carga,,,,,Loading Year
+546,546,Operaciones PNC Graneles,Correlativo,Batch,Correlativo,,,,,Batch
+547,547,Operaciones PNC Graneles,Fecha_BL,BL Date,Fecha BL,,,,,BL Date
+548,548,Operaciones PNC Graneles,Mes_carga,Loading Month,Mes Carga,,,,,Loading Month
+549,549,Operaciones PNC Graneles,Estado,Status,Estado,,,,,Status
+550,550,Operaciones PNC Graneles,Buque,Vessel,Buque,,,,,Vessel
+551,551,Operaciones PNC Graneles,Producto,Product,Producto,,,,,Product
+552,552,Operaciones PNC Graneles,Producto_abreviado,Abbreviated product,Producto Abreviado,,,,,Abbreviated product
+553,553,Operaciones PNC Graneles,Tonelaje,Volume,Tonelaje,,,,,Volume
+554,554,Operaciones PNC Graneles,Unidad,Unit of Measurement,Unidad,,,,,Unit of Measurement
+555,555,Operaciones PNC Graneles,Fecha_inicio_descarga,Initial Discharge Date,Fecha Inicio Descarga,,,,,Initial Discharge Date
+556,556,Operaciones PNC Graneles,Fecha_fin_descarga,Final Discharge Date,Fecha Fin Descarga,,,,,Final Discharge Date
+557,557,Operaciones PNC Graneles,Recibido,Received,Recibido,,,,,Received
+558,558,Operaciones PNC Graneles,Faltante,Shortage,Faltante,,,,,Shortage
+559,559,Operaciones PNC Graneles,Sobrante,Surplus,Sobrante,,,,,Surplus
+560,560,Operaciones PNC Graneles,Precio_compra,Purchase Price,Precio Compra,,,,,Purchase Price
+561,561,Operaciones PNC Graneles,Incoterm,Sales Incoterm,Incoterm,,,,,Sales Incoterm
+562,562,Operaciones PNC Graneles,Plazo,Term of Purchase,Plazo,,,,,Term of Purchase
+563,563,Operaciones PNC Graneles,Cantidad_facturada,Invoice Amount,Cantidad Facturada,,,,,Invoice Amount
+564,564,Operaciones PNC Graneles,Flete,Freight,Flete,,,,,Freight
+565,565,Operaciones PNC Graneles,Precio_Venta_TM,Sales Price /MT,Precio Venta TM,,,,,Sales Price / MT
+566,566,Operaciones PNC Graneles,Valor_Total_Venta,Total Sales price,Valor Total Venta,,,,,Total Sales price
+567,567,Operaciones PNC Graneles,No_factura,Invoice No.,No Factura,,,,,Invoice No.
+568,568,Operaciones PNC Graneles,Broker,Broker,Broker,,,,,Broker
+569,569,Operaciones PNC Graneles,Puerto_carga,Loading Port,Puerto Carga,,,,,Loading Port
+570,570,Operaciones PNC Graneles,Pais_carga,Loading Country,Pais Carga,,,,,Loading Country
+571,571,Operaciones PNC Graneles,Puerto_descarga,Discharge Port,Puerto Descarga,,,,,Discharge Port
+572,572,Operaciones PNC Graneles,Pais_descarga,Discharge Country,Pais Descarga,,,,,Discharge Country
+573,573,Operaciones PNC Graneles,Region,Region,Region,,,,,Region
+574,574,Operaciones PNC Graneles,Consignatario,Consignee,Consignatario,,,,,Consign
+575,575,Operaciones PNC Graneles,Cliente,Final Client,Cliente Final,,,,,Final Client
+576,576,Operaciones PNC Graneles,Trading,Trading,Trading,,,,,Trading
+577,577,Operaciones PNC Graneles,Proveedor,Supplier,Proveedor,,,,,Supplier
+578,578,Operaciones PNC Graneles,Responsable,Responsible,Responsable,,,,,Responsible
+579,579,Operaciones PNC Graneles,Volumen_compra,Purchase Volume,Volumen Compra,,,,,Purchase Volume
+580,580,Operaciones PNC Graneles,Laycan,Laycan,Laycan,,,,,Laycan
+581,581,Operaciones PNC Graneles,Eta_puerto_carga,ETA Loading Port,Eta Puerto Carga,,,,,ETA Loading Port
+582,582,Operaciones PNC Graneles,Fecha_zarpe_estimada,ETD,Fecha Zarpe Estimada,,,,,ETD
+583,583,Operaciones PNC Graneles,Plazo_venta,Term of Sale,Plazo Venta,,,,,Term of Sale
+584,584,Operaciones PNC Graneles,Proforma_enviada,Proforma Sent,Proforma Enviada,,,,,Proforma Sent
+585,585,Operaciones PNC Graneles,Eta_puerto_descarga,ETA Discharge Port,Eta Puerto Descarga,,,,,ETA Discharge Port
+586,586,Operaciones PNC Graneles,Etb_puerto_descarga,ETB Discharge Port,Etb Puerto Descarga,,,,,ETB Discharge Port
+587,587,Operaciones PNC Graneles,Fecha_de_Solicitud,Request Date,Fecha De Solicitud,,,,,Request Date
+588,588,Operaciones PNC Graneles,Grupo_Articulo,Article groups,Grupo Articulo,,,,,Article groups
+589,589,Operaciones PNC Graneles,Origen,Origin,Origen,,,,,Origin
+590,590,Operaciones PNC Especialidades,,Operaciones PNC Especialidades,Operaciones PNC Especialidades,,,,,Operaciones PNC Especialidades
+591,591,Operaciones PNC Especialidades,Estado,Estado,Estado,,,,,Estado
+592,592,Operaciones PNC Especialidades,Responsable,Responsable,Responsable,,,,,Responsable
+593,593,Operaciones PNC Especialidades,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+594,594,Operaciones PNC Especialidades,Lote,Lote,Lote,,,,,Lote
+595,595,Operaciones PNC Especialidades,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+596,596,Operaciones PNC Especialidades,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Cotizacion
+597,597,Operaciones PNC Especialidades,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+598,598,Operaciones PNC Especialidades,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Cliente
+599,599,Operaciones PNC Especialidades,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+600,600,Operaciones PNC Especialidades,Categoria,Categoria,Categoria,,,,,Categoria
+601,601,Operaciones PNC Especialidades,Producto,Producto,Producto,,,,,Producto
+602,602,Operaciones PNC Especialidades,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Marca Nombre Comercial
+603,603,Operaciones PNC Especialidades,Volumen,Volumen,Volumen,,,,,Volumen
+604,604,Operaciones PNC Especialidades,Unidad,Unidad,Unidad,,,,,Unidad
+605,605,Operaciones PNC Especialidades,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+606,606,Operaciones PNC Especialidades,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+607,607,Operaciones PNC Especialidades,Presentacion_Final,Presentacion Final,Presentacion Final,,,,,Presentacion Final
+608,608,Operaciones PNC Especialidades,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+609,609,Operaciones PNC Especialidades,Origen,Origen,Origen,,,,,Origen
+610,610,Operaciones PNC Especialidades,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+611,611,Operaciones PNC Especialidades,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+612,612,Operaciones PNC Especialidades,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+613,613,Operaciones PNC Especialidades,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+614,614,Operaciones PNC Especialidades,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+615,615,Operaciones PNC Especialidades,Cliente,Cliente Final,Cliente Final,,,,,Cliente Final
+616,616,Operaciones PNC Especialidades,Termino_compra,Termino Compra,Termino Compra,,,,,Termino Compra
+617,617,Operaciones PNC Especialidades,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+618,618,Operaciones PNC Especialidades,Precio_referencia,Precio Compra,Precio Compra,,,,,Precio Compra
+619,619,Operaciones PNC Especialidades,Valor_total_Compra,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+620,620,Operaciones PNC Especialidades,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+621,621,Operaciones PNC Especialidades,OC_recepcion_FO,OC Recepcion FO,OC Recepcion FO,,,,,OC Recepcion FO
+622,622,Operaciones PNC Especialidades,OC_envio_FO,OC Envio FO,OC Envio FO,,,,,OC Envio FO
+623,623,Operaciones PNC Especialidades,OC_firma_Proveedor,OC Firma Proveedor,OC Firma Proveedor,,,,,OC Firma Proveedor
+624,624,Operaciones PNC Especialidades,Dias_OC,Dias OC,Dias OC,,,,,Dias OC
+625,625,Operaciones PNC Especialidades,Docto_Digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+626,626,Operaciones PNC Especialidades,Docto_Original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Docto Original Enviado
+627,627,Operaciones PNC Especialidades,Empresa_Logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+628,628,Operaciones PNC Especialidades,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+629,629,Operaciones PNC Especialidades,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+630,630,Operaciones PNC Especialidades,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+631,631,Operaciones PNC Especialidades,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+632,632,Operaciones PNC Especialidades,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+633,633,Operaciones PNC Especialidades,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+634,634,Operaciones PNC Especialidades,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+635,635,Operaciones PNC Especialidades,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,Solicitud Facturacion FO
+636,636,Operaciones PNC Especialidades,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,Facturacion FO
+637,637,Operaciones PNC Especialidades,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No Factura Sourcing
+638,638,Operaciones PNC Especialidades,Facturador_final,Facturador Final,Facturador Final,,,,,Facturador Final
+639,639,Operaciones PNC Especialidades,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+640,640,Operaciones PNC Especialidades,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+641,641,Operaciones PNC Especialidades,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+642,642,Operaciones PNC Especialidades,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+643,643,Operaciones PNC Especialidades,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+644,644,Operaciones PNC Especialidades,Observaciones_Control,Observaciones Control,Observaciones Control,,,,,Observaciones Control
+645,645,Operaciones PNC Especialidades,Flete,Flete de Compra,Flete de Compra,,,,,Flete de Compra
+646,646,Operaciones PNC Especialidades,TiempoE,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+647,647,Operaciones PNC Especialidades,TiempoT,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+648,648,Operaciones PNC Especialidades,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+649,649,Cliente PNC Especialidades,,Cliente PNC Especialidades,Cliente PNC Especialidades,,,,,Cliente PNC Especialidades
+650,650,Cliente PNC Especialidades,Responsable,Responsable,Responsable,,,,,Responsable
+651,651,Cliente PNC Especialidades,No_OC_Cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+652,652,Cliente PNC Especialidades,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+653,653,Cliente PNC Especialidades,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+654,654,Cliente PNC Especialidades,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+655,655,Cliente PNC Especialidades,Producto,Producto,Producto,,,,,Producto
+656,656,Cliente PNC Especialidades,Volumen,Volumen,Volumen,,,,,Volumen
+657,657,Cliente PNC Especialidades,Unidad,Unidad,Unidad,,,,,Unidad
+658,658,Cliente PNC Especialidades,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+659,659,Cliente PNC Especialidades,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+660,660,Cliente PNC Especialidades,Origen,Origen,Origen,,,,,Origen
+661,661,Cliente PNC Especialidades,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+662,662,Cliente PNC Especialidades,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+663,663,Cliente PNC Especialidades,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+664,664,Cliente PNC Especialidades,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+665,665,Cliente PNC Especialidades,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+666,666,Cliente PNC Especialidades,Cliente,Cliente Final,Cliente Final,,,,,Cliente Final
+667,667,Cliente PNC Especialidades,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+668,668,Cliente PNC Especialidades,EmpresaL,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+669,669,Cliente PNC Especialidades,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+670,670,Cliente PNC Especialidades,Docto_digital_fecha,Docto Digital Fecha,Docto Digital Fecha,,,,,Docto Digital Fecha
+671,671,Cliente PNC Especialidades,Docto_original_fecha,Docto Original Fecha,Docto Original Fecha,,,,,Docto Original Fecha
+672,672,Cliente PNC Especialidades,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+673,673,Cliente PNC Especialidades,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+674,674,Cliente PNC Especialidades,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+675,675,Cliente PNC Especialidades,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+676,676,Cliente PNC Especialidades,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+677,677,Cliente PNC Especialidades,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+678,678,Cliente PNC Especialidades,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+679,679,Cliente PNC Especialidades,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+680,680,Cliente PNC Especialidades,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+681,681,Cliente PNC Especialidades,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+682,682,Cliente PNC Especialidades,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+683,683,Cliente PNC Especialidades,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+684,684,Cliente PNC Especialidades,Empresa,Empresa,Empresa,,,,,Empresa
+685,685,Cliente PNC Especialidades,Presentacion_Final,Presentacion Final,Presentacion Final,,,,,Presentacion Final
+686,686,Cliente PNC Especialidades,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+687,687,Cliente PNC Graneles,,PNC Graneles Client,Cliente PNC Graneles,,,,,PNC Graneles Client
+688,688,Cliente PNC Graneles,Ano,Loading Year,AÃ±o Carga,,,,,Loading Year
+689,689,Cliente PNC Graneles,Fecha_BL,BL Date,Fecha BL,,,,,BL Date
+690,690,Cliente PNC Graneles,Mes_carga,Loading month,Mes Carga,,,,,Loading month
+691,691,Cliente PNC Graneles,Estado,Status,Estado,,,,,Status
+692,692,Cliente PNC Graneles,Buque,Vessel,Buque,,,,,Vessel
+693,693,Cliente PNC Graneles,Producto,Product,Producto,,,,,Product
+694,694,Cliente PNC Graneles,Producto_abreviado,Abbreviated product,Producto Abreviado,,,,,Abbreviated product
+695,695,Cliente PNC Graneles,Tonelaje,Volume,Tonelaje,,,,,Volume
+696,696,Cliente PNC Graneles,Unidad,Unit of Measurement,Unidad,,,,,Unit of Measurement
+697,697,Cliente PNC Graneles,Flete,Freight,Flete,,,,,Freight
+698,698,Cliente PNC Graneles,Precio_Venta_TM,Sales Price /MT,Precio Venta TM,,,,,Sales Price /MT
+699,699,Cliente PNC Graneles,Valor_Total_Venta,Total Sales price,Valor Total Venta,,,,,Total Sales price
+700,700,Cliente PNC Graneles,Puerto_carga,Loading Port,Puerto Carga,,,,,Loading Port
+701,701,Cliente PNC Graneles,Pais_carga,Loading Country,Pais Carga,,,,,Loading Country
+702,702,Cliente PNC Graneles,Puerto_descarga,Discharge Port,Puerto Descarga,,,,,Discharge Port
+703,703,Cliente PNC Graneles,Pais_descarga,Discharge Country,Pais Descarga,,,,,Discharge Country
+704,704,Cliente PNC Graneles,Consignatario,Consignee,Consignatario,,,,,Consignee
+705,705,Cliente PNC Graneles,Cliente,Final Client,Cliente Final,,,,,Final Client
+706,706,Cliente PNC Graneles,Proveedor,Supplier,Proveedor,,,,,Supplier
+707,707,Cliente PNC Graneles,Responsable,Responsible,Responsable,,,,,Responsible
+708,708,Cliente PNC Graneles,Laycan,Laycan,Laycan,,,,,Laycan
+709,709,Cliente PNC Graneles,Eta_puerto_carga,ETA Loading Port,Eta Puerto Carga,,,,,ETA Loading Port
+710,710,Cliente PNC Graneles,Fecha_zarpe_estimada,ETD,Fecha Zarpe Estimada,,,,,ETD
+711,711,Cliente PNC Graneles,Plazo_venta,Term of Sale,Plazo Venta,,,,,Term of Sale
+712,712,Cliente PNC Graneles,Proforma_enviada,Proform Sent,Proforma Enviada,,,,,Proform Sent
+713,713,Cliente PNC Graneles,Eta_puerto_descarga,ETA Discharge Port,Eta Puerto Descarga,,,,,ETA Discharge Port
+714,714,Cliente PNC Graneles,Etb_puerto_descarga,ETB Discharge Country,Etb Puerto Descarga,,,,,ETB Discharge Country
+715,715,Cliente PNC Graneles,Incoterm_venta,Sales Incoterm,Incoterm Venta,,,,,Sales Incoterm
+716,716,Cliente PNC Graneles,Grupo_Articulo,Article groups,Grupo Articulo,,,,,Article groups
+717,717,Cliente PNC Graneles,Origen,Origin,Origen,,,,,Origin
+718,718,grupo,,Grupo,Grupo,,,,,Grupo
+719,719,grupo,Id_grupo,Id Grupo,Id Grupo,,,,,Id Grupo
+720,720,grupo,Usuario,Usuario,Usuario,,,,,Usuario
+721,721,grupo,UN,UN,UN,,,,,UN
+722,722,grupo,Email,Email,Email,,,,,Email
+723,723,grupo,Nombre,Nombre,Nombre,,,,,Nombre
+724,724,grupo,Verifica_registro,Verifica Registro,Verifica Registro,,,,,Verifica Registro
+725,725,grupo_rol,,Grupo Rol,Grupo Rol,,,,,Grupo Rol
+726,726,grupo_rol,Id_grupo,Grupo,Grupo,,,,,Grupo
+727,727,grupo_rol,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+728,728,grupo_pais,,Grupo Pais,Grupo Pais,,,,,Grupo Pais
+729,729,grupo_pais,Id_grupo,Grupo,Grupo,,,,,Grupo
+730,730,grupo_pais,Id_pais,Pais,Pais,,,,,Pais
+731,731,grupo_pais,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+732,732,sourcing_uggroups,,Sourcing Uggroups,Sourcing Uggroups,,,,,Sourcing Uggroups
+733,733,sourcing_uggroups,Label,Label,Label,,,,,Label
+734,734,solicitante,,Solicitante,Solicitante,,,,,Solicitante
+735,735,solicitante,Id_solicitante,Id Solicitante,Id Solicitante,,,,,Id Solicitante
+736,736,solicitante,Usuario,Usuario,Usuario,,,,,Usuario
+737,737,tipo_bp,,Tipo Bp,Tipo Bp,,,,,Tipo Bp
+738,738,tipo_bp,Id_tipo_bp,Id Tipo Bp,Id Tipo Bp,,,,,Id Tipo Bp
+739,739,tipo_bp,Tipo_bp,Tipo Bp,Tipo Bp,,,,,Tipo Bp
+740,740,tipo_bp,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+741,741,tipo_destino,,Tipo Destino,Tipo Destino,,,,,Tipo Destino
+742,742,tipo_destino,Id_tipo_destino,Id Tipo Destino,Id Tipo Destino,,,,,Id Tipo Destino
+743,743,tipo_destino,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+744,744,tipo_destino,Id_tipo_producto,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+745,745,presentacion,,Presentacion,Presentacion,,,,,Presentacion
+746,746,presentacion,Id_presentacion,Id Presentacion,Id Presentacion,,,,,Id Presentacion
+747,747,presentacion,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+748,748,presentacion,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+749,749,producto_abrevia,,Producto Abrevia,Producto Abrevia,,,,,Producto Abrevia
+750,750,producto_abrevia,Id_abreviatura,Id Abreviatura,Id Abreviatura,,,,,Id Abreviatura
+751,751,producto_abrevia,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+752,752,producto_abrevia,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+753,753,tipo_pais,,Tipo Pais,Tipo Pais,,,,,Tipo Pais
+754,754,tipo_pais,Id_tipo_pais,Id Tipo Pais,Id Tipo Pais,,,,,Id Tipo Pais
+755,755,tipo_pais,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+756,756,tipo_pais,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+757,757,nivel_estado,,Nivel Estado,Nivel Estado,,,,,Nivel Estado
+758,758,nivel_estado,Id_nivel_estado,Id Nivel Estado,Id Nivel Estado,,,,,Id Nivel Estado
+759,759,nivel_estado,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+760,760,nivel_estado,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+761,761,lista_destinatario,,Lista Destinatario,Lista Destinatario,,,,,Lista Destinatario
+762,762,lista_destinatario,Id_destinatario,Id Destinatario,Id Destinatario,,,,,Id Destinatario
+763,763,lista_destinatario,Usuario,Usuario,Usuario,,,,,Usuario
+764,764,lista_destinatario,Id_notificacion,Id Notificacion,Id Notificacion,,,,,Id Notificacion
+765,765,lista_destinatario,Id_pais,Pais,Pais,,,,,Pais
+766,766,lista_destinatario,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+767,767,lista_destinatario,Activo,Activo,Activo,,,,,Activo
+768,768,lista_destinatario,Empresa,Empresa,Empresa,,,,,Empresa
+769,769,notificacion_producto,,Notificacion Producto,Notificacion Producto,,,,,Notificacion Producto
+770,770,notificacion_producto,Id_notificacion,Id Notificacion,Id Notificacion,,,,,Id Notificacion
+771,771,notificacion_producto,asunto,Asunto,Asunto,,,,,Asunto
+772,772,notificacion_producto,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+773,773,notificacion_producto,mensaje,Mensaje,Mensaje,,,,,Mensaje
+774,774,Gestion de Calidad - PNC Graneles,,Quality Management - PNC Graneles,Gestion de Calidad - PNC Graneles,,,,,Quality Management - PNC Graneles
+775,775,Gestion de Calidad - PNC Graneles,Ano_carga,Loading Year,Ano Carga,,,,,Loading Year
+776,776,Gestion de Calidad - PNC Graneles,Mes_carga,Loading month,Mes Carga,,,,,Loading month
+777,777,Gestion de Calidad - PNC Graneles,Buque,Vessel,Buque,,,,,Vessel
+778,778,Gestion de Calidad - PNC Graneles,Consignatario,Consignee,Consignatario,,,,,Consignee
+779,779,Gestion de Calidad - PNC Graneles,Producto,Product,Producto,,,,,Product
+780,780,Gestion de Calidad - PNC Graneles,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+781,781,Gestion de Calidad - PNC Graneles,Tonelaje,Volume,Tonelaje,,,,,Volume
+782,782,Gestion de Calidad - PNC Graneles,Unidad,Unit of Measurement,Unidad,,,,,Unit of Measurement
+783,783,Gestion de Calidad - PNC Graneles,Puerto_descarga,Discharge Port,Puerto Descarga,,,,,Discharge Port
+784,784,Gestion de Calidad - PNC Graneles,Pais_descarga,Discharge Country,Pais Descarga,,,,,Discharge Country
+785,785,Gestion de Calidad - PNC Graneles,Puerto_carga,Loading Port,Puerto Carga,,,,,Loading Port
+786,786,Gestion de Calidad - PNC Graneles,Pais_carga,Loading Country,Pais Carga,,,,,Loading Country
+787,787,Gestion de Calidad - PNC Graneles,Fecha_zarpe_estimada,ETD,Fecha Zarpe Estimada,,,,,ETD
+788,788,Gestion de Calidad - PNC Graneles,Eta_puerto_descarga,ETA Discharge Port,Eta Puerto Descarga,,,,,ETA Discharge Port
+789,789,Gestion de Calidad - PNC Graneles,Etb_puerto_descarga,ETB Discharge Port,Etb Puerto Descarga,,,,,ETB Discharge Port
+790,790,Gestion de Calidad - PNC Graneles,Estado,Status,Estado,,,,,Status
+791,791,Gestion de Calidad - PNC Graneles,Responsable,Responsible,Responsable,,,,,Responsible
+792,792,Gestion de Calidad - PNC Especialidades,,Gestion de Calidad - PNC Especialidades,Gestion de Calidad - PNC Especialidades,,,,,Gestion de Calidad - PNC Especialidades
+793,793,Gestion de Calidad - PNC Especialidades,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+794,794,Gestion de Calidad - PNC Especialidades,Producto,Producto,Producto,,,,,Producto
+795,795,Gestion de Calidad - PNC Especialidades,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+796,796,Gestion de Calidad - PNC Especialidades,Volumen,Volumen,Volumen,,,,,Volumen
+797,797,Gestion de Calidad - PNC Especialidades,Unidad,Unidad,Unidad,,,,,Unidad
+798,798,Gestion de Calidad - PNC Especialidades,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+799,799,Gestion de Calidad - PNC Especialidades,Responsable,Responsable,Responsable,,,,,Responsable
+800,800,Gestion de Calidad - PNC Especialidades,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+801,801,Gestion de Calidad - PNC Especialidades,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+802,802,Gestion de Calidad - PNC Especialidades,Origen,Origen,Origen,,,,,Origen
+803,803,Gestion de Calidad - PNC Especialidades,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+804,804,Gestion de Calidad - PNC Especialidades,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+805,805,Gestion de Calidad - PNC Especialidades,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+806,806,Gestion de Calidad - PNC Especialidades,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+807,807,Gestion de Calidad - PNC Especialidades,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+808,808,Gestion de Calidad - PNC Especialidades,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+809,809,Gestion de Calidad - PNC Especialidades,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+810,810,Gestion de Calidad - PNC Especialidades,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+811,811,Gestion de Calidad - PNC Especialidades,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+812,812,Gestion de Calidad - PNC Especialidades,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+813,813,PPC IPDC,,PPC IPDC,PPC IPDC,,,,,PPC IPDC
+814,814,PPC IPDC,Id_pedido,Id Pedido,Id Pedido,,,,,Id Pedido
+815,815,PPC IPDC,Empresa,Consignatario,Consignatario,,,,,Consignatario
+816,816,PPC IPDC,UN,UN,UN,,,,,UN
+817,817,PPC IPDC,Fecha_de_Solicitud,Fecha de solicitud,Fecha de solicitud,,,,,Fecha de solicitud
+818,818,PPC IPDC,Id_tipo_prod,Tipo de producto,Tipo de producto,,,,,Tipo de producto
+819,819,PPC IPDC,No_orden_compra_cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+820,820,PPC IPDC,No_oc_cliente,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+821,821,PPC IPDC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+822,822,PPC IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+823,823,Seguimiento PPC IPDC,,Seguimiento PPC IPDC,Seguimiento PPC IPDC,,,,,Seguimiento PPC IPDC
+824,824,Seguimiento PPC IPDC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+825,825,Seguimiento PPC IPDC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+826,826,Seguimiento PPC IPDC,No_camion,No Camion,No Camion,,,,,No Camion
+827,827,Seguimiento PPC IPDC,Fecha_estimada_disponibilidad_pedido,Fecha Estimada Disponibilidad Pedido,Fecha Estimada Disponibilidad Pedido,,,,,Fecha Estimada Disponibilidad Pedido
+828,828,Seguimiento PPC IPDC,Fecha_envio_documento_tramite_permiso,Fecha Envio Documento Tramite Permiso,Fecha Envio Documento Tramite Permiso,,,,,Fecha Envio Documento Tramite Permiso
+829,829,Seguimiento PPC IPDC,Fecha_envio_documento_definitivo,Fecha Envio Documento Definitivo,Fecha Envio Documento Definitivo,,,,,Fecha Envio Documento Definitivo
+830,830,Seguimiento PPC IPDC,Fecha_real_disponibilidad_pedido,Fecha Real Disponibilidad Pedido,Fecha Real Disponibilidad Pedido,,,,,Fecha Real Disponibilidad Pedido
+831,831,Seguimiento PPC IPDC,Fecha_arribo_camion_frontera,Fecha Arribo Camion Frontera,Fecha Arribo Camion Frontera,,,,,Fecha Arribo Camion Frontera
+832,832,Seguimiento PPC IPDC,Fecha_arribo_camion_destino,Fecha Arribo Camion Destino,Fecha Arribo Camion Destino,,,,,Fecha Arribo Camion Destino
+833,833,Seguimiento PPC IPDC,Fecha_bl,Fecha Bl,Fecha Bl,,,,,Fecha Bl
+834,834,Seguimiento PPC IPDC,Flete,Flete,Flete,,,,,Flete
+835,835,Seguimiento PPC IPDC,Precio_TM,Precio Venta TM,Precio Venta TM,,,,,Precio Venta TM
+836,836,Seguimiento PPC IPDC,Valor_total,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+837,837,Seguimiento PPC IPDC,No_factura,No Factura,No Factura,,,,,No Factura
+838,838,Seguimiento PPC IPDC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+839,839,Seguimiento PPC IPDC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+840,840,Seguimiento PPC IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+841,841,Seguimiento PPC IPDC,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+842,842,Seguimiento PPC IPDC,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Docto Original Enviado
+843,843,Seguimiento PPC IPDC,Pais_origen,Pais Origen,Pais Origen,,,,,Pais Origen
+844,844,Seguimiento PPC IPDC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+845,845,Seguimiento PPC IPDC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+846,846,Seguimiento PPC IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+847,847,Seguimiento PPC IPDC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+848,848,Seguimiento PPC IPDC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+849,849,Seguimiento PPC IPDC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+850,850,Seguimiento PPC IPDC,Fecha_confirmacion_cliente_despacho_camion,Fecha Confirmacion Cliente Despacho Camion,Fecha Confirmacion Cliente Despacho Camion,,,,,Fecha Confirmacion Cliente Despacho Camion
+851,851,Seguimiento PPC IPDC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+852,852,Seguimiento PPC IPDC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+853,853,Seguimiento PPC IPDC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+854,854,Seguimiento PPC IPDC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+855,855,Seguimiento PPC IPDC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+856,856,Seguimiento PPC IPDC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+857,857,Seguimiento PPC IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+858,858,Seguimiento PPC IPDC,Fecha_cargo_mercaderia_camion,Fecha Cargo Mercaderia Camion,Fecha Cargo Mercaderia Camion,,,,,Fecha Cargo Mercaderia Camion
+859,859,Seguimiento PPC IPDC,Id_estado,Estado,Estado,,,,,Estado
+860,860,Seguimiento PPC IPDC,No_lotes,No Lotes,No Lotes,,,,,No Lotes
+861,861,Seguimiento PPC IPDC,Fecha_real_despacho_camion,Fecha Real Despacho Camion,Fecha Real Despacho Camion,,,,,Fecha Real Despacho Camion
+862,862,Seguimiento PPC IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+863,863,Seguimiento PPC IPDC,No_lista_empaque,No Lista Empaque,No Lista Empaque,,,,,No Lista Empaque
+864,864,Seguimiento PPC IPDC,Eta_puerto_carga,Eta Puerto Carga,Eta Puerto Carga,,,,,Eta Puerto Carga
+865,865,Seguimiento PPC IPDC,Fecha_zarpe_estimada,Fecha Zarpe Estimada,Fecha Zarpe Estimada,,,,,Fecha Zarpe Estimada
+866,866,Seguimiento PPC IPDC,Plazo_venta,Plazo Venta,Plazo Venta,,,,,Plazo Venta
+867,867,Seguimiento PPC IPDC,Eta_puerto_descarga,Eta Puerto Descarga,Eta Puerto Descarga,,,,,Eta Puerto Descarga
+868,868,Seguimiento PPC IPDC,Etb_puerto_descarga,Etb Puerto Descarga,Etb Puerto Descarga,,,,,Etb Puerto Descarga
+869,869,Seguimiento PPC IPDC,Fecha_factura,Fecha Factura,Fecha Factura,,,,,Fecha Factura
+870,870,Seguimiento PPC IPDC,ref_lista_precio,Ref Lista Precio,Ref Lista Precio,,,,,Ref Lista Precio
+871,871,Seguimiento PPC IPDC,Docto_digital_fecha,Docto. Digital Enviado,Docto. Digital Enviado,,,,,Docto. Digital Enviado
+872,872,Seguimiento PPC IPDC,Docto_original_fecha,RecepciÃ³n originales UO,RecepciÃ³n originales UO,,,,,RecepciÃ³n originales UO
+873,873,Seguimiento PPC IPDC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+874,874,Seguimiento PPC IPDC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+875,875,Seguimiento PPC IPDC,Tipo_Transito,Tipo de Transito,Tipo de Transito,,,,,Tipo de Transito
+876,876,Seguimiento PPC IPDC,EmpresaL,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+877,877,Seguimiento PPC IPDC,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+878,878,Seguimiento PPC IPDC,necesita_proforma,Necesita Proforma,Necesita Proforma,,,,,Necesita Proforma
+879,879,Seguimiento PPC IPDC,cumple_digitales,Cumple Digitales,Cumple Digitales,,,,,Cumple Digitales
+880,880,Seguimiento PPC IPDC,cumple_fisico,Cumple Fisico,Cumple Fisico,,,,,Cumple Fisico
+881,881,Control PPC IPDC,,Control PPC IPDC,Control PPC IPDC,,,,,Control PPC IPDC
+882,882,Control PPC IPDC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+883,883,Control PPC IPDC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+884,884,Control PPC IPDC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+885,885,Control PPC IPDC,Correlativo_lote,Correlativo Lote,Correlativo Lote,,,,,Correlativo Lote
+886,886,Control PPC IPDC,Fecha_inicio_descarga,Fecha Inicio Descarga,Fecha Inicio Descarga,,,,,Fecha Inicio Descarga
+887,887,Control PPC IPDC,Fecha_fin_descarga,Fecha Fin Descarga,Fecha Fin Descarga,,,,,Fecha Fin Descarga
+888,888,Control PPC IPDC,Recibido,Recibido,Recibido,,,,,Recibido
+889,889,Control PPC IPDC,Faltante,Faltante,Faltante,,,,,Faltante
+890,890,Control PPC IPDC,Sobrante,Sobrante,Sobrante,,,,,Sobrante
+891,891,Control PPC IPDC,Precio_compra,Precio Compra,Precio Compra,,,,,Precio Compra
+892,892,Control PPC IPDC,Plazo,Plazo,Plazo,,,,,Plazo
+893,893,Control PPC IPDC,Broker,Broker,Broker,,,,,Broker
+894,894,Control PPC IPDC,Region,Region,Region,,,,,Region
+895,895,Control PPC IPDC,Vende,Vende,Vende,,,,,Vende
+896,896,Control PPC IPDC,Volumen_compra,Volumen Compra,Volumen Compra,,,,,Volumen Compra
+897,897,Control PPC IPDC,Id_precio,Id Precio,Id Precio,,,,,Id Precio
+898,898,Control PPC IPDC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+899,899,Control PPC IPDC,OC_firma,OC recepcion n FO,OC recepciÃ³n FO,,,,,OC recepcion n FO
+900,900,Control PPC IPDC,OC_enviada,OC envio FO,OC envÃ­o FO,,,,,OC envio FO
+901,901,Control PPC IPDC,OC_recibida,OC firma Proveedor,OC firma Proveedor,,,,,OC firma Proveedor
+902,902,Control PPC IPDC,Dias_OC,Dias OC,Dias OC,,,,,Dias OC
+903,903,Control PPC IPDC,Empresa_logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+904,904,Control PPC IPDC,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Marca Nombre Comercial
+905,905,Control PPC IPDC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+906,906,Control PPC IPDC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+907,907,Control PPC IPDC,Termino_compra,Termino Compra,Termino Compra,,,,,Termino Compra
+908,908,Control PPC IPDC,Precio_referencia,Precio Compra,Precio Compra,,,,,Precio Compra
+909,909,Control PPC IPDC,Valor_total_referencia,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+910,910,Control PPC IPDC,Facturado,Facturado,Facturado,,,,,Facturado
+911,911,Control PPC IPDC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+912,912,Control PPC IPDC,Dias_disponibilidad_planta,Dias Disponibilidad Planta,Dias Disponibilidad Planta,,,,,Dias Disponibilidad Planta
+913,913,Control PPC IPDC,Dias_despacho_planta,Dias Despacho Planta,Dias Despacho Planta,,,,,Dias Despacho Planta
+914,914,Control PPC IPDC,Facturador_final,Facturador Final,Facturador Final,,,,,Facturador Final
+915,915,Control PPC IPDC,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Fecha Pago
+916,916,Control PPC IPDC,Categoria,Categoria,Categoria,,,,,Categoria
+917,917,Control PPC IPDC,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No Factura Sourcing
+918,918,Control PPC IPDC,Docto_digital_recibido,Docto Digital Recibido,Docto Digital Recibido,,,,,Docto Digital Recibido
+919,919,Control PPC IPDC,Docto_original_recibido,Docto Original Recibido,Docto Original Recibido,,,,,Docto Original Recibido
+920,920,Control PPC IPDC,Cantidad_facturada,Cantidad Facturada,Cantidad Facturada,,,,,Cantidad Facturada
+921,921,Control PPC IPDC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+922,922,Control PPC IPDC,No_factura,No Factura,No Factura,,,,,No Factura
+923,923,Control PPC IPDC,Incoterm,Incoterm,Incoterm,,,,,Incoterm
+924,924,Control PPC IPDC,Fecha_recepcion_lista_empaque,Fecha Recepcion Lista Empaque,Fecha Recepcion Lista Empaque,,,,,Fecha Recepcion Lista Empaque
+925,925,Control PPC IPDC,Fecha_respuesta_planificacion,Fecha Respuesta Planificacion,Fecha Respuesta Planificacion,,,,,Fecha Respuesta Planificacion
+926,926,Control PPC IPDC,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+927,927,Control PPC IPDC,Gestores,Gestores,Gestores,,,,,Gestores
+928,928,Control PPC IPDC,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notifica Embarque
+929,929,Control PPC IPDC,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirma Compra
+930,930,Control PPC IPDC,Id_estado,Estado,Estado,,,,,Estado
+931,931,Control PPC IPDC,id_presentacion_final,Presentacion Final,Presentacion Final,,,,,Presentacion Final
+932,932,Control PPC IPDC,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,Solicitud Facturacion FO
+933,933,Control PPC IPDC,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,Facturacion FO
+934,934,Control PPC IPDC,Proforma_proveedor,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Proveedor
+935,935,Control PPC IPDC,flete_compra,Flete Compra,Flete Compra,,,,,Flete Compra
+936,936,Control PPC IPDC,Por_anticipo,Porcentaje de Anticipo,% de Anticipo,,,,,Porcentaje de Anticipo
+937,937,Control PPC IPDC,Id_Estado_Pago,Estado de Pago Complemento,Estado de Pago Complemento,,,,,Estado de Pago Complemento
+938,938,Control PPC IPDC,Id_Estado_Pago_Anticipo,Estado de Pago Anticipo,Estado de Pago Anticipo,,,,,Estado de Pago Anticipo
+939,939,Toma pedido PPC IPDC,,Toma Pedido,Toma Pedido,,,,,Toma Pedido
+940,940,Toma pedido PPC IPDC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+941,941,Toma pedido PPC IPDC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+942,942,Toma pedido PPC IPDC,Producto,Producto,Producto,,,,,Producto
+943,943,Toma pedido PPC IPDC,Cantidad,Volumen,Volumen,,,,,Volumen
+944,944,Toma pedido PPC IPDC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+945,945,Toma pedido PPC IPDC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+946,946,Toma pedido PPC IPDC,Registro,Registro,Registro,,,,,Registro
+947,947,Toma pedido PPC IPDC,Unidad,Unidad,Unidad,,,,,Unidad
+948,948,Toma pedido PPC IPDC,Puerto_descarga,Puerto de descarga,Puerto de descarga,,,,,Puerto de descarga
+949,949,Toma pedido PPC IPDC,Pais_descarga,Pais de descarga,Pais de descarga,,,,,Pais de descarga
+950,950,Toma pedido PPC IPDC,Producto_abreviado,Producto Abreviado,Producto Abreviado,,,,,Producto Abreviado
+951,951,Toma pedido PPC IPDC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+952,952,Toma pedido PPC IPDC,No_oc_cliente,No. OC Sourcing,No. OC Sourcing,,,,,No. OC Sourcing
+953,953,Toma pedido PPC IPDC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+954,954,Toma pedido PPC IPDC,Unidades,Unidades,Unidades,,,,,Unidades
+955,955,Toma pedido PPC IPDC,Categoria,Categoria,Categoria,,,,,Categoria
+956,956,Toma pedido PPC IPDC,Laycan,Laycan,Laycan,,,,,Laycan
+957,957,Toma pedido PPC IPDC,Validacion_quilubrisa,Validacion Quilubrisa,Validacion Quilubrisa,,,,,Validacion Quilubrisa
+958,958,Toma pedido PPC IPDC,id_presentacion_final,Id Presentacion Final,Id Presentacion Final,,,,,Id Presentacion Final
+959,959,Toma pedido PPC IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+960,960,Toma pedido PPC IPDC,id_tipo_transporte,Tipo de Transporte,Tipo de Transporte,,,,,Tipo de Transporte
+961,961,Busqueda IPDC,,Busqueda IPDC,Busqueda IPDC,,,,,Busqueda IPDC
+962,962,Busqueda IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+963,963,Busqueda IPDC,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Cliente
+964,964,Busqueda IPDC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+965,965,Busqueda IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+966,966,Busqueda IPDC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+967,967,Busqueda IPDC,Producto,Producto,Producto,,,,,Producto
+968,968,Busqueda IPDC,Volumen,Volumen,Volumen,,,,,Volumen
+969,969,Busqueda IPDC,Unidad,Unidad,Unidad,,,,,Unidad
+970,970,Busqueda IPDC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+971,971,Busqueda IPDC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+972,972,Busqueda IPDC,Origen,Origen,Origen,,,,,Origen
+973,973,Busqueda IPDC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+974,974,Busqueda IPDC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+975,975,Busqueda IPDC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+976,976,Busqueda IPDC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+977,977,Busqueda IPDC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+978,978,Busqueda IPDC,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+979,979,Busqueda IPDC,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+980,980,Busqueda IPDC,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Docto Original Enviado
+981,981,Busqueda IPDC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+982,982,Busqueda IPDC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+983,983,Busqueda IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+984,984,Busqueda IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+985,985,Busqueda IPDC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+986,986,Busqueda IPDC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+987,987,Busqueda IPDC,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+988,988,Busqueda IPDC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+989,989,Busqueda IPDC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+990,990,Busqueda IPDC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+991,991,Busqueda IPDC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+992,992,Busqueda IPDC,Termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+993,993,Busqueda IPDC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+994,994,Busqueda IPDC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+995,995,Busqueda IPDC,Id_tipo_prod,Id Tipo Prod,Id Tipo Prod,,,,,Id Tipo Prod
+996,996,Cliente PNC IPDC,,Cliente PNC IPDC,Cliente PNC IPDC,,,,,Cliente PNC IPDC
+997,997,Cliente PNC IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+998,998,Cliente PNC IPDC,No_OC_Cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+999,999,Cliente PNC IPDC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+1000,1000,Cliente PNC IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1001,1001,Cliente PNC IPDC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1002,1002,Cliente PNC IPDC,Producto,Producto,Producto,,,,,Producto
+1003,1003,Cliente PNC IPDC,Volumen,Volumen,Volumen,,,,,Volumen
+1004,1004,Cliente PNC IPDC,Unidad,Unidad,Unidad,,,,,Unidad
+1005,1005,Cliente PNC IPDC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1006,1006,Cliente PNC IPDC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1007,1007,Cliente PNC IPDC,Origen,Origen,Origen,,,,,Origen
+1008,1008,Cliente PNC IPDC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1009,1009,Cliente PNC IPDC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1010,1010,Cliente PNC IPDC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1011,1011,Cliente PNC IPDC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+1012,1012,Cliente PNC IPDC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1013,1013,Cliente PNC IPDC,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+1014,1014,Cliente PNC IPDC,Docto_digital_fecha,Docto Digital Fecha,Docto Digital Fecha,,,,,Docto Digital Fecha
+1015,1015,Cliente PNC IPDC,Docto_original_fecha,Docto Original Fecha,Docto Original Fecha,,,,,Docto Original Fecha
+1016,1016,Cliente PNC IPDC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1017,1017,Cliente PNC IPDC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1018,1018,Cliente PNC IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1019,1019,Cliente PNC IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1020,1020,Cliente PNC IPDC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1021,1021,Cliente PNC IPDC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1022,1022,Cliente PNC IPDC,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+1023,1023,Cliente PNC IPDC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1024,1024,Cliente PNC IPDC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1025,1025,Cliente PNC IPDC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1026,1026,Cliente PNC IPDC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1027,1027,Cliente PNC IPDC,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1028,1028,Cliente PNC IPDC,Empresa,Empresa,Empresa,,,,,Empresa
+1029,1029,Cliente PNC IPDC,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1030,1030,Operaciones PPC IPDC,,Operaciones PPC IPDC,Operaciones PPC IPDC,,,,,Operaciones PPC IPDC
+1031,1031,Operaciones PPC IPDC,Estado,Estado,Estado,,,,,Estado
+1032,1032,Operaciones PPC IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+1033,1033,Operaciones PPC IPDC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1034,1034,Operaciones PPC IPDC,Lote,Lote,Lote,,,,,Lote
+1035,1035,Operaciones PPC IPDC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+1036,1036,Operaciones PPC IPDC,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Cotizacion
+1037,1037,Operaciones PPC IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1038,1038,Operaciones PPC IPDC,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Cliente
+1039,1039,Operaciones PPC IPDC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+1040,1040,Operaciones PPC IPDC,Categoria,Categoria,Categoria,,,,,Categoria
+1041,1041,Operaciones PPC IPDC,Producto,Producto,Producto,,,,,Producto
+1042,1042,Operaciones PPC IPDC,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Marca Nombre Comercial
+1043,1043,Operaciones PPC IPDC,Volumen,Volumen,Volumen,,,,,Volumen
+1044,1044,Operaciones PPC IPDC,Unidad,Unidad,Unidad,,,,,Unidad
+1045,1045,Operaciones PPC IPDC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1046,1046,Operaciones PPC IPDC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1047,1047,Operaciones PPC IPDC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1048,1048,Operaciones PPC IPDC,Origen,Origen,Origen,,,,,Origen
+1049,1049,Operaciones PPC IPDC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1050,1050,Operaciones PPC IPDC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1051,1051,Operaciones PPC IPDC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1052,1052,Operaciones PPC IPDC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+1053,1053,Operaciones PPC IPDC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1054,1054,Operaciones PPC IPDC,Termino_compra,Termino Compra,Termino Compra,,,,,Termino Compra
+1055,1055,Operaciones PPC IPDC,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+1056,1056,Operaciones PPC IPDC,Precio_referencia,Precio Compra,Precio Compra,,,,,Precio Compra
+1057,1057,Operaciones PPC IPDC,Valor_total_Compra,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+1058,1058,Operaciones PPC IPDC,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+1059,1059,Operaciones PPC IPDC,OC_firma,OC Firma,OC Firma,,,,,OC Firma
+1060,1060,Operaciones PPC IPDC,OC_enviada,OC Enviada,OC Enviada,,,,,OC Enviada
+1061,1061,Operaciones PPC IPDC,OC_recibida,OC Recibida,OC Recibida,,,,,OC Recibida
+1062,1062,Operaciones PPC IPDC,Dias_OC,Dias OC,Dias OC,,,,,Dias OC
+1063,1063,Operaciones PPC IPDC,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirma Compra
+1064,1064,Operaciones PPC IPDC,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notifica Embarque
+1065,1065,Operaciones PPC IPDC,Gestores,Gestores,Gestores,,,,,Gestores
+1066,1066,Operaciones PPC IPDC,Docto_digital_fecha,Docto Digital Fecha,Docto Digital Fecha,,,,,Docto Digital Fecha
+1067,1067,Operaciones PPC IPDC,Docto_original_fecha,Docto Original Fecha,Docto Original Fecha,,,,,Docto Original Fecha
+1068,1068,Operaciones PPC IPDC,Empresa_Logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1069,1069,Operaciones PPC IPDC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1070,1070,Operaciones PPC IPDC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1071,1071,Operaciones PPC IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1072,1072,Operaciones PPC IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1073,1073,Operaciones PPC IPDC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1074,1074,Operaciones PPC IPDC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1075,1075,Operaciones PPC IPDC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+1076,1076,Operaciones PPC IPDC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1077,1077,Operaciones PPC IPDC,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+1078,1078,Operaciones PPC IPDC,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,Solicitud Facturacion FO
+1079,1079,Operaciones PPC IPDC,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,Facturacion FO
+1080,1080,Operaciones PPC IPDC,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No Factura Sourcing
+1081,1081,Operaciones PPC IPDC,Facturador_final,Facturador Final,Facturador Final,,,,,Facturador Final
+1082,1082,Operaciones PPC IPDC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1083,1083,Operaciones PPC IPDC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1084,1084,Operaciones PPC IPDC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1085,1085,Operaciones PPC IPDC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1086,1086,Operaciones PPC IPDC,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1087,1087,Operaciones PPC IPDC,Observaciones_Control,Observaciones Control,Observaciones Control,,,,,Observaciones Control
+1088,1088,Operaciones PPC IPDC,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Fecha Pago
+1089,1089,Operaciones PPC IPDC,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1090,1090,Gestion de Calidad - PPC IPDC,,Gestion de Calidad - PPC IPDC,Gestion de Calidad - PPC IPDC,,,,,Gestion de Calidad - PPC IPDC
+1091,1091,Gestion de Calidad - PPC IPDC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1092,1092,Gestion de Calidad - PPC IPDC,Producto,Producto,Producto,,,,,Producto
+1093,1093,Gestion de Calidad - PPC IPDC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+1094,1094,Gestion de Calidad - PPC IPDC,Volumen,Volumen,Volumen,,,,,Volumen
+1095,1095,Gestion de Calidad - PPC IPDC,Unidad,Unidad,Unidad,,,,,Unidad
+1096,1096,Gestion de Calidad - PPC IPDC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1097,1097,Gestion de Calidad - PPC IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+1098,1098,Gestion de Calidad - PPC IPDC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1099,1099,Gestion de Calidad - PPC IPDC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1100,1100,Gestion de Calidad - PPC IPDC,Origen,Origen,Origen,,,,,Origen
+1101,1101,Gestion de Calidad - PPC IPDC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1102,1102,Gestion de Calidad - PPC IPDC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1103,1103,Gestion de Calidad - PPC IPDC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1104,1104,Gestion de Calidad - PPC IPDC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+1105,1105,Gestion de Calidad - PPC IPDC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1106,1106,Gestion de Calidad - PPC IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1107,1107,Gestion de Calidad - PPC IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1108,1108,Gestion de Calidad - PPC IPDC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1109,1109,Gestion de Calidad - PPC IPDC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1110,1110,Gestion de Calidad - PPC IPDC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1111,1111,Pagos IPDC,,Pagos IPDC,Pagos IPDC,,,,,Pagos IPDC
+1112,1112,Pagos IPDC,Estado,Estado,Estado,,,,,Estado
+1113,1113,Pagos IPDC,Responsable,Responsable,Responsable,,,,,Responsable
+1114,1114,Pagos IPDC,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Cliente
+1115,1115,Pagos IPDC,Producto,Producto,Producto,,,,,Producto
+1116,1116,Pagos IPDC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1117,1117,Pagos IPDC,Termino_compra,Termino Compra,Termino Compra,,,,,Termino Compra
+1118,1118,Pagos IPDC,Valor_total_referencia,Valor Total Referencia,Valor Total Referencia,,,,,Valor Total Referencia
+1119,1119,Pagos IPDC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1120,1120,Pagos IPDC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1121,1121,Pagos IPDC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1122,1122,Pagos IPDC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1123,1123,Pagos IPDC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1124,1124,Pagos IPDC,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1125,1125,licitacion,,Licitacion,Licitacion,,,,,Licitacion
+1126,1126,licitacion,id_tender,ID TENDER,ID TENDER,,,,,ID TENDER
+1127,1127,licitacion,Fecha_cotizacion,Fecha de RecepciÃ³n de Cotizaciones,Fecha de RecepciÃ³n de Cotizaciones,,,,,Fecha de RecepciÃ³n de Cotizaciones
+1128,1128,licitacion,archivo,Archivo Adjunto,Archivo Adjunto,,,,,Archivo Adjunto
+1129,1129,licitacion,Fecha_registro,Fecha de registro,Fecha de registro,,,,,Fecha de registro
+1130,1130,licitacion,Usuario,Usuario,Usuario,,,,,Usuario
+1131,1131,licitacion,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1132,1132,tipo_sla,,Tipo Sla,Tipo Sla,,,,,Tipo Sla
+1133,1133,tipo_sla,id_tipo_sla,Id Tipo SLA,Id Tipo SLA,,,,,Id Tipo SLA
+1134,1134,tipo_sla,descripcion,Descripcion,Descripcion,,,,,Descripcion
+1135,1135,sla,,Sla,Sla,,,,,Sla
+1136,1136,sla,id_sla,Id SLA,Id SLA,,,,,Id SLA
+1137,1137,sla,id_tipo_sla,Tipo de SLA,Tipo de SLA,,,,,Tipo de SLA
+1138,1138,sla,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+1139,1139,sla,Formula,Formula,Formula,,,,,Formula
+1140,1140,sla,dias_sla,Dias SLA,Dias SLA,,,,,Dias SLA
+1141,1141,sla,fecha_vigente,Fecha de Vigencia,Fecha de Vigencia,,,,,Fecha de Vigencia
+1142,1142,sla,fecha_modificacion,Fecha de ModificaciÃ³n,Fecha de ModificaciÃ³n,,,,,Fecha de ModificaciÃ³n
+1143,1143,sla,Id_tipopsp,Acuerdo de Servicio,Acuerdo de Servicio,,,,,Acuerdo de Servicio
+1144,1144,sla,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1145,1145,SLA_Compra,,SLA Compra,SLA Compra,,,,,SLA Compra
+1146,1146,SLA_Compra,correlativo,Correlativo,Correlativo,,,,,Correlativo
+1147,1147,SLA_Compra,buque,Buque,Buque,,,,,Buque
+1148,1148,SLA_Compra,Fecha_compra,Fecha de ConfirmaciÃ³n de Compra,Fecha de ConfirmaciÃ³n de Compra,,,,,Fecha de ConfirmaciÃ³n de Compra
+1149,1149,SLA_Compra,Id_producto,Producto,Producto,,,,,Producto
+1150,1150,SLA_Compra,id_unidad,Unidad de Medida,Unidad de Medida,,,,,Unidad de Medida
+1151,1151,SLA_Compra,Cantidad,Cantidad,Cantidad,,,,,Cantidad
+1152,1152,SLA_Compra,Id_destino,Puerto de Descarga,Puerto de Descarga,,,,,Puerto de Descarga
+1153,1153,SLA_Compra,Costo_referencia,Costo de Referencia,Costo de Referencia,,,,,Costo de Referencia
+1154,1154,SLA_Compra,Precio_vista,Precio Sugerido a la Vista,Precio Sugerido a la Vista,,,,,Precio Sugerido a la Vista
+1155,1155,SLA_Compra,Fecha_pedido,Fecha de ConfirmaciÃ³n de Precio,Fecha de ConfirmaciÃ³n de Precio,,,,,Fecha de ConfirmaciÃ³n de Precio
+1156,1156,SLA_Compra,NC,NC,NC,,,,,NC
+1157,1157,SLA_Compra,Usuario_registro1,Usuario Registro1,Usuario Registro1,,,,,Usuario Registro1
+1158,1158,SLA_Compra,Fecha_registroC,Fecha Registro Compra,Fecha Registro Compra,,,,,Fecha Registro Compra
+1159,1159,SLA_Compra,Usuario_registro2,Usuario Registro2,Usuario Registro2,,,,,Usuario Registro2
+1160,1160,SLA_Compra,Fecha_registroP,Fecha Registro Precio,Fecha Registro Precio,,,,,Fecha Registro Precio
+1161,1161,SLA_Compra,SLA,SLA1 (Registro de la Compra),SLA1 (Registro de la Compra),,,,,SLA1 (Registro de la Compra)
+1162,1162,SLA_Compra,SLA2,SLA2 (Registro de CÃ³digo de Embarque),SLA2 (Registro de CÃ³digo de Embarque),,,,,SLA2 (Registro de CÃ³digo de Embarque)
+1163,1163,SLA_Licitacion,,SLA Licitacion,SLA Licitacion,,,,,SLA Licitacion
+1164,1164,SLA_Licitacion,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1165,1165,SLA_Licitacion,id_tender,ID TENDER,ID TENDER,,,,,ID TENDER
+1166,1166,SLA_Licitacion,Fecha_cotizacion,Fecha de RecepciÃ³n de Cotizaciones,Fecha de RecepciÃ³n de Cotizaciones,,,,,Fecha de RecepciÃ³n de Cotizaciones
+1167,1167,SLA_Licitacion,archivo,Archivo Adjunto,Archivo Adjunto,,,,,Archivo Adjunto
+1168,1168,SLA_Licitacion,Fecha_registro,Fecha de registro,Fecha de registro,,,,,Fecha de registro
+1169,1169,SLA_Licitacion,Usuario,Usuario,Usuario,,,,,Usuario
+1170,1170,SLA_Licitacion,SLA,SLA,SLA,,,,,SLA
+1171,1171,presentacion_final,,Presentacion Final,Presentacion Final,,,,,Presentacion Final
+1172,1172,presentacion_final,id_presentacion_final,Id Presentacion Final,Id Presentacion Final,,,,,Id Presentacion Final
+1173,1173,presentacion_final,descripcion,Descripcion,Descripcion,,,,,Descripcion
+1174,1174,presentacion_final,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1175,1175,tipo_pspsla,,Tipo Pspsla,Tipo Pspsla,,,,,Tipo Pspsla
+1176,1176,tipo_pspsla,id_tipopsp,Id Tipopsp,Id Tipopsp,,,,,Id Tipopsp
+1177,1177,tipo_pspsla,descripcion,Descripcion,Descripcion,,,,,Descripcion
+1178,1178,sla_psp,,Sla Psp,Sla Psp,,,,,Sla Psp
+1179,1179,sla_psp,id_slapsp,Id Slapsp,Id Slapsp,,,,,Id Slapsp
+1180,1180,sla_psp,Valor_modificacion,Valor de Modificacion,Valor de ModificaciÃ³n,,,,,Valor de Modificacion
+1181,1181,sla_psp,fecha_notificacion,Fecha de NotificaciÃ³n,Fecha de NotificaciÃ³n,,,,,Fecha de NotificaciÃ³n
+1182,1182,sla_psp,archivo,Correo,Correo,,,,,Correo
+1183,1183,sla_psp,usuario,Usuario,Usuario,,,,,Usuario
+1184,1184,sla_psp,fecha_registro,Fecha Registro ModificaciÃ³n,Fecha Registro ModificaciÃ³n,,,,,Fecha Registro ModificaciÃ³n
+1185,1185,sla_psp,id_tipopsp,Tipo de Cambio,Tipo de Cambio,,,,,Tipo de Cambio
+1186,1186,sla_psp,id_master,Id Master,Id Master,,,,,Id Master
+1187,1187,sla_psp,observaciones,Observaciones,Observaciones,,,,,Observaciones
+1188,1188,sla_psp,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1189,1189,SLA_PSP_Reporte,,SLA PSP Reporte,SLA PSP Reporte,,,,,SLA PSP Reporte
+1190,1190,SLA_PSP_Reporte,id_slapsp,ID,ID,,,,,ID
+1191,1191,SLA_PSP_Reporte,buque,Buque,Buque,,,,,Buque
+1192,1192,SLA_PSP_Reporte,Valor_modificacion,Valor de  Modificacion,Valor de ModificaciÃ³n,,,,,Valor de  Modificacion
+1193,1193,SLA_PSP_Reporte,fecha_notificacion,Fecha de NotificaciÃ³n,Fecha de NotificaciÃ³n,,,,,Fecha de NotificaciÃ³n
+1194,1194,SLA_PSP_Reporte,archivo,Correo,Correo,,,,,Correo
+1195,1195,SLA_PSP_Reporte,observaciones,Observaciones,Observaciones,,,,,Observaciones
+1196,1196,SLA_PSP_Reporte,usuario,Usuario,Usuario,,,,,Usuario
+1197,1197,SLA_PSP_Reporte,fecha_registro,Fecha Registro ModificaciÃ³n,Fecha Registro ModificaciÃ³n,,,,,Fecha Registro ModificaciÃ³n
+1198,1198,SLA_PSP_Reporte,id_tipopsp,Tipo de Cambio,Tipo de Cambio,,,,,Tipo de Cambio
+1199,1199,SLA_PSP_Reporte,SLA,SLA,SLA,,,,,SLA
+1200,1200,SLA_PSP_Reporte,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1201,1201,SLA_PSP_Reporte,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1202,1202,pais_puerto,,Pais Puerto,Pais Puerto,,,,,Pais Puerto
+1203,1203,pais_puerto,id_grupo,Grupo,Grupo,,,,,Grupo
+1204,1204,pais_puerto,id_pais,Pais,Pais,,,,,Pais
+1205,1205,pais_puerto,id_puerto,Puerto,Puerto,,,,,Puerto
+1206,1206,pais_puerto,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1207,1207,Promedio Compra,,Promedio Compra,Promedio Compra,,,,,Promedio Compra
+1208,1208,Promedio Compra,Registro,Acuerdo de Servicio,Acuerdo de Servicio,,,,,Acuerdo de Servicio
+1209,1209,Promedio Compra,Fecha,Fecha,Fecha,,,,,Fecha
+1210,1210,Promedio Compra,Producto,Producto,Producto,,,,,Producto
+1211,1211,Promedio Compra,Pais,Pais,Pais,,,,,Pais
+1212,1212,Promedio Compra,Puerto,SLA de Puerto,SLA de Puerto,,,,,SLA de Puerto
+1213,1213,Promedio Compra,Usuario,SLA de Usuario,SLA de Usuario,,,,,SLA de Usuario
+1214,1214,Promedio Compra,Fecha_Registro,Fecha Registro,Fecha Registro,,,,,Fecha Registro
+1215,1215,Promedio Compra,SLA,SLA,SLA,,,,,SLA
+1216,1216,Promedio Compra,Dias_Promedio,Dias Promedio,Dias Promedio,,,,,Dias Promedio
+1217,1217,Promedio Licitacion,,Promedio Licitacion,Promedio Licitacion,,,,,Promedio Licitacion
+1218,1218,Promedio Licitacion,id_tender,Id Tender,Id Tender,,,,,Id Tender
+1219,1219,Promedio Licitacion,Fecha_cotizacion,Fecha Cotizacion,Fecha Cotizacion,,,,,Fecha Cotizacion
+1220,1220,Promedio Licitacion,Fecha_registro,Fecha Registro,Fecha Registro,,,,,Fecha Registro
+1221,1221,Promedio Licitacion,Usuario,Usuario,Usuario,,,,,Usuario
+1222,1222,Promedio Licitacion,SLA,SLA,SLA,,,,,SLA
+1223,1223,Promedio Licitacion,Dias_Promedio,Dias Promedio,Dias Promedio,,,,,Dias Promedio
+1224,1224,Promedio PSP Graneles,,Average PSP Graneles,Promedio PSP Graneles,,,,,Average PSP Graneles
+1225,1225,Promedio PSP Graneles,Valor_modificacion,Valor de Modificacion,Valor de Modificacion,,,,,Valor de Modificacion
+1226,1226,Promedio PSP Graneles,fecha_notificacion,Notifcation Date,Fecha de Notificacion,,,,,Notifcation Date
+1227,1227,Promedio PSP Graneles,usuario,User,Usuario,,,,,User
+1228,1228,Promedio PSP Graneles,fecha_registro,Register Date,Fecha de Registro,,,,,Register Date
+1229,1229,Promedio PSP Graneles,id_tipopsp,SLA description,Acuerdo de Servicio,,,,,SLA description
+1230,1230,Promedio PSP Graneles,SLA,SLA,SLA,,,,,SLA
+1231,1231,Promedio PSP Graneles,Dias_promedio,Average Days,Dias Promedio,,,,,Average Days
+1232,1232,compra,,Compra,Compra,,,,,Compra
+1233,1233,compra,id_compra,Id Compra,Id Compra,,,,,Id Compra
+1234,1234,compra,Fecha_compra,Fecha de confirmacion de Compra,Fecha de confirmacion de Compra,,,,,Fecha de confirmacion de Compra
+1235,1235,compra,Id_producto,Producto,Producto,,,,,Producto
+1236,1236,compra,id_unidad,Unidad de Medida,Unidad de Medida,,,,,Unidad de Medida
+1237,1237,compra,Cantidad,Cantidad,Cantidad,,,,,Cantidad
+1238,1238,compra,Id_destino,Puerto Descarga,Puerto Descarga,,,,,Puerto Descarga
+1239,1239,compra,Costo_referencia,Costo Referencia CFR,Costo Referencia CFR,,,,,Costo Referencia CFR
+1240,1240,compra,Precio_vista,Precio Sugerido a la Vista,Precio Sugerido a la Vista,,,,,Precio Sugerido a la Vista
+1241,1241,compra,Fecha_pedido,Fecha de confirmaciÃ³n de Precio,Fecha de confirmaciÃ³n de Precio,,,,,Fecha de confirmaciÃ³n de Precio
+1242,1242,compra,NC,NC,NC,,,,,NC
+1243,1243,compra,Usuario_registro1,Usuario Registro1,Usuario Registro1,,,,,Usuario Registro1
+1244,1244,compra,Fecha_registroC,Fecha RegistroC,Fecha RegistroC,,,,,Fecha RegistroC
+1245,1245,compra,Usuario_registro2,Usuario Registro2,Usuario Registro2,,,,,Usuario Registro2
+1246,1246,compra,Fecha_registroP,Fecha RegistroP,Fecha RegistroP,,,,,Fecha RegistroP
+1247,1247,compra,buque,Buque,Buque,,,,,Buque
+1248,1248,compra,correlativo,Correlativo,Correlativo,,,,,Correlativo
+1249,1249,compra,archivo,Comprobante de Compra,Comprobante de Compra,,,,,Comprobante de Compra
+1250,1250,compra,Obs_Costo,Obs Costo,Obs Costo,,,,,Obs Costo
+1251,1251,compra,Obs_Precio,Obs Precio,Obs Precio,,,,,Obs Precio
+1252,1252,sla_psp_no_modificar,,Sla Psp No Modificar,Sla Psp No Modificar,,,,,Sla Psp No Modificar
+1253,1253,sla_psp_no_modificar,id_slapsp,Id Slapsp,Id Slapsp,,,,,Id Slapsp
+1254,1254,sla_psp_no_modificar,Valor_modificacion,Valor de  Modificacion,Valor de ModificaciÃ³n,,,,,Valor de  Modificacion
+1255,1255,sla_psp_no_modificar,fecha_notificacion,Fecha de NotificaciÃ³n,Fecha de NotificaciÃ³n,,,,,Fecha de NotificaciÃ³n
+1256,1256,sla_psp_no_modificar,archivo,Correo,Correo,,,,,Correo
+1257,1257,sla_psp_no_modificar,usuario,Usuario,Usuario,,,,,Usuario
+1258,1258,sla_psp_no_modificar,fecha_registro,Fecha Registro ModificaciÃ³n,Fecha Registro ModificaciÃ³n,,,,,Fecha Registro ModificaciÃ³n
+1259,1259,sla_psp_no_modificar,id_tipopsp,Tipo de Cambio,Tipo de Cambio,,,,,Tipo de Cambio
+1260,1260,sla_psp_no_modificar,id_master,Id Master,Id Master,,,,,Id Master
+1261,1261,sla_psp_no_modificar,observaciones,Observaciones,Observaciones,,,,,Observaciones
+1262,1262,sla_psp_no_modificar,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1263,1263,ADC,,ADC,ADC,,,,,ADC
+1264,1264,ADC,Id_pedido,Id Pedido,Id Pedido,,,,,Id Pedido
+1265,1265,ADC,Empresa,Consignatario,Consignatario,,,,,Consignatario
+1266,1266,ADC,Fecha_de_Solicitud,Fecha de solicitud,Fecha de solicitud,,,,,Fecha de solicitud
+1267,1267,ADC,Id_tipo_prod,Tipo de producto,Tipo de producto,,,,,Tipo de producto
+1268,1268,ADC,No_orden_compra_cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+1269,1269,ADC,No_oc_cliente,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1270,1270,ADC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+1271,1271,ADC,Responsable,Responsable,Responsable,,,,,Responsable
+1272,1272,ADC,Estado_general_OC,Estado General OC,Estado General OC,,,,,Estado General OC
+1273,1273,ADC,No_Cotizacion,No. CotizaciÃ³n,No. CotizaciÃ³n,,,,,No. CotizaciÃ³n
+1274,1274,Toma pedido ADC,,Toma pedido ADC,Toma pedido ADC,,,,,Toma pedido ADC
+1275,1275,Toma pedido ADC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+1276,1276,Toma pedido ADC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+1277,1277,Toma pedido ADC,Producto,Producto,Producto,,,,,Producto
+1278,1278,Toma pedido ADC,Cantidad,Volumen,Volumen,,,,,Volumen
+1279,1279,Toma pedido ADC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1280,1280,Toma pedido ADC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+1281,1281,Toma pedido ADC,Registro,Registro,Registro,,,,,Registro
+1282,1282,Toma pedido ADC,Unidad,Unidad,Unidad,,,,,Unidad
+1283,1283,Toma pedido ADC,Puerto_descarga,Puerto de descarga,Puerto de descarga,,,,,Puerto de descarga
+1284,1284,Toma pedido ADC,Pais_descarga,Pais de descarga,Pais de descarga,,,,,Pais de descarga
+1285,1285,Toma pedido ADC,Producto_abreviado,Producto Abreviado,Producto Abreviado,,,,,Producto Abreviado
+1286,1286,Toma pedido ADC,MaterialSAP,Material SAP,Material SAP,,,,,Material SAP
+1287,1287,Toma pedido ADC,No_oc_cliente,No. OC Sourcing,No. OC Sourcing,,,,,No. OC Sourcing
+1288,1288,Toma pedido ADC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1289,1289,Toma pedido ADC,Unidades,Unidades,Unidades,,,,,Unidades
+1290,1290,Toma pedido ADC,Categoria,Categoria,Categoria,,,,,Categoria
+1291,1291,Toma pedido ADC,Laycan,Laycan,Laycan,,,,,Laycan
+1292,1292,Toma pedido ADC,Validacion_quilubrisa,Validacion Quilubrisa,Validacion Quilubrisa,,,,,Validacion Quilubrisa
+1293,1293,Toma pedido ADC,id_presentacion_final,Id Presentacion Final,Id Presentacion Final,,,,,Id Presentacion Final
+1294,1294,Toma pedido ADC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1295,1295,Toma pedido ADC,id_destino_final,Destino Final,Destino Final,,,,,Destino Final
+1296,1296,Toma pedido ADC,id_producto_cliente,Codigo Producto Cliente,Codigo Producto Cliente,,,,,Codigo Producto Cliente
+1297,1297,Toma pedido ADC,id_tipo_transporte,Tipo de Transporte,Tipo de Transporte,,,,,Tipo de Transporte
+1298,1298,Toma pedido ADC,dias_libres,Dias Libres de demora,Dias Libres de demora,,,,,Dias Libres de demora
+1299,1299,Toma pedido ADC,gastos_internacion,Gastos InternaciÃ³n,Gastos InternaciÃ³n,,,,,Gastos InternaciÃ³n
+1300,1300,Seguimiento ADC,,Seguimiento ADC,Seguimiento ADC,,,,,Seguimiento ADC
+1301,1301,Seguimiento ADC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+1302,1302,Seguimiento ADC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+1303,1303,Seguimiento ADC,No_camion,No Camion,No Camion,,,,,No Camion
+1304,1304,Seguimiento ADC,Fecha_estimada_disponibilidad_pedido,Fecha Estimada Disponibilidad Pedido,Fecha Estimada Disponibilidad Pedido,,,,,Fecha Estimada Disponibilidad Pedido
+1305,1305,Seguimiento ADC,Fecha_envio_documento_tramite_permiso,Fecha Envio Documento Tramite Permiso,Fecha Envio Documento Tramite Permiso,,,,,Fecha Envio Documento Tramite Permiso
+1306,1306,Seguimiento ADC,Fecha_envio_documento_definitivo,Fecha Envio Documento Definitivo,Fecha Envio Documento Definitivo,,,,,Fecha Envio Documento Definitivo
+1307,1307,Seguimiento ADC,Fecha_real_disponibilidad_pedido,Fecha Real Disponibilidad Pedido,Fecha Real Disponibilidad Pedido,,,,,Fecha Real Disponibilidad Pedido
+1308,1308,Seguimiento ADC,Fecha_arribo_camion_frontera,Fecha Arribo Camion Frontera,Fecha Arribo Camion Frontera,,,,,Fecha Arribo Camion Frontera
+1309,1309,Seguimiento ADC,Fecha_arribo_camion_destino,Fecha Arribo Camion Destino,Fecha Arribo Camion Destino,,,,,Fecha Arribo Camion Destino
+1310,1310,Seguimiento ADC,Fecha_bl,Fecha Bl,Fecha Bl,,,,,Fecha Bl
+1311,1311,Seguimiento ADC,Flete,Flete,Flete,,,,,Flete
+1312,1312,Seguimiento ADC,Precio_TM,Precio Venta TM,Precio Venta TM,,,,,Precio Venta TM
+1313,1313,Seguimiento ADC,Valor_total,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1314,1314,Seguimiento ADC,No_factura,No Factura,No Factura,,,,,No Factura
+1315,1315,Seguimiento ADC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1316,1316,Seguimiento ADC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1317,1317,Seguimiento ADC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1318,1318,Seguimiento ADC,Docto_digital_enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+1319,1319,Seguimiento ADC,Docto_original_enviado,Docto Original Enviado,Docto Original Enviado,,,,,Docto Original Enviado
+1320,1320,Seguimiento ADC,Pais_origen,Pais Origen,Pais Origen,,,,,Pais Origen
+1321,1321,Seguimiento ADC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1322,1322,Seguimiento ADC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1323,1323,Seguimiento ADC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1324,1324,Seguimiento ADC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1325,1325,Seguimiento ADC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1326,1326,Seguimiento ADC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1327,1327,Seguimiento ADC,Fecha_confirmacion_cliente_despacho_camion,Fecha Confirmacion Cliente Despacho Camion,Fecha Confirmacion Cliente Despacho Camion,,,,,Fecha Confirmacion Cliente Despacho Camion
+1328,1328,Seguimiento ADC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+1329,1329,Seguimiento ADC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1330,1330,Seguimiento ADC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1331,1331,Seguimiento ADC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1332,1332,Seguimiento ADC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1333,1333,Seguimiento ADC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1334,1334,Seguimiento ADC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1335,1335,Seguimiento ADC,termino_venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1336,1336,Seguimiento ADC,Fecha_cargo_mercaderia_camion,Fecha Cargo Mercaderia Camion,Fecha Cargo Mercaderia Camion,,,,,Fecha Cargo Mercaderia Camion
+1337,1337,Seguimiento ADC,Id_estado,Estado,Estado,,,,,Estado
+1338,1338,Seguimiento ADC,No_lotes,No Lotes,No Lotes,,,,,No Lotes
+1339,1339,Seguimiento ADC,Fecha_real_despacho_camion,Fecha Real Despacho Camion,Fecha Real Despacho Camion,,,,,Fecha Real Despacho Camion
+1340,1340,Seguimiento ADC,Responsable,Responsable,Responsable,,,,,Responsable
+1341,1341,Seguimiento ADC,No_lista_empaque,No Lista Empaque,No Lista Empaque,,,,,No Lista Empaque
+1342,1342,Seguimiento ADC,Eta_puerto_carga,Eta Puerto Carga,Eta Puerto Carga,,,,,Eta Puerto Carga
+1343,1343,Seguimiento ADC,Fecha_zarpe_estimada,Fecha Zarpe Estimada,Fecha Zarpe Estimada,,,,,Fecha Zarpe Estimada
+1344,1344,Seguimiento ADC,Plazo_venta,Plazo Venta,Plazo Venta,,,,,Plazo Venta
+1345,1345,Seguimiento ADC,Eta_puerto_descarga,Eta Puerto Descarga,Eta Puerto Descarga,,,,,Eta Puerto Descarga
+1346,1346,Seguimiento ADC,Etb_puerto_descarga,Etb Puerto Descarga,Etb Puerto Descarga,,,,,Etb Puerto Descarga
+1347,1347,Seguimiento ADC,Fecha_factura,Fecha Factura,Fecha Factura,,,,,Fecha Factura
+1348,1348,Seguimiento ADC,ref_lista_precio,Ref Lista Precio,Ref Lista Precio,,,,,Ref Lista Precio
+1349,1349,Seguimiento ADC,Docto_digital_fecha,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+1350,1350,Seguimiento ADC,Docto_original_fecha,RecepciÃ³n originales UO,RecepciÃ³n originales UO,,,,,RecepciÃ³n originales UO
+1351,1351,Seguimiento ADC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+1352,1352,Seguimiento ADC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1353,1353,Seguimiento ADC,Tipo_Transito,Tipo de Transito,Tipo de Transito,,,,,Tipo de Transito
+1354,1354,Seguimiento ADC,EmpresaL,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1355,1355,Seguimiento ADC,necesita_proforma,Necesita Proforma,Necesita Proforma,,,,,Necesita Proforma
+1356,1356,Seguimiento ADC,cumple_digitales,Cumple Digitales,Cumple Digitales,,,,,Cumple Digitales
+1357,1357,Seguimiento ADC,cumple_fisico,Cumple Fisico,Cumple Fisico,,,,,Cumple Fisico
+1358,1358,Control ADC,,Control ADC,Control ADC,,,,,Control ADC
+1359,1359,Control ADC,PEDIDO,PEDIDO,PEDIDO,,,,,PEDIDO
+1360,1360,Control ADC,Id_detalle_pedido,Id Detalle Pedido,Id Detalle Pedido,,,,,Id Detalle Pedido
+1361,1361,Control ADC,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1362,1362,Control ADC,Correlativo_lote,Correlativo Lote,Correlativo Lote,,,,,Correlativo Lote
+1363,1363,Control ADC,Fecha_inicio_descarga,Fecha Inicio Descarga,Fecha Inicio Descarga,,,,,Fecha Inicio Descarga
+1364,1364,Control ADC,Fecha_fin_descarga,Fecha Fin Descarga,Fecha Fin Descarga,,,,,Fecha Fin Descarga
+1365,1365,Control ADC,Recibido,Recibido,Recibido,,,,,Recibido
+1366,1366,Control ADC,Faltante,Faltante,Faltante,,,,,Faltante
+1367,1367,Control ADC,Sobrante,Sobrante,Sobrante,,,,,Sobrante
+1368,1368,Control ADC,Precio_compra,Precio Compra,Precio Compra,,,,,Precio Compra
+1369,1369,Control ADC,Plazo,Plazo,Plazo,,,,,Plazo
+1370,1370,Control ADC,Broker,Broker,Broker,,,,,Broker
+1371,1371,Control ADC,Region,Region,Region,,,,,Region
+1372,1372,Control ADC,Vende,Vende,Vende,,,,,Vende
+1373,1373,Control ADC,Volumen_compra,Volumen Compra,Volumen Compra,,,,,Volumen Compra
+1374,1374,Control ADC,Id_precio,Id Precio,Id Precio,,,,,Id Precio
+1375,1375,Control ADC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+1376,1376,Control ADC,OC_firma,OC recepciion FO,OC recepciÃ³n FO,,,,,OC recepciion FO
+1377,1377,Control ADC,OC_enviada,OC envio FO,OC envÃ­o FO,,,,,OC envio FO
+1378,1378,Control ADC,OC_recibida,OC firma Proveedor,OC firma Proveedor,,,,,OC firma Proveedor
+1379,1379,Control ADC,Dias_OC,Dias OC,Dias OC,,,,,Dias OC
+1380,1380,Control ADC,Empresa_logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1381,1381,Control ADC,Marca_nombre_comercial,Marca Nombre Comercial,Marca Nombre Comercial,,,,,Marca Nombre Comercial
+1382,1382,Control ADC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+1383,1383,Control ADC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1384,1384,Control ADC,Termino_compra,Termino Compra,Termino Compra,,,,,Termino Compra
+1385,1385,Control ADC,Precio_referencia,Precio Compra,Precio Compra,,,,,Precio Compra
+1386,1386,Control ADC,Valor_total_referencia,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+1387,1387,Control ADC,Facturado,Facturado,Facturado,,,,,Facturado
+1388,1388,Control ADC,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+1389,1389,Control ADC,Dias_disponibilidad_planta,Dias Disponibilidad Planta,Dias Disponibilidad Planta,,,,,Dias Disponibilidad Planta
+1390,1390,Control ADC,Dias_despacho_planta,Dias Despacho Planta,Dias Despacho Planta,,,,,Dias Despacho Planta
+1391,1391,Control ADC,Facturador_final,Facturador Final,Facturador Final,,,,,Facturador Final
+1392,1392,Control ADC,Fecha_pago,Fecha Pago,Fecha Pago,,,,,Fecha Pago
+1393,1393,Control ADC,Categoria,Categoria,Categoria,,,,,Categoria
+1394,1394,Control ADC,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No Factura Sourcing
+1395,1395,Control ADC,Docto_digital_recibido,Docto Digital Recibido,Docto Digital Recibido,,,,,Docto Digital Recibido
+1396,1396,Control ADC,Docto_original_recibido,Docto Original Recibido,Docto Original Recibido,,,,,Docto Original Recibido
+1397,1397,Control ADC,Cantidad_facturada,Cantidad Facturada,Cantidad Facturada,,,,,Cantidad Facturada
+1398,1398,Control ADC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1399,1399,Control ADC,No_factura,No Factura,No Factura,,,,,No Factura
+1400,1400,Control ADC,Incoterm,Incoterm,Incoterm,,,,,Incoterm
+1401,1401,Control ADC,Fecha_recepcion_lista_empaque,Fecha Recepcion Lista Empaque,Fecha Recepcion Lista Empaque,,,,,Fecha Recepcion Lista Empaque
+1402,1402,Control ADC,Fecha_respuesta_planificacion,Fecha Respuesta Planificacion,Fecha Respuesta Planificacion,,,,,Fecha Respuesta Planificacion
+1403,1403,Control ADC,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+1404,1404,Control ADC,Gestores,Gestores,Gestores,,,,,Gestores
+1405,1405,Control ADC,Notifica_embarque,Notifica Embarque,Notifica Embarque,,,,,Notifica Embarque
+1406,1406,Control ADC,Confirma_compra,Confirma Compra,Confirma Compra,,,,,Confirma Compra
+1407,1407,Control ADC,Id_estado,Estado,Estado,,,,,Estado
+1408,1408,Control ADC,id_presentacion_final,Presentacion Final,Presentacion Final,,,,,Presentacion Final
+1409,1409,Control ADC,Solicitud_facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,Solicitud Facturacion FO
+1410,1410,Control ADC,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,Facturacion FO
+1411,1411,Control ADC,Proforma_proveedor,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Proveedor
+1412,1412,Control ADC,flete_compra,Flete Compra,Flete Compra,,,,,Flete Compra
+1413,1413,destino_final,,Destino Final,Destino Final,,,,,Destino Final
+1414,1414,destino_final,id_destino_final,Id Destino Final,Id Destino Final,,,,,Id Destino Final
+1415,1415,destino_final,Destino_final,Destino Final,Destino Final,,,,,Destino Final
+1416,1416,empresa_logistica,,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1417,1417,empresa_logistica,id_empresa_logistica,Id Empresa Logistica,Id Empresa Logistica,,,,,Id Empresa Logistica
+1418,1418,empresa_logistica,Empresa_Logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1419,1419,empresa_logistica,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1420,1420,Operaciones ADC,,Operaciones ADC,Operaciones ADC,,,,,Operaciones ADC
+1421,1421,Operaciones ADC,Estado,Estado,Estado,,,,,Estado
+1422,1422,Operaciones ADC,Ano_compra,Ano Compra,Ano Compra,,,,,Ano Compra
+1423,1423,Operaciones ADC,Mes_compra,Mes Compra,Mes Compra,,,,,Mes Compra
+1424,1424,Operaciones ADC,Responsable,Responsable,Responsable,,,,,Responsable
+1425,1425,Operaciones ADC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1426,1426,Operaciones ADC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1427,1427,Operaciones ADC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1428,1428,Operaciones ADC,TM_Contenedor,TM Contenedor,TM Contenedor,,,,,TM Contenedor
+1429,1429,Operaciones ADC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1430,1430,Operaciones ADC,Proforma,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Proveedor
+1431,1431,Operaciones ADC,Cotizacion,No. Cotizacion,No. Cotizacion,,,,,No. Cotizacion
+1432,1432,Operaciones ADC,No_OC_Cliente,No Oc Cliente,No Oc Cliente,,,,,No Oc Cliente
+1433,1433,Operaciones ADC,Lote,Lote,Lote,,,,,Lote
+1434,1434,Operaciones ADC,Material_SAP,Material SAP,Material SAP,,,,,Material SAP
+1435,1435,Operaciones ADC,Fecha_emision_OC,Fecha Emision OC,Fecha Emision OC,,,,,Fecha Emision OC
+1436,1436,Operaciones ADC,OC_Firma_Proveedor,OC Firma Proveedor,OC Firma Proveedor,,,,,OC Firma Proveedor
+1437,1437,Operaciones ADC,OC_Envio_FO,OC Envio FO,OC Envio FO,,,,,OC Envio FO
+1438,1438,Operaciones ADC,OC_Recepcion_FO,OC Recepcion FO,OC Recepcion FO,,,,,OC Recepcion FO
+1439,1439,Operaciones ADC,Dias_OC,Dias OC,Dias OC,,,,,Dias OC
+1440,1440,Operaciones ADC,Categoria,Categoria,Categoria,,,,,Categoria
+1441,1441,Operaciones ADC,Producto,Producto,Producto,,,,,Producto
+1442,1442,Operaciones ADC,Codigo_Producto_Cliente,Codigo Producto Cliente,Codigo Producto Cliente,,,,,Codigo Producto Cliente
+1443,1443,Operaciones ADC,Volumen,Volumen,Volumen,,,,,Volumen
+1444,1444,Operaciones ADC,Unidad,Unidad,Unidad,,,,,Unidad
+1445,1445,Operaciones ADC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1446,1446,Operaciones ADC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1447,1447,Operaciones ADC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1448,1448,Operaciones ADC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1449,1449,Operaciones ADC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1450,1450,Operaciones ADC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1451,1451,Operaciones ADC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1452,1452,Operaciones ADC,Tiempo_entrega,Tiempo Entrega,Tiempo Entrega,,,,,Tiempo Entrega
+1453,1453,Operaciones ADC,Tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1454,1454,Operaciones ADC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1455,1455,Operaciones ADC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1456,1456,Operaciones ADC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+1457,1457,Operaciones ADC,Origen,Origen,Origen,,,,,Origen
+1458,1458,Operaciones ADC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1459,1459,Operaciones ADC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1460,1460,Operaciones ADC,Empresa_Logistica,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1461,1461,Operaciones ADC,Precio_Compra,Precio Compra,Precio Compra,,,,,Precio Compra
+1462,1462,Operaciones ADC,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+1463,1463,Operaciones ADC,Termino_Compra,Termino Compra,Termino Compra,,,,,Termino Compra
+1464,1464,Operaciones ADC,DestinoF,Destino Final,Destino Final,,,,,Destino Final
+1465,1465,Operaciones ADC,Valor_total_Compra,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+1466,1466,Operaciones ADC,Observaciones_Pedido,Observaciones Pedido,Observaciones Pedido,,,,,Observaciones Pedido
+1467,1467,Operaciones ADC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1468,1468,Operaciones ADC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1469,1469,Operaciones ADC,Termino_Venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1470,1470,Operaciones ADC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1471,1471,Operaciones ADC,Observaciones_Control,Observaciones Control,Observaciones Control,,,,,Observaciones Control
+1472,1472,Operaciones ADC,Documento_Digital_Recibido,Documento Digital Recibido,Documento Digital Recibido,,,,,Documento Digital Recibido
+1473,1473,Operaciones ADC,Documento_Original_Recibido,Documento Original Recibido,Documento Original Recibido,,,,,Documento Original Recibido
+1474,1474,Operaciones ADC,Docto_Digital_Enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+1475,1475,Operaciones ADC,Docto_Original_Enviado,Docto Original Enviado,Docto Original Enviado,,,,,Docto Original Enviado
+1476,1476,Operaciones ADC,Solicitud_Facturacion_FO,Solicitud Facturacion FO,Solicitud Facturacion FO,,,,,Solicitud Facturacion FO
+1477,1477,Operaciones ADC,Facturacion_FO,Facturacion FO,Facturacion FO,,,,,Facturacion FO
+1478,1478,Operaciones ADC,No_factura_sourcing,No Factura Sourcing,No Factura Sourcing,,,,,No Factura Sourcing
+1479,1479,Operaciones ADC,Facturador_final,Facturador Final,Facturador Final,,,,,Facturador Final
+1480,1480,Operaciones ADC,No_factura_trading,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1481,1481,Operaciones ADC,Observaciones_Seguimiento,Observaciones Seguimiento,Observaciones Seguimiento,,,,,Observaciones Seguimiento
+1482,1482,Operaciones ADC,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1483,1483,Operaciones ADC,Gasto,Gastos InternaciÃ³n,Gastos InternaciÃ³n,,,,,Gastos InternaciÃ³n
+1484,1484,Cliente ADC,,Cliente ADC,Cliente ADC,,,,,Cliente ADC
+1485,1485,Cliente ADC,Responsable,Responsable,Responsable,,,,,Responsable
+1486,1486,Cliente ADC,No_OC_Cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+1487,1487,Cliente ADC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1488,1488,Cliente ADC,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Cotizacion
+1489,1489,Cliente ADC,Categoria,Categoria,Categoria,,,,,Categoria
+1490,1490,Cliente ADC,Producto,Producto,Producto,,,,,Producto
+1491,1491,Cliente ADC,Codigo_Producto_Cliente,Codigo Producto Cliente,Codigo Producto Cliente,,,,,Codigo Producto Cliente
+1492,1492,Cliente ADC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1493,1493,Cliente ADC,Volumen,Volumen,Volumen,,,,,Volumen
+1494,1494,Cliente ADC,Unidad,Unidad,Unidad,,,,,Unidad
+1495,1495,Cliente ADC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1496,1496,Cliente ADC,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1497,1497,Cliente ADC,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1498,1498,Cliente ADC,DestinoF,Destino Final,Destino Final,,,,,Destino Final
+1499,1499,Cliente ADC,EmpresaL,Empresa Logistica,Empresa Logistica,,,,,Empresa Logistica
+1500,1500,Cliente ADC,Origen,Origen,Origen,,,,,Origen
+1501,1501,Cliente ADC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1502,1502,Cliente ADC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1503,1503,Cliente ADC,Pais_destino,Pais Destino,Pais Destino,,,,,Pais Destino
+1504,1504,Cliente ADC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1505,1505,Cliente ADC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1506,1506,Cliente ADC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1507,1507,Cliente ADC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1508,1508,Cliente ADC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1509,1509,Cliente ADC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1510,1510,Cliente ADC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1511,1511,Cliente ADC,No_Factura_Trad,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1512,1512,Cliente ADC,Docto_Digital_Enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+1513,1513,Cliente ADC,Recepcion_originales_UO,Recepcion Originales UO,Recepcion Originales UO,,,,,Recepcion Originales UO
+1514,1514,Cliente ADC,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1515,1515,Cliente ADC,No_Embarque,No Embarque,No Embarque,,,,,No Embarque
+1516,1516,Cliente ADC,Presentacion,Presentacion,Presentacion,,,,,Presentacion
+1517,1517,Cliente ADC,Termino,Termino de Venta,Termino de Venta,,,,,Termino de Venta
+1518,1518,Cliente ADC,Valor_total_venta,Valor Total Venta,Valor Total Venta,,,,,Valor Total Venta
+1519,1519,Cliente ADC,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1520,1520,lst_presentacion,,Lst Presentacion,Lst Presentacion,,,,,Lst Presentacion
+1521,1521,lst_presentacion,Id_presentacion,Id Presentacion,Id Presentacion,,,,,Id Presentacion
+1522,1522,lst_presentacion,Id_producto,Id Producto,Id Producto,,,,,Id Producto
+1523,1523,lst_presentacion,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+1524,1524,producto_cliente,,Producto Cliente,Producto Cliente,,,,,Producto Cliente
+1525,1525,producto_cliente,id_producto_cliente,Id Producto Cliente,Id Producto Cliente,,,,,Id Producto Cliente
+1526,1526,producto_cliente,Codigo_Producto,Codigo Producto,Codigo Producto,,,,,Codigo Producto
+1527,1527,producto_cliente,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1528,1528,producto_cliente,id_producto,Producto,Producto,,,,,Producto
+1529,1529,termino_venta,,Termino Venta,Termino Venta,,,,,Termino Venta
+1530,1530,termino_venta,id_termino_venta,Id Termino Venta,Id Termino Venta,,,,,Id Termino Venta
+1531,1531,termino_venta,Termino_Venta,Termino Venta,Termino Venta,,,,,Termino Venta
+1532,1532,termino_venta,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1533,1533,termino_venta,tipo_termino,Tipo Termino,Tipo Termino,,,,,Tipo Termino
+1534,1534,tipo_termino,,Tipo Termino,Tipo Termino,,,,,Tipo Termino
+1535,1535,tipo_termino,id_tipo_termino,Id Tipo Termino,Id Tipo Termino,,,,,Id Tipo Termino
+1536,1536,tipo_termino,Tipo_Termino,Tipo Termino,Tipo Termino,,,,,Tipo Termino
+1537,1537,lst_presentacion1,,Lst Presentacion1,Lst Presentacion1,,,,,Lst Presentacion1
+1538,1538,lst_presentacion1,Id_presentacion,Id Presentacion,Id Presentacion,,,,,Id Presentacion
+1539,1539,lst_presentacion1,Id_producto,Id Producto,Id Producto,,,,,Id Producto
+1540,1540,lst_presentacion1,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+1541,1541,tipo_transito,,Tipo Transito,Tipo Transito,,,,,Tipo Transito
+1542,1542,tipo_transito,id_tipo_transito,Id Tipo Transito,Id Tipo Transito,,,,,Id Tipo Transito
+1543,1543,tipo_transito,id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1544,1544,tipo_transito,id_tiempo_transito,Tiempo de Transito,Tiempo de Transito,,,,,Tiempo de Transito
+1545,1545,tipo_transito,desde_dias,Desde Dias,Desde Dias,,,,,Desde Dias
+1546,1546,tipo_transito,hasta_dias,Hasta Dias,Hasta Dias,,,,,Hasta Dias
+1547,1547,tipo_transporte,,Tipo Transporte,Tipo Transporte,,,,,Tipo Transporte
+1548,1548,tipo_transporte,id_tipo_transporte,Id Tipo Transporte,Id Tipo Transporte,,,,,Id Tipo Transporte
+1549,1549,tipo_transporte,Tipo_Transporte,Tipo Transporte,Tipo Transporte,,,,,Tipo Transporte
+1550,1550,tiempo_transito,,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1551,1551,tiempo_transito,id_tiempo_transito,Id Tiempo Transito,Id Tiempo Transito,,,,,Id Tiempo Transito
+1552,1552,tiempo_transito,tiempo_transito,Tiempo Transito,Tiempo Transito,,,,,Tiempo Transito
+1553,1553,prod_cliente,,Prod Cliente,Prod Cliente,,,,,Prod Cliente
+1554,1554,prod_cliente,id_producto_cliente,Id Producto Cliente,Id Producto Cliente,,,,,Id Producto Cliente
+1555,1555,prod_cliente,id_producto,Id Producto,Id Producto,,,,,Id Producto
+1556,1556,prod_cliente,descripcion,Descripcion,Descripcion,,,,,Descripcion
+1557,1557,Resumen Operaciones ADC,,Resumen Operaciones ADC,Resumen Operaciones ADC,,,,,Resumen Operaciones ADC
+1558,1558,Resumen Operaciones ADC,Estado,Estado,Estado,,,,,Estado
+1559,1559,Resumen Operaciones ADC,Ano_compra,Año Compra,AÃ±o Compra,,,,,Año Compra
+1560,1560,Resumen Operaciones ADC,Mes_compra,Mes Compra,Mes Compra,,,,,Mes Compra
+1561,1561,Resumen Operaciones ADC,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1562,1562,Resumen Operaciones ADC,Proforma,Proforma Proveedor,Proforma Proveedor,,,,,Proforma Proveedor
+1563,1563,Resumen Operaciones ADC,No_embarque,No Embarque,No Embarque,,,,,No Embarque
+1564,1564,Resumen Operaciones ADC,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1565,1565,Resumen Operaciones ADC,Categoria,Categoria,Categoria,,,,,Categoria
+1566,1566,Resumen Operaciones ADC,Producto,Producto,Producto,,,,,Producto
+1567,1567,Resumen Operaciones ADC,Codigo_Producto_Cliente,Codigo Producto Cliente,Codigo Producto Cliente,,,,,Codigo Producto Cliente
+1568,1568,Resumen Operaciones ADC,Cantidad_contenedores,Cantidad Contenedores,Cantidad Contenedores,,,,,Cantidad Contenedores
+1569,1569,Resumen Operaciones ADC,TM_Contenedor,TM Contenedores,TM Contenedores,,,,,TM Contenedores
+1570,1570,Resumen Operaciones ADC,Volumen,Volumen,Volumen,,,,,Volumen
+1571,1571,Resumen Operaciones ADC,Unidad,Unidad,Unidad,,,,,Unidad
+1572,1572,Resumen Operaciones ADC,Precio_Compra,Precio Compra,Precio Compra,,,,,Precio Compra
+1573,1573,Resumen Operaciones ADC,Incoterm_compra,Incoterm Compra,Incoterm Compra,,,,,Incoterm Compra
+1574,1574,Resumen Operaciones ADC,DestinoF,Destino Final,Destino Final,,,,,Destino Final
+1575,1575,Resumen Operaciones ADC,Termino_Compra,Termino Compra,Termino Compra,,,,,Termino Compra
+1576,1576,Resumen Operaciones ADC,Valor_total_Compra,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+1577,1577,Resumen Operaciones ADC,Fecha_ofrecida_despacho_de,Fecha Ofrecida Despacho De,Fecha Ofrecida Despacho De,,,,,Fecha Ofrecida Despacho De
+1578,1578,Resumen Operaciones ADC,Fecha_ofrecida_despacho_a,Fecha Ofrecida Despacho A,Fecha Ofrecida Despacho A,,,,,Fecha Ofrecida Despacho A
+1579,1579,Resumen Operaciones ADC,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1580,1580,Resumen Operaciones ADC,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1581,1581,Resumen Operaciones ADC,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1582,1582,Resumen Operaciones ADC,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1583,1583,Resumen Operaciones ADC,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1584,1584,Resumen Operaciones ADC,Pais_carga,Pais Carga,Pais Carga,,,,,Pais Carga
+1585,1585,Resumen Operaciones ADC,Pais_Origen,Pais Origen,Pais Origen,,,,,Pais Origen
+1586,1586,Resumen Operaciones ADC,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1587,1587,Cliente ADC Weekly,,Cliente ADC Weekly,Cliente ADC Weekly,,,,,Cliente ADC Weekly
+1588,1588,Cliente ADC Weekly,Responsable,Responsable,Responsable,,,,,Responsable
+1589,1589,Cliente ADC Weekly,No_OC_Cliente,No OC Cliente,No OC Cliente,,,,,No OC Cliente
+1590,1590,Cliente ADC Weekly,No_OC_Sourcing,No OC Sourcing,No OC Sourcing,,,,,No OC Sourcing
+1591,1591,Cliente ADC Weekly,No_Cotizacion,No Cotizacion,No Cotizacion,,,,,No Cotizacion
+1592,1592,Cliente ADC Weekly,Categoria,Categoria,Categoria,,,,,Categoria
+1593,1593,Cliente ADC Weekly,Producto,Producto,Producto,,,,,Producto
+1594,1594,Cliente ADC Weekly,Codigo_Producto_Cliente,Codigo Producto Cliente,Codigo Producto Cliente,,,,,Codigo Producto Cliente
+1595,1595,Cliente ADC Weekly,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1596,1596,Cliente ADC Weekly,Volumen,Volumen,Volumen,,,,,Volumen
+1597,1597,Cliente ADC Weekly,Unidad,Unidad,Unidad,,,,,Unidad
+1598,1598,Cliente ADC Weekly,Valor_unitario_venta,Valor Unitario Venta,Valor Unitario Venta,,,,,Valor Unitario Venta
+1599,1599,Cliente ADC Weekly,Incoterm_venta,Incoterm Venta,Incoterm Venta,,,,,Incoterm Venta
+1600,1600,Cliente ADC Weekly,DestinoF,Destino Final,Destino Final,,,,,Destino Final
+1601,1601,Cliente ADC Weekly,Puerto_carga,Puerto Carga,Puerto Carga,,,,,Puerto Carga
+1602,1602,Cliente ADC Weekly,Puerto_destino,Puerto Destino,Puerto Destino,,,,,Puerto Destino
+1603,1603,Cliente ADC Weekly,Fecha_zarpe,Fecha Zarpe,Fecha Zarpe,,,,,Fecha Zarpe
+1604,1604,Cliente ADC Weekly,Estado_zarpe,Estado Zarpe,Estado Zarpe,,,,,Estado Zarpe
+1605,1605,Cliente ADC Weekly,Fecha_arribo,Fecha Arribo,Fecha Arribo,,,,,Fecha Arribo
+1606,1606,Cliente ADC Weekly,Estado_arribo,Estado Arribo,Estado Arribo,,,,,Estado Arribo
+1607,1607,Cliente ADC Weekly,No_Factura_Trad,No Factura Trading,No Factura Trading,,,,,No Factura Trading
+1608,1608,Cliente ADC Weekly,Docto_Digital_Enviado,Docto Digital Enviado,Docto Digital Enviado,,,,,Docto Digital Enviado
+1609,1609,Cliente ADC Weekly,Recepcion_originales_UO,Recepcion Originales UO,Recepcion Originales UO,,,,,Recepcion Originales UO
+1610,1610,Pagos a la Vista,,Pagos a la Vista,Pagos a la Vista,,,,,Pagos a la Vista
+1611,1611,Pagos a la Vista,Proveedor,Proveedor,Proveedor,,,,,Proveedor
+1612,1612,Pagos a la Vista,Por_Anticipo,Porcentaje de Anticipo,% de Anticipo,,,,,Porcentaje de Anticipo
+1613,1613,Pagos a la Vista,Orden_Compra,Orden de Compra,Orden de Compra,,,,,Orden de Compra
+1614,1614,Pagos a la Vista,Valor_Total,Valor Total Compra,Valor Total Compra,,,,,Valor Total Compra
+1615,1615,Pagos a la Vista,Monto_Anticipo,Monto Anticipo,Monto Anticipo,,,,,Monto Anticipo
+1616,1616,Pagos a la Vista,Monto_Complemento,Monto Complemento,Monto Complemento,,,,,Monto Complemento
+1617,1617,Pagos a la Vista,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1618,1618,Pagos a la Vista,Valor_Total_Venta,Valor Total de Venta,Valor Total de Venta,,,,,Valor Total de Venta
+1619,1619,Pagos a la Vista,termino_venta,Termino de Venta,Termino de Venta,,,,,Termino de Venta
+1620,1620,Pagos a la Vista,Fecha,Fecha,Fecha,,,,,Fecha
+1621,1621,Pagos a la Vista,Fecha_Pago,Fecha de Pago,Fecha de Pago,,,,,Fecha de Pago
+1622,1622,Pagos a la Vista,Estado_Pago,Estado de Pago Complemento,Estado de Pago Complemento,,,,,Estado de Pago Complemento
+1623,1623,Pagos a la Vista,Status_Pago_Anticipo,Status Pago Anticipo,Status Pago Anticipo,,,,,Status Pago Anticipo
+1624,1624,Pagos a la Vista,Persona_Cargo,Persona a Cargo,Persona a Cargo,,,,,Persona a Cargo
+1625,1625,Pagos a la Vista,Observaciones,Observaciones,Observaciones,,,,,Observaciones
+1626,1626,estado_pago,,Estado Pago,Estado Pago,,,,,Estado Pago
+1627,1627,estado_pago,id_estado_pago,Id Estado Pago,Id Estado Pago,,,,,Id Estado Pago
+1628,1628,estado_pago,Estado,Estado,Estado,,,,,Estado
+1629,1629,estado_pago,anticipo,Anticipo,Anticipo,,,,,Anticipo
+1630,1630,sla_documento,,Sla Documento,Sla Documento,,,,,Sla Documento
+1631,1631,sla_documento,id_sla,Id Sla,Id Sla,,,,,Id Sla
+1632,1632,sla_documento,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1633,1633,sla_documento,tipo_documento,Tipo Documento,Tipo Documento,,,,,Tipo Documento
+1634,1634,sla_documento,id_tiempo_transito,Tiempo de Transito,Tiempo de Transito,,,,,Tiempo de Transito
+1635,1635,sla_documento,formula_1,Formula 1,Formula 1,,,,,Formula 1
+1636,1636,sla_documento,dias_1,Dias F1,Dias F1,,,,,Dias F1
+1637,1637,sla_documento,formula_2,Formula 2,Formula 2,,,,,Formula 2
+1638,1638,sla_documento,dias_2,Dias F2,Dias F2,,,,,Dias F2
+1639,1639,sla_documento,aplica_proforma,Aplica Proforma,Aplica Proforma,,,,,Aplica Proforma
+1640,1640,sla_documento_detalle,,Sla Documento Detalle,Sla Documento Detalle,,,,,Sla Documento Detalle
+1641,1641,sla_documento_detalle,id_sla_detalle,Id Sla Detalle,Id Sla Detalle,,,,,Id Sla Detalle
+1642,1642,sla_documento_detalle,id_sla,Id Sla,Id Sla,,,,,Id Sla
+1643,1643,sla_documento_detalle,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1644,1644,sla_documento_detalle,id_pais,Pais,PaÃ­s,,,,,Pais
+1645,1645,sla_documento_detalle,empresa,Consignatario,Consignatario,,,,,Consignatario
+1646,1646,sla_documento_detalle,activo,Activo,Activo,,,,,Activo
+1647,1647,sla_pais_detalle,,Sla Pais Detalle,Sla Pais Detalle,,,,,Sla Pais Detalle
+1648,1648,sla_pais_detalle,id_sla_pais,Id Sla Pais,Id Sla Pais,,,,,Id Sla Pais
+1649,1649,sla_pais_detalle,id_sla,Id Sla,Id Sla,,,,,Id Sla
+1650,1650,sla_pais_detalle,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1651,1651,sla_pais_detalle,id_pais,Pais,Pais,,,,,Pais
+1652,1652,sla_pais_detalle,id_destino,Puerto,Puerto,,,,,Puerto
+1653,1653,sla_pais_detalle,activo,Activo,Activo,,,,,Activo
+1654,1654,parametro_compra,,Parametro Compra,Parametro Compra,,,,,Parametro Compra
+1655,1655,parametro_compra,empresa,Consignatario,Consignatario,,,,,Consignatario
+1656,1656,parametro_compra,id_producto,Producto,Producto,,,,,Producto
+1657,1657,parametro_compra,id_puerto_descarga,Puerto de Descarga,Puerto de Descarga,,,,,Puerto de Descarga
+1658,1658,parametro_compra,fecha_validez,Fecha de Validez,Fecha de Validez,,,,,Fecha de Validez
+1659,1659,compra_pedido,,Purchase,Compra Pedido,,,,,Purchase
+1660,1660,compra_pedido,id_detalle_pedido,Order Detail Id,Id Detalle Pedido,,,,,Order Detail Id
+1661,1661,compra_pedido,PEDIDO,Order,PEDIDO,,,,,Order
+1662,1662,compra_pedido,Costo_referencia,Reference Cost CFR,Costo Referencia CFR,,,,,Reference Cost CFR
+1663,1663,compra_pedido,Precio_vista,Suggested Price at sight,Precio Sugerido a la Vista,,,,,Suggested Price at sight
+1664,1664,compra_pedido,Fecha_pedido,Price confirmation date,Fecha de confirmacion de Precio,,,,,Price confirmation date
+1665,1665,compra_pedido,NC,CN,NC,,,,,CN
+1666,1666,compra_pedido,Obs_costo,Cost observations,Observaciones Costo,,,,,Cost observations
+1667,1667,compra_pedido,Obs_precio,Price observations,Observaciones Precio,,,,,Price observations
+1668,1668,compra_pedido,Usuario_registro1,Register User 1,Usuario Registro1,,,,,Register User 1
+1669,1669,compra_pedido,Fecha_registroC,Register date Cost,Fecha RegistroC,,,,,Register date Cost
+1670,1670,compra_pedido,Usuario_registro2,Register User 2,Usuario Registro2,,,,,Register User 2
+1671,1671,compra_pedido,Fecha_registroP,Register date Price,Fecha RegistroP,,,,,Register date Price
+1672,1672,compra_pedido,archivo,File,Archivo,,,,,File
+1673,1673,compra_pedido,id_unico,Unique ID,Id Unico,,,,,Unique ID
+1674,1674,compra_pedido,Fecha_compra,Purchase confirmation date,Fecha de confirmaciÃ³n de Compra,,,,,Purchase confirmation date
+1675,1675,compra_pedido,obs_sls,Internal SLS observations,Observaciones internas SLS,,,,,Internal SLS observations
+1676,1676,SLA_Compra_Pedido,,SLA Compra Pedido,SLA Compra Pedido,,,,,SLA Compra Pedido
+1677,1677,SLA_Compra_Pedido,buque,Buque,Buque,,,,,Buque
+1678,1678,SLA_Compra_Pedido,Fecha_compra,Fecha de ConfirmaciÃ³n de Compra,Fecha de ConfirmaciÃ³n de Compra,,,,,Fecha de ConfirmaciÃ³n de Compra
+1679,1679,SLA_Compra_Pedido,Producto,Producto,Producto,,,,,Producto
+1680,1680,SLA_Compra_Pedido,Unidad,Unidad,Unidad,,,,,Unidad
+1681,1681,SLA_Compra_Pedido,Cantidad,Cantidad,Cantidad,,,,,Cantidad
+1682,1682,SLA_Compra_Pedido,Puerto_Descarga,Puerto de Descarga,Puerto de Descarga,,,,,Puerto de Descarga
+1683,1683,SLA_Compra_Pedido,Costo_referencia,Costo Referencia,Costo Referencia,,,,,Costo Referencia
+1684,1684,SLA_Compra_Pedido,Precio_vista,Precio Sugerido a la Vista,Precio Sugerido a la Vista,,,,,Precio Sugerido a la Vista
+1685,1685,SLA_Compra_Pedido,Fecha_pedido,Fecha de ConfirmaciÃ³n de Precio,Fecha de ConfirmaciÃ³n de Precio,,,,,Fecha de ConfirmaciÃ³n de Precio
+1686,1686,SLA_Compra_Pedido,NC,NC,NC,,,,,NC
+1687,1687,SLA_Compra_Pedido,Usuario_registro1,Usuario Registro1,Usuario Registro1,,,,,Usuario Registro1
+1688,1688,SLA_Compra_Pedido,Fecha_registroC,Fecha Registro Compra,Fecha Registro Compra,,,,,Fecha Registro Compra
+1689,1689,SLA_Compra_Pedido,Usuario_registro2,Usuario Registro2,Usuario Registro2,,,,,Usuario Registro2
+1690,1690,SLA_Compra_Pedido,Fecha_registroP,Fecha Registro Precio,Fecha Registro Precio,,,,,Fecha Registro Precio
+1691,1691,SLA_Compra_Pedido,SLA,SLA1 (Registro de la Compra),SLA1 (Registro de la Compra),,,,,SLA1 (Registro de la Compra)
+1692,1692,SLA_Compra_Pedido,SLA2,SLA2 (Registro de CÃ³digo de Embarque),SLA2 (Registro de CÃ³digo de Embarque),,,,,SLA2 (Registro de CÃ³digo de Embarque)
+1693,1693,Reporte SLA Documento,,Reporte SLA Documento,Reporte SLA Documento,,,,,Reporte SLA Documento
+1694,1694,Reporte SLA Documento,buque,Orden de Compra/Buque,Orden de Compra/Buque,,,,,Orden de Compra/Buque
+1695,1695,Reporte SLA Documento,Orden,Orden de Compra Cliente,Orden de Compra Cliente,,,,,Orden de Compra Cliente
+1696,1696,Reporte SLA Documento,embarque,Embarque,Embarque,,,,,Embarque
+1697,1697,Reporte SLA Documento,usuario,Responsable,Responsable,,,,,Responsable
+1698,1698,Reporte SLA Documento,Puerto_Carga,Puerto de Carga,Puerto de Carga,,,,,Puerto de Carga
+1699,1699,Reporte SLA Documento,Consignatario,Consignatario,Consignatario,,,,,Consignatario
+1700,1700,Reporte SLA Documento,Pais_Descarga,Pais de Descarga,Pais de Descarga,,,,,Pais de Descarga
+1701,1701,Reporte SLA Documento,Puerto_descarga,Puerto de Descarga,Puerto de Descarga,,,,,Puerto de Descarga
+1702,1702,Reporte SLA Documento,fecha_bl,Fecha de Zarpe,Fecha de Zarpe,,,,,Fecha de Zarpe
+1703,1703,Reporte SLA Documento,Eta_puerto_descarga,Fecha de Arribo,Fecha de Arribo,,,,,Fecha de Arribo
+1704,1704,Reporte SLA Documento,necesita_proforma,Necesita Proforma,Necesita Proforma,,,,,Necesita Proforma
+1705,1705,Reporte SLA Documento,Proforma_enviada,Proforma Enviada,Proforma Enviada,,,,,Proforma Enviada
+1706,1706,Reporte SLA Documento,Docto_digital_fecha,Documento digital enviado,Documento digital enviado,,,,,Documento digital enviado
+1707,1707,Reporte SLA Documento,Docto_original_fecha,Recepcion originales UO,Recepcion originales UO,,,,,Recepcion originales UO
+1708,1708,Reporte SLA Documento,cumple_digitales,Cumple Digitales,Cumple Digitales,,,,,Cumple Digitales
+1709,1709,Reporte SLA Documento,cumple_fisico,Cumple Fisico,Cumple Fisico,,,,,Cumple Fisico
+1710,1710,Reporte SLA Documento,Ano_digital,Año  Digital,AÃ±o Digital,,,,,Año  Digital
+1711,1711,Reporte SLA Documento,Semana_digital,Semana Digital,Semana Digital,,,,,Semana Digital
+1712,1712,Reporte SLA Documento,Ano_fisico,Año  Fisico,AÃ±o Fisico,,,,,Año  Fisico
+1713,1713,Reporte SLA Documento,Semana_fisica,Semana Fisica,Semana Fisica,,,,,Semana Fisica
+1714,1714,Reporte SLA Documento,Tiempo_transito,Tiempo de Transito,Tiempo de Transito,,,,,Tiempo de Transito
+1715,1715,Reporte SLA Documento,Tipo_transito,Tipo Transito,Tipo Transito,,,,,Tipo Transito
+1716,1716,Reporte SLA Documento,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1717,1717,cliente_final,,Cliente Final,Cliente Final,,,,,Cliente Final
+1718,1718,cliente_final,Id_cliente,Id Cliente,Id Cliente,,,,,Id Cliente
+1719,1719,cliente_final,Nombre,Nombre,Nombre,,,,,Nombre
+1720,1720,cliente_final,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1721,1721,cliente_final,Id_pais,Pais,Pais,,,,,Pais
+1722,1722,oceano,,Oceano,Oceano,,,,,Oceano
+1723,1723,oceano,id_oceano,Id,Id,,,,,Id
+1724,1724,oceano,Oceano,Oceano,Oceano,,,,,Oceano
+1725,1725,grupo_articulo,,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1726,1726,grupo_articulo,id_grupo_articulo,Id Grupo Articulo,Id Grupo Articulo,,,,,Id Grupo Articulo
+1727,1727,grupo_articulo,descripcion,Descripcion,Descripcion,,,,,Descripcion
+1728,1728,grupo_articulo,id_tipo_prod,Tipo de Producto,Tipo de Producto,,,,,Tipo de Producto
+1729,1729,producto,,Producto,Producto,,,,,Producto
+1730,1730,producto,Id_producto,Id Producto,Id Producto,,,,,Id Producto
+1731,1731,producto,Descripcion,Descripcion,Descripcion,,,,,Descripcion
+1732,1732,producto,Id_tipo_prod,Tipo Producto,Tipo Producto,,,,,Tipo Producto
+1733,1733,producto,Codigo_sap,Codigo Sap,Codigo Sap,,,,,Codigo Sap
+1734,1734,producto,Id_presentacion,Presentacion,Presentacion,,,,,Presentacion
+1735,1735,producto,Id_categoria,Categoria,Categoria,,,,,Categoria
+1736,1736,producto,Id_abreviatura,Abreviatura,Abreviatura,,,,,Abreviatura
+1737,1737,producto,id_grupo_articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1738,1738,admin_rights,,Admin Rights,Admin Rights,,,,,Admin Rights
+1739,1739,admin_rights,TableName,Table Name,Table Name,,,,,Table Name
+1740,1740,admin_rights,GroupID,Group ID,Group ID,,,,,Group ID
+1741,1741,admin_rights,AccessMask,Access Mask,Access Mask,,,,,Access Mask
+1742,1742,admin_admembers,,Admin:AD users and groups,Admin:AD users and groups,,,,,Admin:AD users and groups
+1743,1743,admin_admembers,Label,Label,Label,,,,,Label
+1744,1744,Reporte_Compra,,Reporte Compra,Reporte Compra,,,,,Reporte Compra
+1745,1745,Reporte_Compra,Correlativo_lote,Correlativo,Correlativo,,,,,Correlativo
+1746,1746,Reporte_Compra,buque,Buque,Buque,,,,,Buque
+1747,1747,Reporte_Compra,Fecha,Fecha de confirmaciÃ³n de Compra,Fecha de confirmaciÃ³n de Compra,,,,,Fecha de confirmaciÃ³n de Compra
+1748,1748,Reporte_Compra,producto,Producto,Producto,,,,,Producto
+1749,1749,Reporte_Compra,Grupo_Articulo,Grupo Articulo,Grupo Articulo,,,,,Grupo Articulo
+1750,1750,Reporte_Compra,Unidad,Unidad de Medida,Unidad de Medida,,,,,Unidad de Medida
+1751,1751,Reporte_Compra,Cantidad,Cantidad,Cantidad,,,,,Cantidad
+1752,1752,Reporte_Compra,Puerto_Descarga,Puerto de Descarga,Puerto de Descarga,,,,,Puerto de Descarga
+1753,1753,Reporte_Compra,Costo_referencia,Costo Referencia CFR,Costo Referencia CFR,,,,,Costo Referencia CFR
+1754,1754,Reporte_Compra,Precio_vista,Precio Sugerido a la Vista,Precio Sugerido a la Vista,,,,,Precio Sugerido a la Vista
+1755,1755,Reporte_Compra,Fecha_pedido,Fecha de ConfirmaciÃ³n de Precio,Fecha de ConfirmaciÃ³n de Precio,,,,,Fecha de ConfirmaciÃ³n de Precio
+1756,1756,Reporte_Compra,NC,NC,NC,,,,,NC
+1757,1757,Reporte_Compra,archivo,Comprobante de Compra,Comprobante de Compra,,,,,Comprobante de Compra
+1758,1758,Reporte_Compra,Obs_costo,Obs Costo,Obs Costo,,,,,Obs Costo
+1759,1759,Reporte_Compra,Obs_precio,Obs Precio,Obs Precio,,,,,Obs Precio
+1760,1760,,BUSQUEDA,Search,Busqueda,,,,,Search
+1761,1761,,COMPRA,Purchase,Compra,,,,,Purchase
+1762,1762,,COMPRA1,Purchase,Compra,,,,,Purchase
+1763,1763,,COMPRAS_EN_FIRME,Firm Purchases,Compras en Firme,,,,,Firm Purchases
+1764,1764,,GESTION_DE_CALIDAD,Quality Management,Gestion de Calidad,,,,,Quality Management
+1765,1765,,INFORMACI_N_DE_COMPRAS_EN_FIRME,Purchase Information,InformaciÃ³n de Compras en Firme,,,,,Purchase Information
+1766,1766,,INFORMACI_N_DE_PEDIDOS,Order Information,InformaciÃ³n de pedidos,,,,,Order Information
+1767,1767,,LICITACIONES,Tenders,Licitaciones,,,,,Tenders
+1768,1768,,LICITACIONES1,Tenders,Licitacion,,,,,Tenders
+1769,1769,,LICITACI_NES,Tenders,LicitaciÃ³nes,,,,,Tenders
+1770,1770,,OPERACIONES_PNC_GRANELES,Operations PNC Graneles,Operaciones PNC Graneles,,,,,Operations PNC Graneles
+1771,1771,,PEDIDO,Order,Pedido,,,,,Order
+1772,1772,,REGISTROS_AUXILIARES_1,Auxiliary Records 1,Registros Auxiliares 1,,,,,Auxiliary Records 1
+1773,1773,,REGISTROS_AUXILIARES_2,Auxiliary Records 2,Registros Auxiliares 2,,,,,Auxiliary Records 2
+1774,1774,,REPORTES,Reports,Reportes,,,,,Reports
+1775,1775,,SEGURIDAD,Security,Seguridad,,,,,Security
+1776,1776,,,PSP v5.5,PSP v5.5,,,,,PSP v5.5
