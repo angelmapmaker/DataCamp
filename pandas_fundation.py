@@ -14,13 +14,13 @@ df_log10 = np.log10(df)
 [print(x, 'has type', type(eval(x))) for x in ['np_vals', 'np_vals_log10', 'df', 'df_log10']]
 
 # Zip the 2 lists together into one list of (key,value) tuples: zipped
-zipped = zip(list_keys,list_values)
+zipped = list(zip(list_keys,list_values))
 
 # Inspect the list using print()
 print(zipped)
 
 # Build a dictionary with the zipped list: data
-data = dict(zipped)
+data = dict(list(zipped))
 
 # Build and inspect a DataFrame from the dictionary: df
 df = pd.DataFrame(data)
