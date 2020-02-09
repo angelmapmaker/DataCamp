@@ -25,3 +25,9 @@ data = dict(list(zipped))
 # Build and inspect a DataFrame from the dictionary: df
 df = pd.DataFrame(data)
 print(df)
+
+# Build a list of labels: list_labels
+list_labels = ['year','artist','song','char weeks']
+
+# Assign the list of labels to the columns attribute: df.columns
+df.columns = list_labels
