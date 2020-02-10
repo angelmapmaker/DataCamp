@@ -44,3 +44,33 @@ df = pd.DataFrame(data)
 
 # Print the DataFrame
 print(df)
+
+
+# Read in the file: df1
+df1 = pd.read_csv(data_file)
+
+# Create a list of the new column labels: new_labels
+new_labels = ['year', 'population']
+
+# Read in the file, specifying the header and names parameters: df2
+df2 = pd.read_csv(data_file, header=0, names=new_labels)
+
+# Print both the DataFrames
+print(df1)
+print(df2)
+
+#Year  Total Population
+#0  1960      3.034971e+09
+##1  1970      3.684823e+09
+#2  1980      4.436590e+09
+#3  1990      5.282716e+09
+#4  2000      6.115974e+09
+#5  2010      6.924283e+09
+#   year    population
+#0  1960  3.034971e+09
+#1  1970  3.684823e+09#
+#2  1980  4.436590e+09
+#3  1990  5.282716e+09
+#4  2000  6.115974e+09
+#5  2010  6.924283e+09
+
