@@ -47,3 +47,19 @@ plt.show()
 # Plot the CDF
 df.fraction.plot(ax=axes[1], kind='hist', bins=30, cumulative=True,  normed=True, range=(0,.3))
 plt.show()
+
+
+# Print the minimum value of the Engineering column
+print(df['Engineering'].min())
+
+# Print the maximum value of the Engineering column
+print(df['Engineering'].max())
+
+# Construct the mean percentage per year: mean
+mean = df.mean(axis='columns')
+
+# Plot the average percentage per year
+mean.plot()
+
+# Display the plot
+plt.show()
