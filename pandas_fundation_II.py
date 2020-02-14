@@ -102,3 +102,5 @@ us_std = us.std()
 # Print the differences
 print(us_mean - global_mean)
 print(us_std - global_std)
+
+#https://download.microsoft.com/download/e/7/8/e781cf8f-9c3f-4ad5-bd0c-f3c62b8bc6bd/microsoft.sqltools.servicelayer-win-x64-netcoreapp2.2.zip
