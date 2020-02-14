@@ -12,7 +12,7 @@ plt.ylabel('Price ($US)')
 
 # Display the plot
 plt.show()
-
+#########################################################
 # Generate a scatter plot
 df.plot(kind='scatter', x='hp', y='mpg', s=sizes)
 
@@ -27,7 +27,7 @@ plt.ylabel('Fuel efficiency (mpg)')
 
 # Display the plot
 plt.show()
-
+############################################################
 # Make a list of the column names to be plotted: cols
 cols = ['weight','mpg']
 
@@ -36,7 +36,7 @@ df[cols].plot(kind='box',subplots=True)
 
 # Display the plot
 plt.show()
-
+###################################################################
 # This formats the plots such that they appear on separate rows
 fig, axes = plt.subplots(nrows=2, ncols=1)
 
@@ -47,7 +47,7 @@ plt.show()
 # Plot the CDF
 df.fraction.plot(ax=axes[1], kind='hist', bins=30, cumulative=True,  normed=True, range=(0,.3))
 plt.show()
-
+#######################################################
 
 # Print the minimum value of the Engineering column
 print(df['Engineering'].min())
@@ -62,6 +62,18 @@ mean = df.mean(axis='columns')
 mean.plot()
 
 # Display the plot
+plt.show()
+
+#####################################################
+# Print the number of countries reported in 2015
+print(df['2015'].count())
+
+# Print the 5th and 95th percentiles
+print(df['2015'].quantile([0.05,0.95]))
+
+# Generate a box plot
+years = ['1800','1850','1900','1950','2000']
+df[years].plot(kind='box')
 plt.show()
 
 
