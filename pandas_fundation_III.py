@@ -45,3 +45,13 @@ sum13 =  ts1 + ts3
 
 # Combine ts1 + ts4: sum14
 sum14 = ts1 + ts4
+
+#################################################################
+#
+################################################################
+
+# Downsample to 6 hour data and aggregate by mean: df1
+df1 = df.Temperature.resample('6h').mean()
+
+# Downsample to daily data and count the number of data points: df2
+df2 = df.Temperature.resample('D').count()
