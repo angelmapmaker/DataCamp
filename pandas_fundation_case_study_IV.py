@@ -279,3 +279,15 @@ print(weekly_mean.corr())
 # Plot weekly_mean with subplots=True
 weekly_mean.plot(subplots=True)
 plt.show()
+###########################################################
+
+# From previous steps
+is_sky_clear = df_clean['sky_condition'] == 'CLR'
+resampled = is_sky_clear.resample('D')
+sunny_hours = resampled.sum()
+total_hours = resampled.count()
+sunny_fraction = sunny_hours / total_hours
+
+# Make a box plot of sunny_fraction
+sunny_fraction.plot(kind='box')
+plt.show()
