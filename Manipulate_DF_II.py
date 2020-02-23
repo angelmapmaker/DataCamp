@@ -51,3 +51,44 @@ sales.columns.name='PRODUCTS'
 
 # Print the sales dataframe again
 print(sales)
+
+
+#####################################################
+#Extracting data with a MultiIndex
+#In the video, Dhavide explained the concept of a hierarchical index, or a MultiIndex. You will now practice working with these types of indexes.
+#
+#The sales DataFrame you have been working with has been extended to now include State information as well. In the IPython Shell, print the new sales DataFrame to inspect the data. Take note of the MultiIndex!
+#
+#Extracting elements from the outermost level of a MultiIndex is just like in the case of a single-level Index. You can use the .loc[] accessor as Dhavide demonstrated in the video.
+#
+#Instructions
+#100 XP
+#Print sales.loc[['CA', 'TX']]. Note how New York is excluded.
+#Print sales['CA':'TX']. Note how New York is included.
+
+# Print sales.loc[['CA', 'TX']]
+print(sales.loc[['CA', 'TX']])
+
+# Print sales['CA':'TX']
+print(sales['CA':'TX'])
+
+#######################################################################
+#Setting & sorting a MultiIndex
+#In the previous exercise, the MultiIndex was created and sorted for you. Now, you're going to do this yourself! With a MultiIndex, you should always ensure the index is sorted. You can skip this only if you know the data is already sorted on the index fields.
+#
+#To get started, print the pre-loaded sales DataFrame in the IPython Shell to verify that there is no MultiIndex.
+#
+#Instructions
+#100 XP
+#Create a MultiIndex by setting the index to be the columns ['state', 'month'].
+#Sort the MultiIndex using the .sort_index() method.
+#Print the sales DataFrame. This has been done for you, so hit 'Submit Answer' to verify that indeed you have an index with the fields state and month!
+
+# Set the index to be the columns ['state', 'month']: sales
+sales = sales.set_index(['state', 'month'])
+
+# Sort the MultiIndex: sales
+sales = sales.sort_index()
+
+# Print the sales DataFrame
+print(sales)
