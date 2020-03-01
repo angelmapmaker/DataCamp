@@ -117,3 +117,10 @@ visitors = pd.melt(visitors_by_city_weekday, id_vars=['weekday'], value_name='vi
 
 # Print visitors
 print(visitors)
+#le aplicamos melt a los atirubtos
+
+# Melt users: skinny
+skinny = pd.melt(users,id_vars=['weekday' , 'city'])
+
+# Print skinny
+print(skinny)
