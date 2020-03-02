@@ -134,7 +134,12 @@ print(users_idx)
 
 # Obtain the key-value pairs: kv_pairs
 kv_pairs = pd.melt(users_idx, col_level=0)
-
+###########################################################
 # Print the key-value pairs
 print(kv_pairs)
+# Create the DataFrame with the appropriate pivot table: by_city_day
+by_city_day =  users.pivot_table(index='weekday', columns='city')
+
+# Print by_city_day
+print(by_city_day)
 
