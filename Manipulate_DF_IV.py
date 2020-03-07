@@ -165,3 +165,63 @@ units_sum = by_day['Units'].sum()
 # Print units_sum
 print(units_sum)
 
+#######################################################################3
+#Detecting outliers with Z-Scores
+#As Dhavide demonstrated in the video using the zscore function, you can apply a .transform() method after grouping to apply a function to groups of data independently. The z-score is also useful to find outliers: a z-score value of +/- 3 is generally considered to be an outlier.
+#
+#In this example, you're going to normalize the Gapminder data in 2010 for life expectancy and fertility by the z-score per region. Using boolean indexing, you will filter for countries that have high fertility rates and low life expectancy for their region.
+#
+#The Gapminder DataFrame for 2010 indexed by 'Country' is provided for you as gapminder_2010.
+#
+#Instructions
+#100 XP
+#Import zscore from scipy.stats.
+#Group gapminder_2010 by 'region' and transform the ['life','fertility'] columns by zscore.
+#Construct a boolean Series of the bitwise or between standardized['life'] < -3 and standardized['fertility'] > 3.
+#Filter gapminder_2010 using .loc[] and the outliers Boolean Series. Save the result as gm_outliers.
+#Print gm_outliers. This has been done for you, so hit 'Submit Answer' to see the results.
+
+# Import zscore
+from scipy.stats import zscore
+
+# Group gapminder_2010: standardized
+standardized = gapminder_2010.groupby([ 'region'])['life','fertility'].transform(zscore)
+
+# Construct a Boolean Series to identify outliers: outliers
+outliers = (standardized['life'] < -3) | (standardized['fertility'] > 3)
+
+# Filter gapminder_2010 by the outliers: gm_outliers
+gm_outliers = gapminder_2010.loc[outliers]
+
+# Print gm_outliers
+print(gm_outliers)
+
+###################################################################
+#Filling missing data (imputation) by group
+#Many statistical and machine learning packages cannot determine the best action to take when missing data entries are encountered. Dealing with missing data is natural in pandas (both in using the default behavior and in defining a custom behavior). In Chapter 1, you practiced using the .dropna() method to drop missing values. Now, you will practice imputing missing values. You can use .groupby() and .transform() to fill missing data appropriately for each group.
+#
+#Your job is to fill in missing 'age' values for passengers on the Titanic with the median age from their 'gender' and 'pclass'. To do this, you'll group by the 'sex' and 'pclass' columns and transform each group with a custom function to call .fillna() and impute the median value.
+#
+#The DataFrame has been pre-loaded as titanic. Explore it in the IPython Shell by printing the output of titanic.tail(10). Notice in particular the NaNs in the 'age' column.
+#
+#Instructions
+#100 XP
+#Group titanic by 'sex' and 'pclass'. Save the result as by_sex_class.
+#Write a function called impute_median() that fills missing values with the median of a series. This has been done for you.
+#Call .transform() with impute_median on the 'age' column of by_sex_class.
+#Print the output of titanic.tail(10). This has been done for you - hit 'Submit Answer' to see how the missing values have now been imputed.
+
+# Create a groupby object: by_sex_class
+by_sex_class = titanic.groupby(['sex','pclass'])
+
+# Write a function that imputes median
+def impute_median(series):
+    return series.fillna(series.median())
+
+
+# Impute age and assign to titanic['age']
+titanic.age = by_sex_class['age'].transform(impute_median)
+
+# Print the output of titanic.tail(10)
+print(titanic.tail(10))
+
