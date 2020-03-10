@@ -92,3 +92,42 @@ medal_count_by_gender = medals_by_gender.count()
 # Print medal_count_by_gender
 print(medal_count_by_gender)
 
+#Locating suspicious data
+#You will now inspect the suspect record by locating the offending row.
+#
+#You will see that, according to the data, Joyce Chepchumba was a man that won a medal in a women's event. That is a data error as you can confirm with a web search.
+#
+#Instructions
+#100 XP
+#Create a Boolean Series with a condition that captures the only row that has medals.Event_gender == 'W' and medals.Gender == 'Men'. Be sure to use the & operator.
+#Use the Boolean Series to create a DataFrame called suspect with the suspicious row.
+#Print suspect. This has been done for you, so hit 'Submit Answer' to see the result.
+# Create the Boolean Series: sus
+sus = medals.loc[(medals.Event_gender == 'W') & (medals.Gender == 'Men') ]
+
+# Create a DataFrame with the suspicious row: suspect
+suspect = sus
+
+# Print suspect
+print(suspect)
+###########################################################
+#Using .nunique() to rank by distinct sports
+#You may want to know which countries won medals in the most distinct sports. The .nunique() method is the principal aggregation here. Given a categorical Series S, S.nunique() returns the number of distinct categories.
+#
+#Instructions
+#100 XP
+#Group medals by 'NOC'.
+#Compute the number of distinct sports in which each country won medals. To do this, select the 'Sport' column from country_grouped and apply .nunique().
+#Sort Nsports in descending order with .sort_values() and ascending=False.
+#Print the first 15 rows of Nsports. This has been done for you, so hit 'Submit Answer' to see the result.
+# Group medals by 'NOC': country_grouped
+country_grouped = medals.groupby('NOC')
+
+# Compute the number of distinct sports in which each country won medals: Nsports
+Nsports = country_grouped['Sport'].nunique()
+
+# Sort the values of Nsports in descending order
+Nsports = Nsports.sort_values(ascending=False)
+
+# Print the top 15 rows of Nsports
+print(Nsports.head(15))
