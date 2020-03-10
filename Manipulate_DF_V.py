@@ -200,3 +200,14 @@ most_medals = cold_war_usa_urs_medals.idxmax(axis='columns')
 
 # Print most_medals.value_counts()
 print(most_medals.value_counts())
+##############################################################
+
+#Visualizing USA Medal Counts by Edition: Line Plot
+#Your job in this exercise is to visualize the medal counts by 'Edition' for the USA. The DataFrame has been pre-loaded for you as medals.
+#
+#Instructions
+#100 XP
+#Create a DataFrame usa with data only for the USA.
+#Group usa such that ['Edition', 'Medal'] is the index. Aggregate the count over 'Athlete'.
+#Use .unstack() with level='Medal' to reshape the DataFrame usa_medals_by_year.
+#Construct a line plot from the final DataFrame usa_medals_by_year. This has been done for you, so hit 'Submit Answer' to see the plot!
