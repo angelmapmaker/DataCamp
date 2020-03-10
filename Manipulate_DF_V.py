@@ -211,3 +211,40 @@ print(most_medals.value_counts())
 #Group usa such that ['Edition', 'Medal'] is the index. Aggregate the count over 'Athlete'.
 #Use .unstack() with level='Medal' to reshape the DataFrame usa_medals_by_year.
 #Construct a line plot from the final DataFrame usa_medals_by_year. This has been done for you, so hit 'Submit Answer' to see the plot!
+
+
+# Create the DataFrame: usa
+usa = medals.loc[medals.NOC=='USA']
+
+# Group usa by ['Edition', 'Medal'] and aggregate over 'Athlete'
+usa_medals_by_year = usa.groupby( ['Edition', 'Medal'] )['Athlete'].count()
+
+# Reshape usa_medals_by_year by unstacking
+usa_medals_by_year = usa_medals_by_year.unstack(level='Medal')
+
+# Plot the DataFrame usa_medals_by_year
+usa_medals_by_year.plot()
+plt.show()
+
+##############################################
+#Exercise
+#Exercise
+#Visualizing USA Medal Counts by Edition: Area Plot
+#As in the previous exercise, your job in this exercise is to visualize the medal counts by 'Edition' for the USA. This time, you will use an area plot to see the breakdown better. The usa DataFrame has been created and all reshaping from the previous exercise has been done. You need to write the plotting command.
+#
+#Instructions
+#100 XP
+#Create an area plot of usa_medals_by_year. This can be done by using .plot.area().
+# Create the DataFrame: usa
+usa = medals[medals.NOC == 'USA']
+
+# Group usa by 'Edition', 'Medal', and 'Athlete'
+usa_medals_by_year = usa.groupby(['Edition', 'Medal'])['Athlete'].count()
+
+# Reshape usa_medals_by_year by unstacking
+usa_medals_by_year = usa_medals_by_year.unstack(level='Medal')
+
+# Create an area plot of usa_medals_by_year
+usa_medals_by_year.plot.area()
+plt.show()
+
