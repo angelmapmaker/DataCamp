@@ -135,6 +135,99 @@ weather4 = weather1.sort_values(by='Max TemperatureF' )
 # Print the head of weather4
 print(weather4.head())
 
+#####################################################################
+#Reindexing DataFrame from a list
+#Sorting methods are not the only way to change DataFrame Indexes. There is also the .reindex() method.
+#
+#In this exercise, you'll reindex a DataFrame of quarterly-sampled mean temperature values to contain monthly samples (this is an example of upsampling or increasing the rate of samples, which you may recall from the pandas Foundations course).
+#
+#The original data has the first month's abbreviation of the quarter (three-month interval) on the Index, namely Apr, Jan, Jul, and Oct. This data has been loaded into a DataFrame called weather1 and has been printed in its entirety in the IPython Shell. Notice it has only four rows (corresponding to the first month of each quarter) and that the rows are not sorted chronologically.
+#
+#You'll initially use a list of all twelve month abbreviations and subsequently apply the .ffill() method to forward-fill the null entries when upsampling. This list of month abbreviations has been pre-loaded as year.
+#
+#Instructions
+#100 XP
+#Reorder the rows of weather1 using the .reindex() method with the list year as the argument, which contains the abbreviations for each month.
+#Reorder the rows of weather1 just as you did above, this time chaining the .ffill() method to replace the null values with the last preceding non-null value.
 
+# Import pandas
+import pandas as pd
 
+# Reindex weather1 using the list year: weather2
+weather2 = weather1.reindex(year)
+
+# Print weather2
+print(weather2)
+
+#year=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+# Reindex weather1 using the list year with forward-fill: weather3
+weather3 = weather1.reindex(year).ffill()
+
+# Print weather3
+print(weather3)
+
+#############################################################
+#Reindexing using another DataFrame Index
+#Another common technique is to reindex a DataFrame using the Index of another DataFrame. The DataFrame .reindex() method can accept the Index of a DataFrame or Series as input. You can access the Index of a DataFrame with its .index attribute.
+#
+#The Baby Names Dataset from data.gov summarizes counts of names (with genders) from births registered in the US since 1881. In this exercise, you will start with two baby-names DataFrames names_1981 and names_1881 loaded for you.
+#
+#The DataFrames names_1981 and names_1881 both have a MultiIndex with levels name and gender giving unique labels to counts in each row. If you're interested in seeing how the MultiIndexes were set up, names_1981 and names_1881 were read in using the following commands:
+#
+#names_1981 = pd.read_csv('names1981.csv', header=None, names=['name','gender','count'], index_col=(0,1))
+#names_1881 = pd.read_csv('names1881.csv', header=None, names=['name','gender','count'], index_col=(0,1))
+#As you can see by looking at their shapes, which have been printed in the IPython Shell, the DataFrame corresponding to 1981 births is much larger, reflecting the greater diversity of names in 1981 as compared to 1881.
+#
+#Your job here is to use the DataFrame .reindex() and .dropna() methods to make a DataFrame common_names counting names from 1881 that were still popular in 1981.
+#
+#Instructions
+#100 XP
+#Create a new DataFrame common_names by reindexing names_1981 using the index attribute of the DataFrame names_1881 of older names.
+#Print the shape of the new common_names DataFrame. This has been done for you. It should be the same as that of names_1881.
+#Drop the rows of common_names that have null counts using the .dropna() method. These rows correspond to names that fell out of fashion between 1881 & 1981.
+#Print the shape of the reassigned common_names DataFrame. This has been done for you, so hit 'Submit Answer' to see the result!
+
+# Import pandas
+import pandas as pd
+
+# Reindex names_1981 with index of names_1881: common_names
+common_names = names_1981.reindex(names_1881.index)
+
+# Print shape of common_names
+print(common_names.shape)
+
+# Drop rows with null counts: common_names
+common_names = common_names.dropna()
+
+# Print shape of new common_names
+print(common_names.shape)
+
+##################################################
+
+#Broadcasting in arithmetic formulas
+#In this exercise, you'll work with weather data pulled from wunderground.com. The DataFrame weather has been pre-loaded along with pandas as pd. It has 365 rows (observed each day of the year 2013 in Pittsburgh, PA) and 22 columns reflecting different weather measurements each day.
+#
+#You'll subset a collection of columns related to temperature measurements in degrees Fahrenheit, convert them to degrees Celsius, and relabel the columns of the new DataFrame to reflect the change of units.
+#
+#Remember, ordinary arithmetic operators (like +, -, *, and /) broadcast scalar values to conforming DataFrames when combining scalars & DataFrames in arithmetic expressions. Broadcasting also works with pandas Series and NumPy arrays.
+#
+#Instructions
+#100 XP
+#Create a new DataFrame temps_f by extracting the columns 'Min TemperatureF', 'Mean TemperatureF', & 'Max TemperatureF' from weather as a new DataFrame temps_f. To do this, pass the relevant columns as a list to weather[].
+#Create a new DataFrame temps_c from temps_f using the formula (temps_f - 32) * 5/9.
+#Rename the columns of temps_c to replace 'F' with 'C' using the .str.replace('F', 'C') method on temps_c.columns.
+#Print the first 5 rows of DataFrame temps_c. This has been done for you, so hit 'Submit Answer' to see the result!
+
+# Extract selected columns from weather as new DataFrame: temps_f
+temps_f = weather.loc[:,['Min TemperatureF', 'Mean TemperatureF',  'Max TemperatureF']]
+
+# Convert temps_f to celsius: temps_c
+temps_c = (temps_f - 32) * 5/9
+
+# Rename 'F' in column names with 'C': temps_c.columns
+temps_c.columns = temps_c.columns.str.replace('F','C')
+
+# Print first 5 rows of temps_c
+print(temps_c.head())
 
