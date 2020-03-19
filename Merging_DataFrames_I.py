@@ -521,7 +521,140 @@ print(medals)
 
 #############################################################################3
 
-##################REVISAR
+#########################################################         
+#Slicing MultiIndexed DataFrames
+#This exercise picks up where the last ended (again using The Guardian's Olympic medal dataset).
+#
+#You are provided with the MultiIndexed DataFrame as produced at the end of the preceding exercise. Your task is to sort the DataFrame and to use the pd.IndexSlice to extract specific slices. Check out this exercise from Manipulating DataFrames with pandas to refresh your memory on how to deal with MultiIndexed DataFrames.
+#
+#pandas has been imported for you as pd and the DataFrame medals is already in your namespace.
+#
+#Instructions
+#100 XP
+#Create a new DataFrame medals_sorted with the entries of medals sorted. Use .sort_index(level=0) to ensure the Index is sorted suitably.
+#Print the number of bronze medals won by Germany and all of the silver medal data. This has been done for you.
+#Create an alias for pd.IndexSlice called idx. A slicer pd.IndexSlice is required when slicing on the inner level of a MultiIndex.
+#Slice all the data on medals won by the United Kingdom in the DataFrame medals_sorted. To do this, use the .loc[] accessor with idx[:,'United Kingdom'], :.
+
+# Sort the entries of medals: medals_sorted, para multiindex
+medals_sorted = medals.sort_index(level=0)
+
+# Print the number of Bronze medals won by Germany
+print(medals_sorted.loc[('bronze','Germany')])
+
+# Print data about silver medals
+print(medals_sorted.loc['silver'])
+
+# Create alias for pd.IndexSlice: idx
+idx = pd.IndexSlice
+
+# Print all the data on medals won by the United Kingdom
+print(medals_sorted.loc[ idx[:,'United Kingdom'], :] )
+
+#Total    454.0
+#Name: (bronze, Germany), dtype: float64
+#                 Total
+#Country               
+#France           461.0
+#Italy            394.0
+#Soviet Union     627.0
+#United Kingdom   591.0
+#United States   1195.0
+#                       Total
+#       Country              
+#bronze United Kingdom  505.0
+#gold   United Kingdom  498.0
+#silver United Kingdom  591.0
+ 
+################################################################
+#Concatenating horizontally to get MultiIndexed columns
+#It is also possible to construct a DataFrame with hierarchically indexed columns. For this exercise, you'll start with pandas imported and a list of three DataFrames called dataframes. All three DataFrames contain 'Company', 'Product', and 'Units' columns with a 'Date' column as the index pertaining to sales transactions during the month of February, 2015. The first DataFrame describes Hardware transactions, the second describes Software transactions, and the third, Service transactions.
+#
+#Your task is to concatenate the DataFrames horizontally and to create a MultiIndex on the columns. From there, you can summarize the resulting DataFrame and slice some information from it.
+#
+#Instructions
+#100 XP
+#Construct a new DataFrame february with MultiIndexed columns by concatenating the list dataframes.
+#Use axis=1 to stack the DataFrames horizontally and the keyword argument keys=['Hardware', 'Software', 'Service'] to construct a hierarchical Index from each DataFrame.
+#Print summary information from the new DataFrame february using the .info() method. This has been done for you.
+#Create an alias called idx for pd.IndexSlice.
+#Extract a slice called slice_2_8 from february (using .loc[] & idx) that comprises rows between Feb. 2, 2015 to Feb. 8, 2015 from columns under 'Company'.
+#Print the slice_2_8. This has been done for you, so hit 'Submit Answer' to see the sliced data!
+#
+## Concatenate dataframes: february
+february = pd.concat(dataframes, keys=['Hardware','Software','Service'], axis=1)
+
+# Print february.info()
+print(february.info())
+
+# Assign pd.IndexSlice: idx
+idx = pd.IndexSlice
+
+# Create the slice: slice_2_8
+slice_2_8 = february.loc['2015-2-2':'2015-2-8', idx[:,'Company']]
+
+# Print slice_2_8
+print(slice_2_8)
+########################################
+#Concatenating DataFrames from a dict
+#You're now going to revisit the sales data you worked with earlier in the chapter. Three DataFrames jan, feb, and mar have been pre-loaded for you. Your task is to aggregate the sum of all sales over the 'Company' column into a single DataFrame. You'll do this by constructing a dictionary of these DataFrames and then concatenating them.
+#
+#Instructions
+#100 XP
+#Create a list called month_list consisting of the tuples ('january', jan), ('february', feb), and ('march', mar).
+#Create an empty dictionary called month_dict.
+#Inside the for loop:
+#Group month_data by 'Company' and use .sum() to aggregate.
+#Construct a new DataFrame called sales by concatenating the DataFrames stored in month_dict.
+#Create an alias for pd.IndexSlice and print all sales by 'Mediacore'. This has been done for you, so hit 'Submit Answer' to see the result!
+
+
+# Make the list of tuples: month_list
+month_list = [('january', jan), ('february', feb),  ('march', mar)]
+
+# Create an empty dictionary: month_dict
+month_dict = {}
+
+for month_name, month_data in month_list:
+
+    # Group month_data: month_dict[month_name]
+    month_dict[month_name] = month_data.groupby('Company').sum()
+
+# Concatenate data in month_dict: sales
+sales = pd.concat(month_dict)
+
+# Print sales
+print(sales)
+
+# Print all sales by Mediacore
+idx = pd.IndexSlice
+print(sales.loc[idx[:, 'Mediacore'], :])
+
+
+''' resultado
+                          Units
+         Company               
+february Acme Coporation     34
+         Hooli               30
+         Initech             30
+         Mediacore           45
+         Streeplex           37
+january  Acme Coporation     76
+         Hooli               70
+         Initech             37
+         Mediacore           15
+         Streeplex           50
+march    Acme Coporation      5
+         Hooli               37
+         Initech             68
+         Mediacore           68
+         Streeplex           40
+                    Units
+         Company         
+february Mediacore     45
+january  Mediacore     15
+march    Mediacore     68''' 
+
 
 ###############################################
 
