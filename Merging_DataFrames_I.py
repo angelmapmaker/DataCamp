@@ -519,3 +519,171 @@ medals = pd.concat(medals,keys=['bronze', 'silver', 'gold'] )
 # Print medals in entirety
 print(medals)
 
+#############################################################################3
+
+##################REVISAR
+
+###############################################
+
+'''Concatenating DataFrames with inner join
+Here, you'll continue working with DataFrames compiled from The Guardian's Olympic medal dataset.
+
+The DataFrames bronze, silver, and gold have been pre-loaded for you.
+
+Your task is to compute an inner join.
+
+Instructions
+100 XP
+Construct a list of DataFrames called medal_list with entries bronze, silver, and gold.
+Concatenate medal_list horizontally with an inner join to create medals.
+Use the keyword argument keys=['bronze', 'silver', 'gold'] to yield suitable hierarchical indexing.
+Use axis=1 to get horizontal concatenation.
+Use join='inner' to keep only rows that share common index labels.
+Print the new DataFrame medals.'''
+
+# Create the list of DataFrames: medal_list
+medal_list = [bronze, silver, gold]
+
+# Concatenate medal_list horizontally using an inner join: medals
+medals = pd.concat(medal_list, keys=['bronze', 'silver', 'gold'], axis=1, join='inner')
+
+# Print medals
+print(medals)
+
+'''Resampling & concatenating DataFrames with inner join
+In this exercise, you'll compare the historical 10-year GDP (Gross Domestic Product) growth in the US and in China. The data for the US starts in 1947 and is recorded quarterly; by contrast, the data for China starts in 1961 and is recorded annually.
+
+You'll need to use a combination of resampling and an inner join to align the index labels. You'll need an appropriate offset alias for resampling, and the method .resample() must be chained with some kind of aggregation method (.pct_change() and .last() in this case).
+
+pandas has been imported as pd, and the DataFrames china and us have been pre-loaded, with the output of china.head() and us.head() printed in the IPython Shell.
+
+Instructions
+100 XP
+Make a new DataFrame china_annual by resampling the DataFrame china with .resample('A').last() (i.e., with annual frequency) and chaining two method calls:
+Chain .pct_change(10) as an aggregation method to compute the percentage change with an offset of ten years.
+Chain .dropna() to eliminate rows containing null values.
+Make a new DataFrame us_annual by resampling the DataFrame us exactly as you resampled china.'''
+# Resample and tidy china: china_annual
+china_annual = china.resample('A').last().pct_change(10).dropna()
+
+# Resample and tidy us: us_annual
+us_annual = us.resample('A').last().pct_change(10).dropna()
+
+# Concatenate china_annual and us_annual: gdp
+gdp = pd.concat([china_annual, us_annual], axis=1, join='inner')
+
+# Resample gdp and print
+print(gdp.resample('10A').last())
+
+'''Exercise
+Exercise
+Merging company DataFrames
+Suppose your company has operations in several different cities under several different managers. The DataFrames revenue and managers contain partial information related to the company. That is, the rows of the city columns don't quite match in revenue and managers (the Mendocino branch has no revenue yet since it just opened and the manager of Springfield branch recently left the company).
+
+The DataFrames have been printed in the IPython Shell. If you were to run the command combined = pd.merge(revenue, managers, on='city'), how many rows would combined have?'''
+
+'''          city  revenue
+0       Austin      100
+1       Denver       83
+2  Springfield        4
+
+        city   manager
+0     Austin  Charlers
+1     Denver      Joel
+2  Mendocino     Brett
+'''
+
+pd.merge(revenue , managers, on='city')
+'''
+     city  revenue   manager
+0  Austin      100  Charlers
+1  Denver       83      Joel
+'''
+
+'''
+Merging on a specific column
+This exercise follows on the last one with the DataFrames revenue and managers for your company. You expect your company to grow and, eventually, to operate in cities with the same name on different states. As such, you decide that every branch should have a numerical branch identifier. Thus, you add a branch_id column to both DataFrames. Moreover, new cities have been added to both the revenue and managers DataFrames as well. pandas has been imported as pd and both DataFrames are available in your namespace.
+
+At present, there should be a 1-to-1 relationship between the city and branch_id fields. In that case, the result of a merge on the city columns ought to give you the same output as a merge on the branch_id columns. Do they? Can you spot an ambiguity in one of the DataFrames?
+
+Instructions
+100 XP
+Using pd.merge(), merge the DataFrames revenue and managers on the 'city' column of each. Store the result as merge_by_city.
+Print the DataFrame merge_by_city. This has been done for you.
+Merge the DataFrames revenue and managers on the 'branch_id' column of each. Store the result as merge_by_id.
+Print the DataFrame merge_by_id. This has been done for you, so hit 'Submit Answer' to see the result!'''
+
+# Merge revenue with managers on 'city': merge_by_city
+merge_by_city = pd.merge(revenue, managers, on='city')
+
+# Print merge_by_city
+print(merge_by_city)
+
+# Merge revenue with managers on 'branch_id': merge_by_id
+merge_by_id = pd.merge(revenue, managers, on='branch_id')
+
+# Print merge_by_id
+print(merge_by_id)
+
+#resultado:
+'''          city  branch_id_x  revenue  branch_id_y  manager
+0       Austin           10      100           10  Charles
+1       Denver           20       83           20     Joel
+2  Springfield           30        4           31    Sally
+3    Mendocino           47      200           47    Brett
+      city_x  branch_id  revenue     city_y  manager
+0     Austin         10      100     Austin  Charles
+1     Denver         20       83     Denver     Joel
+2  Mendocino         47      200  Mendocino    Brett'''
+
+'''Merging on columns with non-matching labels
+You continue working with the revenue & managers DataFrames from before. This time, someone has changed the field name 'city' to 'branch' in the managers table. Now, when you attempt to merge DataFrames, an exception is thrown:
+
+>>> pd.merge(revenue, managers, on='city')
+Traceback (most recent call last):
+    ... <text deleted> ...
+    pd.merge(revenue, managers, on='city')
+    ... <text deleted> ...
+KeyError: 'city'
+Given this, it will take a bit more work for you to join or merge on the city/branch name. You have to specify the left_on and right_on parameters in the call to pd.merge().
+
+As before, pandas has been pre-imported as pd and the revenue and managers DataFrames are in your namespace. They have been printed in the IPython Shell so you can examine the columns prior to merging.
+
+Are you able to merge better than in the last exercise? How should the rows with Springfield be handled?
+
+Instructions
+100 XP
+Merge the DataFrames revenue and managers into a single DataFrame called combined using the 'city' and 'branch' columns from the appropriate DataFrames.
+In your call to pd.merge(), you will have to specify the parameters left_on and right_on appropriately.
+Print the new DataFrame combined.'''
+
+# Merge revenue & managers on 'city' & 'branch': combined
+combined = pd.merge(revenue, managers, left_on='city',right_on='branch')
+
+# Print combined
+print(combined)
+'''Merging on multiple columns
+Another strategy to disambiguate cities with identical names is to add information on the states in which the cities are located. To this end, you add a column called state to both DataFrames from the preceding exercises. Again, pandas has been pre-imported as pd and the revenue and managers DataFrames are in your namespace.
+
+Your goal in this exercise is to use pd.merge() to merge DataFrames using multiple columns (using 'branch_id', 'city', and 'state' in this case).
+
+Are you able to match all your company's branches correctly?
+
+Instructions
+100 XP
+Create a column called 'state' in the DataFrame revenue, consisting of the list ['TX','CO','IL','CA'].
+Create a column called 'state' in the DataFrame managers, consisting of the list ['TX','CO','CA','MO'].
+Merge the DataFrames revenue and managers using three columns :'branch_id', 'city', and 'state'. Pass them in as a list to the on paramater of pd.merge().'''
+
+
+# Add 'state' column to revenue: revenue['state']
+revenue['state'] = ['TX','CO','IL','CA']
+
+# Add 'state' column to managers: managers['state']
+managers['state'] = ['TX','CO','CA','MO']
+
+# Merge revenue & managers on 'branch_id', 'city', & 'state': combined
+combined = pd.merge(revenue, managers, on=['branch_id', 'city', 'state'])
+
+# Print combined
+print(combined)
