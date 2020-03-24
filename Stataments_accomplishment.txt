@@ -1,0 +1,40 @@
+Introducciont Python Dec 11, 2019
+https://www.datacamp.com/statement-of-accomplishment/course/623bc7a15aa28f9d049e0c328c513e81cb987665
+
+Intermediate Python Dec 23, 2019
+https://www.datacamp.com/statement-of-accomplishment/course/9d165c54b15824450399d22491677f14a98a3a9f
+
+Python Data Science Toolbox (Part 1) Jan 02, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/1dd36761f04a556cb135d9bf65428da20198b900
+
+Python Data Science Toolbox (Part 2) Jan 06, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/869766f40b68a2c51702f2e0f83489e645fb952b
+
+Introduction to Importing Data in Python Jan 15, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/7703d1a27f81b60d1afea9812a6e866139c14df4
+
+Intermediate Importing Data in Python Jan 22, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/315ae7e81a419ee205f90976dcd6ec92d08a2fca
+
+Cleaning Data in Python Feb 07, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/51c6a7a03d4c2ecfb8f2bf5b2f255547440afe76
+
+pandas Foundations Feb 20, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/131b09a8da9d4c0221f43ddd980cd2dc52751f92
+
+Manipulating DataFrames with pandas Mar 10, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/82f1237420324e69923e48f54406e19b8639f3bd
+
+Introduction to Relational Databases in SQL Feb 09, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/e5bdb385d030f8e9bafa0336bdcb026e3028a6e9
+
+Introduction to Shell Feb 14, 2020
+https://www.datacamp.com/statement-of-accomplishment/course/34b68835668e24ef1800b3b40c5e791e50fc7e2b
+
+Data Visualization with Matplotlib 22-03-2020
+
+https://www.datacamp.com/statement-of-accomplishment/course/d40b0b71f978a670b27f1cd2552cedd76f9cc8d9
+
+Merging DataFrames with pandas
+https://www.datacamp.com/statement-of-accomplishment/course/96a16cf03d038515ceba9fd5050b07d6aa6dfe88
+
